@@ -1,0 +1,143 @@
+# 📊 Fishbone Diagram & Functional Decomposition Diagram Guide
+## Section 4.3.1 — Operational Feasibility | Chronicles of Arithmos
+
+> [!IMPORTANT]
+> Both diagrams are under **§4.3.1 Operational Feasibility** in your capstone documentation. They answer two questions:
+> - **Fishbone**: *"What problem does the project solve, and what causes it?"*
+> - **FDD**: *"What functions does the system perform?"*
+
+---
+
+## 1. Fishbone Diagram (Ishikawa Diagram)
+
+### What It Is
+The Fishbone Diagram is a **cause-and-effect** diagram. The "fish head" (right side) represents the **main problem** your project addresses, and the "bones" represent the **categories of root causes** that contribute to that problem.
+
+### The Main Problem (Effect)
+Based on your Chapter 1 Project Context, the effect is:
+
+> **"Low Math Engagement and Increased Mathematics Anxiety Among Grade 4–6 Students"**
+
+This is directly from your project context — Richardson & Suinn (1972) defined math anxiety, and Ashcraft (2002) described how it occupies working memory [Ch.1 references 3, 4].
+
+### The 6 Root Cause Categories
+
+| Category | What It Covers | Your Project's Causes |
+|----------|---------------|----------------------|
+| **People** | Human factors — students, teachers | • Students lack motivation for repetitive drills<br>• Different students learn at different paces<br>• Math anxiety occupies working memory (Ashcraft, 2002) |
+| **Methods** | Teaching/learning approaches | • "Chocolate-Covered Broccoli" effect — drills disguised as games<br>• Static difficulty curves — no adaptive scaling<br>• Traditional "drill-and-kill" classroom approach |
+| **Technology** | Existing tools & platforms | • Existing games require constant internet (Prodigy, Grand Prix)<br>• Paid/freemium models create access barriers<br>• No offline-capable educational RPGs available |
+| **Environment** | Classroom & setting conditions | • Classroom grading creates fear of failure<br>• No safe, low-stakes practice environment<br>• Timed academic assessments increase stress |
+| **Content / Materials** | Learning materials & games | • Math drills are repetitive with no narrative context<br>• Limited replay value in existing math games<br>• Existing games cover only single operations (e.g., Grand Prix = multiplication only) |
+| **Management** | Oversight, feedback, collaboration | • No real-time feedback on student performance<br>• No peer collaboration tools for cooperative learning<br>• Educators have limited control over learning progression |
+
+### Where Each Cause Comes From in Your Chapters
+
+| Cause | Source |
+|-------|--------|
+| Math anxiety & working memory | Ch.1 §1.1 — Ashcraft (2002) [4] |
+| Chocolate-Covered Broccoli | Ch.1 §1.1 — paragraph 5 |
+| Static difficulty curves | Ch.1 §1.1 — paragraph 5 |
+| Prodigy requires internet | Ch.2 §2.2.3 — Differences |
+| Grand Prix = multiplication only | Ch.2 §2.2.2 — Differences |
+| Mage Math is paid | Ch.2 §2.2.1 — Differences |
+| No low-stakes environment | Ch.1 §1.1 — Training Hall paragraph |
+| No adaptive scaling | Ch.1 — Objective C, Ch.2 §2.1.3 Flow Theory |
+| No P2P collaboration | Ch.1 — Objective H |
+
+---
+
+## 2. Functional Decomposition Diagram (FDD)
+
+### What It Is
+The FDD is a **hierarchical tree** diagram that breaks down the entire system into its major functions and sub-functions. It directly maps to your **Specific Objectives (A–L)** from Chapter 1.
+
+### Structure
+
+```
+Level 0 (Top)     → The system name
+Level 1 (Modules) → Your 12 specific objectives (A through L)
+Level 2 (Sub)     → The sub-functions within each module
+```
+
+### Complete FDD Breakdown
+
+#### Level 0: Chronicles of Arithmos
+
+#### Level 1 → Level 2:
+
+| Module | Sub-Functions |
+|--------|--------------|
+| **A. Battle Mechanics** | A.1 Time Progress Battle (TPB)<br>A.2 Turn Structure & Combat Menu<br>A.3 Resource Management (HP / MP / TP)<br>A.4 Tutorial Sequence<br>A.5 Training Hall System |
+| **B. Math Battle System Plugin** | B.1 Equation Generator<br>B.2 Player Input Validation<br>B.3 Math Input Interface (GUI) |
+| **C. Level-Based Difficulty System** | C.1 Basics (Lv 1–29): Addition / Subtraction<br>C.2 Intermediate (Lv 30–69): Multiplication / Division<br>C.3 Advanced (Lv 70–100): PEMDAS Equations<br>C.4 Training Dummy (Fixed / Dynamic Level) |
+| **D. Content-Aware Timer System** | D.1 Complexity Analysis<br>D.2 Dynamic Timer Calculation<br>D.3 Operator-Based Time Bonus |
+| **E. Enemy Auto-Scaling System** | E.1 Party Average Level Detection<br>E.2 Stat Scaling (HP / ATK)<br>E.3 Reward Scaling (EXP / Gold) |
+| **F. Performance-Based Reward Mechanism** | F.1 Speed Detection<br>F.2 Correctness Validation<br>F.3 Multiplier Calculation (2.0x / 1.0x / 0.5x / 0x) |
+| **G. Automatic Quest Generation** | G.1 Area Scanner<br>G.2 Enemy / Item Database Query<br>G.3 Quest Construction<br>G.4 Quest Log Tracker |
+| **H. P2P Multiplayer** | H.1 Room Code Generation<br>H.2 PeerJS Connection Handler<br>H.3 Party Merging Logic<br>H.4 Data Synchronization |
+| **I. Save System** | I.1 Manual Save (20 Slots)<br>I.2 Autosave (Map Checkpoints)<br>I.3 Load System |
+| **J. Level-Based Progression** | J.1 EXP System<br>J.2 Gold / Currency System<br>J.3 Story Milestones |
+| **K. Mobile Input System** | K.1 Device Detection<br>K.2 Virtual Numeric Keypad Display |
+| **L. Game Assets & Entities** | L.1 Characters & NPCs<br>L.2 Enemies (5 Biomes)<br>L.3 Items & Equipment<br>L.4 Maps & Biomes<br>L.5 Audio (BGM / SFX)<br>L.6 Skills & Status Effects |
+
+---
+
+## 3. Draw.io Files Created
+
+Two [.drawio](file:///c:/Users/Angel/Desktop/01-Academic/3rdYear-Capstone/PROJECT%20CARL/%5B05%5D%20REVISED_CHAPTERS_OR_SECTIONS/FISHBONE_DIAGRAM.drawio) files have been saved and are ready to open in draw.io (app.diagrams.net):
+
+| File | Description |
+|------|-------------|
+| [FISHBONE_DIAGRAM.drawio](file:///c:/Users/Angel/Desktop/01-Academic/3rdYear-Capstone/PROJECT%20CARL/%5B05%5D%20REVISED_CHAPTERS_OR_SECTIONS/FISHBONE_DIAGRAM.drawio) | Complete Fishbone with 6 categories × 3 causes each |
+| [FDD_FUNCTIONAL_DECOMPOSITION.drawio](file:///c:/Users/Angel/Desktop/01-Academic/3rdYear-Capstone/PROJECT%20CARL/%5B05%5D%20REVISED_CHAPTERS_OR_SECTIONS/FDD_FUNCTIONAL_DECOMPOSITION.drawio) | 3-level hierarchy: System → 12 Modules → Sub-functions |
+
+### How to Use
+1. Open **draw.io** (https://app.diagrams.net) or the VS Code draw.io extension
+2. Click **File → Open** and select the [.drawio](file:///c:/Users/Angel/Desktop/01-Academic/3rdYear-Capstone/PROJECT%20CARL/%5B05%5D%20REVISED_CHAPTERS_OR_SECTIONS/FISHBONE_DIAGRAM.drawio) file
+3. The diagram will load with all nodes, arrows, and colors pre-configured
+4. Adjust positions/sizes as needed to fit your document layout
+5. Export as **PNG** or **PDF** for your capstone manuscript
+
+> [!TIP]
+> When exporting for your manuscript:
+> - Use **File → Export as → PNG** with **Zoom: 200%** for sharp printing
+> - For landscape diagrams (especially the FDD), use **Orientation: Landscape**
+> - Remember to add figure captions per DCT format: `Figure 4-X: [title]`
+
+---
+
+## 4. How They Connect to Operational Feasibility
+
+In your capstone guidelines, Section **4.3.1 Operational Feasibility** asks: *"Can this system realistically operate and solve the identified problem?"*
+
+- The **Fishbone** proves that a real, multi-faceted problem exists (not just one vague issue) — showing the panelists exactly **what** your system addresses
+- The **FDD** proves that you have a clear, organized functional plan for **how** the system will address each of those root causes through its 12 modules
+
+```mermaid
+graph LR
+    A["Fishbone Diagram<br>(WHY the system is needed)"] --> B["FDD<br>(WHAT the system does)"]
+    B --> C["Other Feasibility Sections<br>(HOW it's built)"]
+    style A fill:#FF6B6B,color:#fff
+    style B fill:#74B9FF,color:#fff
+    style C fill:#55EFC4,color:#000
+```
+
+---
+
+## 5. Mapping: Root Causes → Solutions
+
+| Fishbone Cause | Solved By (FDD Module) |
+|---------------|----------------------|
+| Math anxiety ↔ working memory | **B.** Math Battle System (reframes drills as combat) |
+| Chocolate-Covered Broccoli | **B.** Math as core mechanic, not overlay |
+| Static difficulty | **C.** Level-Based Difficulty System |
+| No adaptive scaling | **E.** Enemy Auto-Scaling |
+| Internet-dependent games | **I.** Save System (offline via NW.js) |
+| Paid/freemium barriers | Free standalone app (scope decision) |
+| No safe practice space | **A.5** Training Hall System |
+| No narrative context | **L.** Game Assets & story biomes |
+| Single-operation games | **C.** Covers Add → Sub → Mul → Div → PEMDAS |
+| No real-time feedback | **F.** Performance-Based Reward (2.0x/1.0x/0.5x/0x) |
+| No collaboration tools | **H.** P2P Multiplayer |
+| Limited educator control | **C.4** Training Dummy (fixed-level practice) |

@@ -140,33 +140,25 @@ Citations use `[number]` format — add full references to the References sectio
 
 ### 2.1 Related Theories
 
-#### 2.1.1 Game-Based Learning (Anchor Theory)
+#### 2.1.1 Game-Based Learning
 
-Game-Based Learning (GBL), as popularized by Prensky, is a pedagogical approach that uses game mechanics, such as points, levels, and rewards, to deliver curriculum content in an interactive format [6]. In GBL, learning objectives are embedded directly into the gameplay so that students engage with academic material as a byproduct of playing rather than through traditional instruction. Research indicates that GBL positively affects both cognitive outcomes (such as test scores) and affective outcomes (such as motivation and attitudes toward the subject) among primary school students [6]. GBL serves as the anchor theory for this study because the entire design of Chronicles of Arithmos is built on this framework. The proposed system uses RPG combat, exploration, and character progression as the delivery mechanism for Grade 4–6 arithmetic content.
+Game-Based Learning (GBL) is a teaching approach that uses game mechanics like points, levels, and rewards to teach academic content through gameplay instead of traditional instruction (Prensky, 2001) [6]. The idea is that students learn the material as a result of playing the game, not by sitting through lectures or drills. Studies have shown that GBL has a positive effect on both test scores and student motivation among primary school learners [6]. GBL is the anchor theory for this study because the whole design of Chronicles of Arithmos is built around it. The system uses RPG combat, exploration, and character progression to teach Grade 4–6 arithmetic.
 
-Three supporting theories elaborate on specific aspects of how GBL functions within Chronicles of Arithmos: Mathematics Anxiety explains why a game-based approach is necessary for the target audience, Flow Theory explains how difficulty must be managed to sustain engagement, and Narrative-Centered Learning explains how story integration supports long-term retention.
+Three supporting theories build on GBL and explain specific parts of how Chronicles of Arithmos works. Mathematics Anxiety explains why a game-based approach is needed for this age group. Flow Theory explains how difficulty has to be managed to keep students engaged. Narrative-Centered Learning explains how tying lessons to a story helps students remember what they learned.
 
-#### 2.1.2 Mathematics Anxiety in Primary Education (Supporting Theory)
+#### 2.1.2 Mathematics Anxiety in Primary Education
 
-While GBL provides the instructional framework for Chronicles of Arithmos, it does not, on its own, address why a game-based approach is necessary for the target audience. First described by Ashcraft, mathematics anxiety is defined as a feeling of tension, apprehension, or fear that interferes with mathematics performance [7]. This condition is particularly prevalent among students in Grades 4–6, where it negatively affects working memory and creates affective filters, or emotional barriers that cause students to avoid mathematical activities altogether. A game-based approach reframes the context of the mathematical task, reducing the emotional barrier.
+GBL gives Chronicles of Arithmos its instructional framework, but it does not explain why a game-based approach is needed in the first place. Mathematics anxiety, first described by Ashcraft, is a feeling of tension or fear that gets in the way of math performance [7]. This is common among students in Grades 4–6, where it affects working memory and creates emotional barriers, sometimes called affective filters, that cause students to avoid math activities altogether. A game-based approach changes the context of the math task, which helps lower that emotional barrier.
 
-Chronicles of Arithmos addresses mathematics anxiety by masking arithmetic drills as fantasy RPG combat encounters. Instead of presenting problems in a traditional test format, the system frames each equation as a spell or attack input, which shifts the student's focus from "taking a math test" to "battling an enemy." This approach reduces the stress associated with timed academic assessments.
+Chronicles of Arithmos deals with mathematics anxiety by turning arithmetic drills into fantasy RPG combat encounters. Instead of showing problems in a test format, the system presents each equation as a spell or attack input. This shifts the student's focus from "taking a math test" to "battling an enemy," which helps reduce the stress that comes with timed academic assessments.
 
-#### 2.1.3 Flow Theory — DragonBox Algebra (Supporting Theory)
+#### 2.1.3 Flow Theory — DragonBox Algebra
 
-While addressing mathematics anxiety removes the initial emotional barrier to learning, it does not explain how engagement is sustained once the learner begins playing. Flow Theory, introduced by Csikszentmihalyi, describes a psychological state in which an individual is fully immersed in an activity because the level of challenge matches the individual's current skill level [8]. When a task is too easy, the individual experiences boredom; when too difficult, the individual experiences anxiety. The optimal state between these two extremes is called "flow." Without adaptive difficulty, a game-based learning system will eventually lose its learner to either boredom or frustration.
+Reducing mathematics anxiety removes the initial emotional barrier, but it does not explain how to keep the student engaged once they start playing. Flow Theory, introduced by Csikszentmihalyi, describes a mental state where a person is fully focused on an activity because the challenge level matches their current skill [8]. If a task is too easy, the person gets bored. If it is too hard, they get frustrated. The ideal state between these two is called "flow." A game-based learning system that does not adjust its difficulty will eventually lose the student to either boredom or frustration.
 
-Chronicles of Arithmos applies Flow Theory through its Adaptive Difficulty Scaling system, which adjusts the difficulty of mathematical problems in real-time based on the student's performance and character level. As the player demonstrates mastery of addition and subtraction, the system introduces multiplication and division at higher enemy tiers, maintaining the balance between challenge and skill.
+Chronicles of Arithmos applies Flow Theory through its Adaptive Difficulty Scaling system. This feature adjusts the difficulty of math problems in real-time based on how well the student is performing and what level their character is at. When a player shows that they have mastered addition and subtraction, the system starts introducing multiplication and division at higher enemy tiers. This keeps the balance between challenge and skill.
 
-DragonBox Algebra is one existing system that applies Flow Theory in educational gaming. It uses a progressive leveling system where gameplay elements evolve as the player masters algebraic concepts, gradually increasing complexity to keep the learner in a state of optimal challenge [9].
-
-#### 2.1.4 Narrative-Centered Learning — Crystal Island: Uncharted Discovery (Supporting Theory)
-
-Building upon the engagement framework established by Flow Theory, Narrative-Centered Learning addresses a dimension that neither mathematics anxiety reduction nor adaptive difficulty fully account for: long-term retention. As formulated by Lester, Narrative-Centered Learning is an instructional approach where educational content is embedded within a story, allowing learners to encounter academic material as part of a plot rather than as isolated exercises [10]. When learners are motivated by narrative goals, they engage more deeply with the underlying content and retain the material longer. Without a compelling reason to return, the learning effect diminishes over time.
-
-Chronicles of Arithmos applies Narrative-Centered Learning by tying mathematical exercises directly to story progression. Players must solve arithmetic problems to cast spells, defeat enemies, and advance through four themed biomes (Forest, Desert, Tundra, and Volcanic). In this structure, math is not a separate activity but a key mechanism for progressing through the narrative.
-
-Crystal Island: Uncharted Discovery, developed by North Carolina State University, demonstrates Narrative-Centered Learning in practice by embedding science content into a mystery-solving RPG. Studies on Crystal Island indicate that students who learn through narrative-centered environments show higher retention compared to those who receive the same content through traditional instruction.
+DragonBox Algebra is an existing system that also applies Flow Theory in educational gaming. It uses a progressive leveling system where the gameplay changes as the player learns new algebraic concepts, gradually getting harder to keep the player in the "flow" state [9].
 
 ---
 
@@ -182,7 +174,7 @@ Crystal Island: Uncharted Discovery, developed by North Carolina State Universit
 
 **Similarities.** Both Mage Math and Chronicles of Arithmos embed mathematical exercises into RPG combat and exploration. Both systems target primary school learners and use a fantasy setting to reframe math drills as in-game challenges. Each system also integrates narrative progression, requiring players to solve math problems to unlock new story content.
 
-**Differences.** Mage Math is a 3D game with a single-player, story-driven gameplay loop and is distributed as a paid application. Chronicles of Arithmos is a 2D standalone application offered at no cost. The proposed system also incorporates Peer-to-Peer (P2P) multiplayer functionality, which allows players on a local network to connect directly without a central server, addressing the psychological need for Relatedness as defined by Self-Determination Theory (Deci & Ryan, 2000).
+**Differences.** Mage Math is a 3D game with a single-player, story-driven gameplay loop and is distributed as a paid application. Chronicles of Arithmos is a 2D standalone application offered at no cost. The proposed system also incorporates Peer-to-Peer (P2P) multiplayer functionality, which allows players on a local network to connect directly without a central server.
 
 *Figure 1: Mage Math*
 
@@ -233,17 +225,15 @@ Crystal Island: Uncharted Discovery, developed by North Carolina State Universit
 
 ---
 
-### Reference Key
+### References
 
-| # | Source | Year | Link |
-|---|--------|------|------|
-| [6] | Wardoyo, C. et al. — "Influence of Game-Based Learning in Mathematics Education on the Students' Cognitive and Affective Domain: A Systematic Review" — *Education Research International* (NIH/PMC) | 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10720791/ |
-| [7] | Karamehic, A. et al. — "The Role of Technological Interventions in Alleviating Math Anxiety Among Primary School Students: A Systematic Literature Review" — *Contemporary Educational Technology* | 2024 | https://www.cedtech.net/article/the-role-of-technology-in-reducing-mathematics-anxiety-in-primary-school-students-14717 |
-| [8] | Perttula, A. et al. — "Flow Experience in Game-Based Learning: Enhancing Student Engagement and Knowledge Retention Through Adaptive Design" — *European Conference on e-Learning* | 2023 | https://papers.academic-conferences.org/index.php/ecgbl/article/view/3873 |
-| [9] | Hulse, T. et al. — "The Impacts of Three Educational Technologies on Algebraic Understanding in the Context of COVID-19" — *PLOS ONE* (NIH) | 2023 | https://pmc.ncbi.nlm.nih.gov/articles/PMC10125888/ |
-| [10] | Alkhawaja, R. A. et al. — "The Impact of Storytelling and Narrative Variables on Skill Acquisition in Gamified Learning" — *International Journal of Data and Network Science* | 2023 | https://growingscience.com/beta/ijds/6696-the-impact-of-storytelling-and-narrative-variables-on-skill-acquisition-in-gamified-learning.html |
+[6] C. Wardoyo et al., "Influence of Game-Based Learning in Mathematics Education on the Students' Cognitive and Affective Domain: A Systematic Review," Education Research International, 2023. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10720791/
 
-> ⚠️ **Action Required:** Convert these to DCT `[CODE]` format for the final manuscript.
+[7] A. Karamehic et al., "The Role of Technological Interventions in Alleviating Math Anxiety Among Primary School Students: A Systematic Literature Review," Contemporary Educational Technology, 2024. [Online]. Available: https://www.cedtech.net/article/the-role-of-technology-in-reducing-mathematics-anxiety-in-primary-school-students-14717
+
+[8] A. Perttula et al., "Flow Experience in Game-Based Learning: Enhancing Student Engagement and Knowledge Retention Through Adaptive Design," European Conference on e-Learning, 2023. [Online]. Available: https://papers.academic-conferences.org/index.php/ecgbl/article/view/3873
+
+[9] T. Hulse et al., "The Impacts of Three Educational Technologies on Algebraic Understanding in the Context of COVID-19," PLOS ONE, 2023. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10125888/
 
 ---
 
