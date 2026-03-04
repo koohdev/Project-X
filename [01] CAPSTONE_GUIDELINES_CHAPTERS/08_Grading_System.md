@@ -1,6 +1,6 @@
 # 8.0 Grading System
 
-## 8.1 The Final Grade of each proponent will comprise of the following:
+## 8.1 The Final Grade of each proponent will comprise of the following
 
 | **Rubric of Capstone Final Grade** | **Percentage** |
 | :--- | :--- |
@@ -9,7 +9,7 @@
 | Co-Researcher (Peer Grading) | 10% |
 | **TOTAL** | **100%** |
 
-## 8.2 The rating of each proponent per panel member shall be based on the following rubric for objective evaluation purposes:
+## 8.2 The rating of each proponent per panel member shall be based on the following rubric for objective evaluation purposes
 
 ### A. Capstone 1
 
@@ -30,49 +30,57 @@
 ## 8.3 Rubric of Capstone Manuscript
 
 ### Initial Pages (4 pts)
-*   Table of contents is consistent
-*   Acknowledgement is brief and formal
-*   Abstract is brief but complete
+
+* Table of contents is consistent
+* Acknowledgement is brief and formal
+* Abstract is brief but complete
 
 ### Chapter 1 (10 pts)
-*   Introduction is intact and provides clear overview of the entire Capstone Project
-*   Statement of the Problem/ Objectives is SMART
-*   Scope and Limitations of the Capstone Project are clearly defined
+
+* Introduction is intact and provides clear overview of the entire Capstone Project
+* Statement of the Problem/ Objectives is SMART
+* Scope and Limitations of the Capstone Project are clearly defined
 
 ### Chapter 2 (8 pts)
-*   Related literatures are recent and relevant
-*   Anchor provides solid background of the Capstone Project
-*   Auxiliary theories are evident
-*   Sources are appropriately cited and noted
-*   Related studies are relevant and includes global and local scope
+
+* Related literatures are recent and relevant
+* Anchor provides solid background of the Capstone Project
+* Auxiliary theories are evident
+* Sources are appropriately cited and noted
+* Related studies are relevant and includes global and local scope
 
 ### Chapter 3 (8 pts)
-*   There should be comprehensive discussions on the technologies (hardware/software) involved in the Research / Capstone Project and its related Capstone Projects in the past
+
+* There should be comprehensive discussions on the technologies (hardware/software) involved in the Research / Capstone Project and its related Capstone Projects in the past
 
 ### Chapter 4 (10 pts)
-*   Methodology strictly follows the SDLC (esp. for Software Development)
-*   Methodology includes project management techniques appropriate for the chosen Capstone Project.
-*   Requirements Specification is more or less complete and answers the objectives
-*   Design Tools used are relevant and appropriate which should be based on requirements
-*   Development Plan is concrete and should be consistent with the Design
-*   Testing techniques to be used should assess all aspects of the developed Capstone Project
-*   Implementation Plan should be aligned with the objectives
+
+* Methodology strictly follows the SDLC (esp. for Software Development)
+* Methodology includes project management techniques appropriate for the chosen Capstone Project.
+* Requirements Specification is more or less complete and answers the objectives
+* Design Tools used are relevant and appropriate which should be based on requirements
+* Development Plan is concrete and should be consistent with the Design
+* Testing techniques to be used should assess all aspects of the developed Capstone Project
+* Implementation Plan should be aligned with the objectives
 
 ### Final Pages (3 pts)
-*   Findings and Conclusions are attuned with the objectives
-*   Recommendations are feasible and practical
-*   Terms in the glossary are defined operationally
-*   Bibliography should be in MLA Format
-*   Appendices are relevant and help support the principal content
-*   Glossary should be arranged alphabetically and defined operationally
+
+* Findings and Conclusions are attuned with the objectives
+* Recommendations are feasible and practical
+* Terms in the glossary are defined operationally
+* Bibliography should be in MLA Format
+* Appendices are relevant and help support the principal content
+* Glossary should be arranged alphabetically and defined operationally
 
 ### Appendices (2 pts)
-*   Deliverables compiled are intact and complete
+
+* Deliverables compiled are intact and complete
 
 ### Manuscript Mechanics (5 pts)
-*   Organization and Fluidity of ideas are apparent
-*   Formatting and layout are consistent
-*   All parts of the manuscript should be grammatically correct
+
+* Organization and Fluidity of ideas are apparent
+* Formatting and layout are consistent
+* All parts of the manuscript should be grammatically correct
 
 ## 8.4 Rubric of Capstone Software
 

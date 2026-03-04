@@ -21,6 +21,7 @@ This document correlates all word-level differences found between the original C
 The cleaning process applied a *consistent vocabulary normalization*. In combat skill descriptions and status effects, `accuracy` was replaced with `precision` (e.g., Eagle Eye, Blind debuff, Sniper's Eyes, Heavy Charge). In the Performance-Based Reward sections (Objectives and Scope), `accuracy` was replaced with `correctness`.
 
 **Rationale:** The word "accuracy" is ambiguous — it could refer to physical aiming precision OR mathematical correctness. The CLEANED version distinguishes:
+
 - **precision** = combat aim (hitting targets)
 - **correctness** = math answer validity
 
@@ -53,6 +54,7 @@ The cleaning process replaced casual/conversational modifiers with more formal a
 **Locations:** Lines 7, 13, 15, 19, 29
 
 **Summary of Pattern:**
+
 | Original (Casual) | Cleaned (Formal) |
 |---|---|
 | `boring math drills` | `repetitive math drills` |
@@ -95,6 +97,7 @@ The cleaning made widespread tone changes throughout Section 1.1 Project Context
 
 **Analysis:**
 Eight grammar errors were corrected. The most significant were:
+
 1. The `fewer` → `less` fix (grammatically incorrect for uncountable nouns)
 2. The missing `Body armor` subject that left a paragraph starting with `will serve as...`
 3. The duplicate `provide provide` and `can receive can receive`
@@ -131,11 +134,13 @@ The original Objective K was titled "To implement a Mobile Input System" but its
 **Location:** Line 27
 
 **Original Format (FIRST-CUT):**
+
 - Party allies described in individual sentences: *"Kael will join as a knight companion. Elara will be recruited as a sorceress companion..."*
 - NPCs described in individual sentences: *"Elder Tobias will provide the initial story quests. Merchant Oryn will sell general goods..."*
 - ~250 words across two paragraphs
 
 **Cleaned Format:**
+
 - Party allies in parenthetical format: *"Kael (Knight), Elara (Sorceress)..."*
 - Key NPCs in parenthetical format: *"Elder Tobias (initial story quests), Merchant Oryn (general goods)..."*
 - Additional NPCs grouped separately
@@ -157,12 +162,14 @@ This is a major structural change that condensed repetitive sentence patterns in
 **Original:** Listed the three systems (integrated mechanics, adaptive difficulty, quest generation) in a flat paragraph without explicit numbering.
 
 **Cleaned:** Restructured into a "three integrated systems" framework with explicit "First/Second/Third" enumeration, plus:
+
 - Added `rather than being a separate mini-game layered on top` (clarifies why it avoids the Chocolate-Covered Broccoli problem)
 - Changed `Adaptive Difficulty Algorithm` → `Level-Based Difficulty System` (matches the actual feature name used elsewhere)
 - Added `that builds new tasks from the player's unlocked content` (explains HOW quest generation works)
 
 **Analysis:**
 This restructuring strengthens the argument by:
+
 1. Making the countermeasures explicit (numbered)
 2. Connecting them back to the problems stated earlier
 3. Using consistent terminology with Section 1.2 Objectives
@@ -211,10 +218,12 @@ Multiple encoding issues were present in the FIRST-CUT and SECOND-CUT files wher
 | `**L.4.5** General` | `**L.4.7** Monster Loot & Drops — General` |
 
 **Objective Heading Fixes:**
+
 - Added `To implement` prefix to Objective C for consistency
 - Added missing periods to Objectives D, E, K headings
 
 **List Formatting:**
+
 - Separated 5 comma-joined list items into individual lines (Ice/Ice II, Protect/Shell, Cover/Iron Defense, Circlet/Ribbon, Bandana/Turban)
 - Fixed "Searing Saber" broken across two lines as "Zero Kelvin, Searing" + "Saber"
 - Removed trailing periods from 2 list items (Hail of Arrows, Infernal Core)
@@ -245,7 +254,7 @@ Five locations had content added during cleaning. The most important is the Limi
 
 ## OVERALL ASSESSMENT
 
-### What the cleaning achieved:
+### What the cleaning achieved
 
 | Category | Impact |
 |---|---|
@@ -257,7 +266,7 @@ Five locations had content added during cleaning. The most important is the Limi
 | **Formatting consistency** | All numbering, list items, and headings normalized |
 | **Encoding fixes** | 6 corrupted Unicode characters repaired |
 
-### Items to verify going forward:
+### Items to verify going forward
 
 1. ✅ Confirm `Level-Based Difficulty System` is used consistently across all chapters (was `Adaptive Difficulty Algorithm` in the original)
 2. ✅ Confirm no other objectives have duplicated content like the original Objective K

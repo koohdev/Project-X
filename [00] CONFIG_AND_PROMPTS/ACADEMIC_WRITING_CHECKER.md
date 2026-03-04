@@ -11,30 +11,39 @@
 > **For the AI:** Use these condensed lists for fast pattern matching in a single pass. When a match is found, consult the detailed tables in the relevant category for replacement suggestions and context.
 
 ### 🚫 Banned Words (Category 7 — all conjugations banned)
+
 `efficient, effective, innovative, powerful, reliable, streamlined, user-friendly, robust, scalable, secure, seamless, cutting-edge, optimize, enhance, improve, ensure, accurate, fast, quick, intuitive, easy`
 
 ### 🤖 AI-Flagged Words (Category 1A)
+
 `delve, tapestry, nuanced, intricate, multifaceted, meticulous, pivotal, foster, realm, landscape, paradigm, underpins, revolutionize, reverberate, cornerstone, spearhead, culminate, underscore, commendable, noteworthy, leverage, harness, navigate, embark, endeavor, comprehensive, holistic, empower, elevate, groundbreaking, advanced, engaging, immersive, ecosystem, real-world, high-quality, injection, distinguished`
 
 ### 🤖 AI-Flagged Phrases (Category 1B)
+
 `"It is worth noting", "It's important to consider", "In today's rapidly evolving", "In the ever-changing landscape", "plays a crucial role", "has garnered significant attention", "serves as a testament", "at the heart of", "pave the way", "shed light on", "a game-changer", "bridges the gap", "a deep dive", "the key takeaway", "let's explore", "when it comes to", "in essence", "from a [X] perspective", "this approach offers", "a significant factor", "one can argue", "it goes without saying", "without further ado", "imagine this", "in a nutshell", "valuable insights", "expert guidance", "introduces features that distinguish"`
 
 ### ⚠️ Vague Quantifiers (Category 2B)
+
 `a lot of, many (uncited), some (uncited), several, most (uncited), few, significant (no metric), various, numerous, a great deal of, things, stuff`
 
 ### ⚠️ Absolute Claims (Category 2C)
+
 `always, never, every, all (unsupported), none (unsupported), the best, the only, perfect, impossible, guarantee`
 
 ### 👤 First Person (Category 3A — remove all)
+
 `I, me, my, mine, we, us, our, ours, myself, ourselves, "I think", "I believe", "In my opinion", "We decided", "Our system", "We conducted", "We observed", "We used", "the team", "our team"`
 
 ### 👤 Second Person (Category 3B — remove all)
+
 `you, your, yours, "You can see", "You need to", "Your data", "If you click", "You will notice"`
 
 ### 👤 Contractions (Category 3C — expand all)
+
 `don't, can't, won't, it's, they're, we're, couldn't, shouldn't, wouldn't, hasn't, haven't, isn't, aren't, there's, that's`
 
 ### 🔬 AI Structural Patterns to Watch (Category 1C)
+
 - Every paragraph starting with "Moreover," "Furthermore," "Additionally"
 - "In conclusion, it is evident that..."
 - Excessive em-dashes (—) mid-sentence
@@ -468,6 +477,7 @@ Every sentence in every chapter should connect back to the project title.
 ### 6B. Quick Self-Test
 
 For each paragraph, ask:
+
 1. Does this paragraph mention or relate to the project by name or function?
 2. If someone read ONLY this paragraph, would they know what project this paper is about?
 3. Can I draw a direct line from this paragraph to one of my specific objectives?

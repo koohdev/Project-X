@@ -12,6 +12,7 @@
 Computer-based versions of manual organization systems dedicated to handling the organization's transactions.
 
 **General Requirements:**
+
 - Complete file structure (normalized tables, master and transaction files)
 - Back-up and recovery features
 - Archiving capabilities
@@ -21,7 +22,7 @@ Computer-based versions of manual organization systems dedicated to handling the
 - Security, data accuracy, and integrity features
 - Network set-up
 
-#### TPS Project Types:
+#### TPS Project Types
 
 | Project Type | Minimum Requirements | Valid Test Data |
 |-------------|---------------------|-----------------|
@@ -40,6 +41,7 @@ Computer-based versions of manual organization systems dedicated to handling the
 Computer-based systems designed to provide standard reports for managers about transaction data.
 
 **Required Report Types:**
+
 - Trend analysis reports
 - Summary reports
 - Exception reports
@@ -53,6 +55,7 @@ Computer-based systems designed to provide standard reports for managers about t
 Systems designed to help organization decision-makers make decisions.
 
 **Required Components:**
+
 - Database
 - Model base
 - Dialogue module
@@ -64,6 +67,7 @@ Systems designed to help organization decision-makers make decisions.
 Computer systems capable of assembling, storing, manipulating, and displaying geographically referenced information.
 
 **Required Features:**
+
 - Information retrieval
 - Topological modeling
 - Networks and overlay (map layers)
@@ -77,6 +81,7 @@ Computer systems capable of assembling, storing, manipulating, and displaying ge
 Software encapsulating various digital media (text, images, audio, video, graphics, animation).
 
 **Required Features:**
+
 - Incorporation of **at least 4 media types** (text, graphics, audio, video)
 - Maintenance features and dynamic content management
 - Database(s) for storing information
@@ -91,6 +96,7 @@ Software encapsulating various digital media (text, images, audio, video, graphi
 Software designed to facilitate learning using multimedia integration.
 
 **Required Features:**
+
 - At least 4 media types
 - 2-3 methods of presenting topics
 - Major categories: drills/practice, tutorials, simulation, games
@@ -101,6 +107,7 @@ Software designed to facilitate learning using multimedia integration.
 - **Testing: 50 items per topic**
 
 **Design Tools:**
+
 - Storyboarding, flowcharting, HIPO
 - ⚠️ **Data flow diagrams must NOT be used** for modeling CAI features
 
@@ -109,6 +116,7 @@ Software designed to facilitate learning using multimedia integration.
 ### 7. Web Applications
 
 **General Requirements:**
+
 - Multimedia system considerations
 - Dynamic pages (database-driven content)
 - Maintenance features
@@ -150,6 +158,7 @@ Software designed to facilitate learning using multimedia integration.
 Establishment of sound engineering principles for reliable, economical software.
 
 **Focus Areas:**
+
 - New programming paradigms
 - Cost models
 - Systems software (OS, compilers, interpreters, utilities)

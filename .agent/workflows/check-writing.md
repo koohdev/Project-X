@@ -11,9 +11,9 @@ Audit a chapter file against `ACADEMIC_WRITING_CHECKER.md` (all 10 categories) a
 
 - **Project Title:** "Chronicles of Arithmos: A 2D RPG-Based Mathematics Learning Application for Grades 4–6"
 - **Chapters Location:** `[04] OUR_PROJECT/`
-- **Output Location:** `[06] CHECKING/`
-- **Checker Reference:** `ACADEMIC_WRITING_CHECKER.md` (root of workspace)
-- **Knowledge Base:** `KNOWLEDGE_BASE.md` (root of workspace)
+- **Output Location:** `[06] CHECKING REPORTS/`
+- **Checker Reference:** `[00] CONFIG_AND_PROMPTS/ACADEMIC_WRITING_CHECKER.md` (root of workspace)
+- **Knowledge Base:** `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md` (root of workspace)
 - **Proponents Term:** "The proponents" (never "the team," "we," "I")
 - **System Name:** "Chronicles of Arithmos" or "the proposed system"
 
@@ -31,11 +31,11 @@ Read the full content of the target file.
 
 ### Step 2: Load the Checker Reference
 
-Read `ACADEMIC_WRITING_CHECKER.md` from the workspace root. Focus on:
+Read `[00] CONFIG_AND_PROMPTS/ACADEMIC_WRITING_CHECKER.md` from the workspace root. Focus on:
 1. The **QUICK SCAN REFERENCE** section first (for fast pattern matching)
 2. The detailed category tables only when you need replacement suggestions or context
 
-Also glance at `KNOWLEDGE_BASE.md` PART 4 if you need to cross-check banned words or DCT formatting rules.
+Also glance at `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md` PART 4 if you need to cross-check banned words or DCT formatting rules.
 
 ### Step 3: Determine Chapter Number and Context
 
@@ -86,12 +86,12 @@ Format the output exactly as specified in the checker's OUTPUT FORMAT section:
 
 ### Step 6: Save the Output
 
-Save the results to:
-```
-[06] CHECKING/CHECK-CHAPTER-{X}.md
-```
+Save the results to the appropriate subdirectories in `[06] CHECKING REPORTS/`:
+- `[06-1] CHECKING DIFF/CHECK-CHAPTER-{X}-DIFF.md`
+- `[06-2] CHECKING FINDINGS/CHECK-CHAPTER-{X}-FINDINGS.md`
+- `[06-3] CHECKING CLEANED/CHECK-CHAPTER-{X}-CLEANED.md`
 
-Where `{X}` is the chapter number (e.g., `CHECK-CHAPTER-2.md`).
+Where `{X}` is the chapter number (e.g., `CHECK-CHAPTER-2-CLEANED.md`).
 
 If the file already exists, **overwrite it** with the new results (the old check is outdated once changes are made).
 

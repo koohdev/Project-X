@@ -120,12 +120,14 @@ APPENDICES (A through H)
 ### Abstract
 
 **Requirements:**
+
 - **150-200 words** only
 - Short, direct, and complete sentences
 - States the **rationale** and **objectives** of the project
 - Must be informative enough to substitute for reading the full paper
 
 **Restrictions:**
+
 - ❌ NO citations or quotes
 - ❌ Do NOT begin with "This paper/document/project/study..."
 
@@ -134,6 +136,7 @@ APPENDICES (A through H)
 ### Table of Contents
 
 **Format:**
+
 ```
 1.0 Introduction                                    1
     1.1 Project Description                         2
@@ -147,10 +150,13 @@ APPENDICES (A through H)
 ### List of Tables
 
 **Format (bold, font size 14):**
+
 ```
 Table <chapter#>-<table#> <Table Caption>           <page>
 ```
+
 **Examples:**
+
 - Table 1-2 Percentage Ratio of Sophomore vs. Seniors    6
 - Table 3-4 Mortality Rate of THESIS2 vs. School Year    7
 
@@ -159,10 +165,13 @@ Table <chapter#>-<table#> <Table Caption>           <page>
 ### List of Figures
 
 **Format (bold, font size 14):**
+
 ```
 Figure <chapter#>-<figure#> <Figure Caption>        <page>
 ```
+
 **Examples:**
+
 - Figure 2-2 Systems Development Life Cycle    16
 - Figure 4-1 Data Flow Diagram    32
 
@@ -175,6 +184,7 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 #### 1.1 Project Context
 
 **Requirements:**
+
 - Introduce the problem — what it is all about
 - Describe the **existing and prevailing problem situation** (global → national → regional → local)
 - Provide **strong justification** for selecting the research problem
@@ -182,6 +192,7 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 - **Minimum 2 pages** of presentation and discussion
 
 **Guide Questions to Address:**
+
 - What is the function of the project?
 - What is good in your project?
 - What makes your project unique, innovative, and relevant?
@@ -191,9 +202,11 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 #### 1.2 Objectives
 
 ##### 1.2.1 General Objective
+
 - **Single paragraph** describing the general objective
 
 ##### 1.2.2 Specific Objectives
+
 - List of specific work to accomplish the general objective
 - All objectives must be **SMART:**
 
@@ -218,12 +231,14 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 **Two Components:**
 
 #### Related Theories
+
 - Start with an **anchor theory**
 - Supporting theories elaborate the anchor theory
 - Proper endnoting/footnoting following correct bibliography
 - Maintain fluidity and continuity
 
 #### Related Projects/Systems
+
 - Overview of current system/project
 - Inventory of related and existing projects
 - **Comparative matrix** recommended
@@ -237,16 +252,19 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 **Overview of current technologies used:**
 
 #### 3.1 Development
+
 - Hardware
 - Software
 - Peopleware
 - Network
 
 #### 3.2 Implementation
+
 - Same structure as 3.1
 - Discuss current trends and technologies
 
 **Requirements:**
+
 - Maintain fluidity and continuity
 - Technical details of the project
 - Explain how the project will work
@@ -256,10 +274,12 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 ### Chapter 4.0 Methodology, Results and Discussion
 
 #### 4.1 Methodology
+
 - Identify the **formal method** the proponents will follow
 - Use software engineering/systems analysis methodologies
 
 #### 4.2 Environment *(Organization-specific projects only)*
+
 - 4.2.1 Locale
 - 4.2.2 Population of the Study
 - 4.2.3 Organizational Chart/Profile
@@ -278,12 +298,14 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 **Requirements Modeling Options:**
 
 *Data and Process Modeling:*
+
 - Context Diagram
 - Data Flow Diagram
 - System Flowchart
 - Program Flowchart (highlights)
 
 *Object Modeling:*
+
 - Use Case Diagram
 - Class Diagram
 - Sequence Diagram
@@ -332,6 +354,7 @@ Figure <chapter#>-<figure#> <Figure Caption>        <page>
 #### 4.8 Installation Processes
 
 **Conversion Approaches:**
+
 - Immediate/Direct Changeover
 - Gradual Step-by-Step Changeover
 - Parallel System Changeover
@@ -343,12 +366,14 @@ Discuss which approach will be used and identify all activities for complete ins
 ### Chapter 5.0 Conclusion and Recommendations
 
 **Conclusions:**
+
 - Discuss what has been accomplished
 - Reference objectives to show significant aspects
 - May subdivide into: aesthetic, investigative results, course of action decisions
 - May be numbered with respect to problems/sub-problems
 
 **Recommendations:**
+
 - Furnish future undertakings based on analysis and conclusions
 - Recommend potential applications, other solutions, enhancements
 
@@ -357,10 +382,13 @@ Discuss which approach will be used and identify all activities for complete ins
 ## 📎 End Matter
 
 ### References
+
 Standard bibliography format
 
 ### Resource Persons
+
 **Format per person:**
+
 ```
 <Full Name and Title>     Maria Jose
 <Profession>              Faculty
@@ -370,6 +398,7 @@ Standard bibliography format
 ```
 
 ### Glossary
+
 Definition of technical terms used
 
 ### Appendices
@@ -386,6 +415,7 @@ Definition of technical terms used
 | **H** | Screen Design (format below) |
 
 **Screen Design Format (Appendix H):**
+
 ```
 Screen No.          <screen#>
 Screen Name:        <name of the screen>

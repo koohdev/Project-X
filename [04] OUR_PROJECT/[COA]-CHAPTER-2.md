@@ -1,49 +1,64 @@
-﻿# 2.0 Review of Related Literature/Systems
+﻿2.0 Review of Related Literature/Systems
 
 ## 2.1 Related Theories
 
-### 2.1.1 Mathematics Anxiety in Primary Education
+### 2.1.1 Game-Based Learning
 
-Mathematics anxiety is a psychological barrier that hinders cognitive performance, especially in Grades 4â€“6. Studies suggest that gamification specifically through 2D RPG mechanics can lower these affective filters. By masking mathematical drills as fantasy combat, "Chronicles of Arithmos" reduces the stress associated with traditional testing.
+Game-Based Learning (GBL) is a teaching approach that uses game mechanics like points, levels, and rewards to teach academic content through gameplay instead of traditional instruction (Prensky, 2001) [6]. The idea is that students learn the material as a result of playing the game, not by sitting through lectures or drills. Studies have shown that GBL has a positive effect on both test scores and student motivation among primary school learners [6]. GBL is the anchor theory for this study because the whole design of *Chronicles of Arithmos* is built around it. The system uses RPG combat, exploration, and character progression to teach Grade 4–6 arithmetic.
 
-### 2.1.2 DragonBox Algebra
+Three supporting theories build on GBL and explain specific parts of how *Chronicles of Arithmos* works. Mathematics Anxiety explains why a game-based approach is needed for this age group. Flow Theory explains how difficulty has to be managed to keep students engaged. Narrative-Centered Learning explains how tying lessons to a story helps students remember what they learned.
 
-It utilizes a progressive leveling system where gameplay elements evolve as the player masters new concepts. The academic literature for this system focuses on Flow Theory, or the state of being perfectly challenged. This is a core foundation for the Adaptive Difficulty Scaling in "Chronicles of Arithmos," which seeks to maintain this "Flow" by automatically adjusting problem difficulty based on the student's real- time performance and character level.
+### 2.1.2 Mathematics Anxiety in Primary Education
 
-### 2.1.3 Crystal Island: Uncharted Discovery
+GBL gives *Chronicles of Arithmos* its instructional framework, but it does not explain why a game-based approach is needed in the first place. Mathematics anxiety, first described by Ashcraft, is a feeling of tension or fear that gets in the way of math performance [7]. This is common among students in Grades 4–6, where it affects working memory and creates emotional barriers, sometimes called affective filters, that cause students to avoid math activities altogether. A game-based approach changes the context of the math task, which helps lower that emotional barrier.
 
-This narrative-driven research project explores how mystery-solving and RPG exploration can improve mathematical reasoning. Findings suggest that when math is embedded into a story (narrative-centered learning), students show higher retention of the material. This supports the Persistent World and Narrative aspect of "Chronicles of Arithmos," where math is not just an isolated drill but a key to progressing through the story and developing the player's character.
+*Chronicles of Arithmos* deals with mathematics anxiety by turning arithmetic drills into fantasy RPG combat encounters. Instead of showing problems in a test format, the system presents each equation as a spell or attack input. This shifts the student's focus from "taking a math test" to "battling an enemy," which helps reduce the stress that comes with timed academic assessments.
+
+### 2.1.3 Flow Theory - DragonBox Algebra
+
+ Reducing mathematics anxiety removes the initial emotional barrier, but it does not explain how to keep the student engaged once they start playing. Flow Theory, introduced by Csikszentmihalyi, describes a mental state where a person is fully focused on an activity because the challenge level matches their current skill [8]. If a task is too easy, the person gets bored. If it is too hard, they get frustrated. The ideal state between these two is called "flow." A game-based learning system that does not adjust its difficulty will eventually lose the student to either boredom or frustration.
+
+*Chronicles of Arithmos* applies Flow Theory through its Adaptive Difficulty Scaling system. This feature adjusts the difficulty of math problems in real-time based on how well the student is performing and what level their character is at. When a player shows that they have mastered addition and subtraction, the system starts introducing multiplication and division at higher enemy tiers. This keeps the balance between challenge and skill.
+
+DragonBox Algebra is an existing system that also applies Flow Theory in educational gaming. It uses a progressive leveling system where the gameplay changes as the player learns new algebraic concepts, gradually getting harder to keep the player in the "flow" state [9].
 
 ## 2.2 Related Projects
 
 ### 2.2.1 Mage Math
 
-Developer: Mage Learning Interactive LLC.
-Date Published: 7 September 2019 (Updated on: 14 May 2025)
-Reference: https://www.magemath.com/  
-Mage Math is a developed 3D fantasy adventure game that integrates educational video content and mathematical practice into an immersive role-playing environment, is an immersive educational RPG designed to supplement math instruction for students in Grades 1â€“6. The system was officially released initially as a paid application on platforms such as Steam and the Epic Games Store. 
-With a distinct "math realm" where players must work through math-related tasks to earn magical skills and advance through the story, and a 3D exploration phase where players traverse a fantasy world. However, while Mage Math successfully provides a visually engaging experience, its gameplay loop is primarily designed for a single-player, story-driven experience. 
-Chronicles of Arithmos distinguishes itself from this model by incorporating Peer-to-Peer (P2P) multiplayer functionality, which addresses the psychological need for "Relatedness" through social competition.
+**Developer:** Mage Learning Interactive LLC.
+**Date Published:** 7 September 2019 (Updated on: 14 May 2025)
+**Reference:** <https://www.magemath.com/>  
+Mage Math is a 3D fantasy adventure game that combines educational video content and mathematical practice within a role-playing environment. It is designed to supplement math instruction for students in Grades 1–6. The system was released initially as a paid application on platforms such as Steam and the Epic Games Store. Mage Math features a "math realm" where players complete math-related tasks to earn magical skills and advance through the story, as well as a 3D exploration phase where players traverse a fantasy world.
 
-*Figure 1: Mage Math*
+Both Mage Math and *Chronicles of Arithmos* embed mathematical exercises into RPG combat and exploration. Both systems target primary school learners and use a fantasy setting to reframe math drills as in-game challenges. Each system also integrates narrative progression, requiring players to solve math problems to unlock new story content.
+
+Mage Math is a 3D game with a single-player, story-driven gameplay loop and is distributed as a paid application. *Chronicles of Arithmos* is a 2D standalone application offered at no cost. The proposed system also incorporates Peer-to-Peer (P2P) multiplayer functionality, which allows players on a local network to connect directly without a central server.
+
+*Figure No. 1: Mage Math Gameplay*
 
 ### 2.2.2 Grand Prix Multiplication
 
-Developer: Arcademics Inc.
-Date Published: 2016-05-17
-Reference: https://www.arcademics.com/games/grand-prix/
-Grand Prix Multiplication is a mobile and web-based multiplayer learning platform created to help students in Grades 3â€“5 become more fluent in multiplication facts. The system uses a competitive racing mechanism in which the user's avatar's velocity is based on how quickly and accurately they answer mathematical questions. The main goals of its design are speed and repetition. Unlike more modern 3D RPGs, it lacks an exploration-based narrative or complex problem-solving scenarios, while the Chronicles of Arithmos focuses more about mathematical education and exploration.
+**Developer:** Arcademics Inc.
+**Date Published:** 2016-05-17
+**Reference:** <https://www.arcademics.com/games/grand-prix/>
+Grand Prix Multiplication is a mobile and web-based multiplayer learning platform created to help students in Grades 3–5 become more fluent in multiplication facts. The system uses a competitive racing mechanism in which the avatar's velocity is based on how quickly and accurately the player answers mathematical questions. Its design goals center on speed and repetition.
 
-*Figure 2: Grand Prix Multiplication*
+Both Grand Prix Multiplication and *Chronicles of Arithmos* use game mechanics to present mathematical problems. Both systems target elementary-level students and include multiplayer features that allow learners to interact with peers during gameplay.
+
+Grand Prix Multiplication is a web-based racing game that requires an internet connection and focuses solely on multiplication speed drills. It does not include an exploration-based narrative or multi-step problem-solving scenarios. *Chronicles of Arithmos* is a standalone 2D RPG with a persistent narrative, covers multiple arithmetic operations, and uses P2P local multiplayer rather than online matchmaking.
+
+*Figure No. 2: Grand Prix Multiplication Gameplay*
 
 ### 2.3.3 Prodigy Game
 
-Developer: Prodigy Education
-Date Published: October 9, 2015 (Updated: December 10, 2025)
-Reference: https://math.prodigygame.com/?launcher=true&code=7c43d2dd6a0fe
+**Developer:** Prodigy Education
+**Date Published:** October 9, 2015 (Updated: December 10, 2025)
+**Reference:** <https://math.prodigygame.com/?launcher=true&code=7c43d2dd6a0fe>
 Prodigy Game is a web-based mathematics role-playing game designed for primary and middle school learners. The system integrates curriculum-aligned math problems into a fantasy combat environment. Players solve arithmetic problems to execute spells and defeat enemies while progressing through levels and collecting in-game rewards.
-Both systems utilize Game-Based Learning (GBL) within a fantasy RPG framework. They share a "Combat-to-Curriculum" loop where mathematical equations serve as inputs for spells and attacks. Additionally, both aim to reduce Math Anxiety by masking arithmetic drills as engaging narrative events, which helps improve the cognitive retention of students in Grades 4-6.
-Chronicles of Arithmos introduces features that distinguish it from Prodigy. While Prodigy is an internet-dependent MMORPG with a subscription model, the proposed system is a standalone 2D application optimized for local use. Lastly, the proposed project uses Peer-to-Peer (P2P) Cooperative Gameplay, focusing on local student collaboration rather than a massive online server.. 
 
-*Figure 3: Arcademics Game Menu *
+Both Prodigy and *Chronicles of Arithmos* use Game-Based Learning (GBL) within a fantasy RPG framework. They share a "Combat-to-Curriculum" loop where mathematical equations serve as inputs for spells and attacks. Both systems also present arithmetic drills as narrative events, which may support the retention of mathematical concepts among students in Grades 4–6.
 
+Prodigy is an internet-dependent Massively Multiplayer Online RPG (MMORPG) with a freemium subscription model that requires constant connectivity. *Chronicles of Arithmos* is a standalone 2D application designed for local use without internet dependency. The proposed project uses Peer-to-Peer (P2P) cooperative gameplay, focusing on local student collaboration rather than a massive online server. *Chronicles of Arithmos* also includes Adaptive Difficulty Scaling that adjusts in real-time, whereas Prodigy follows a curriculum-aligned sequence.
+
+*Figure No. 3: Prodigy Game Gameplay*

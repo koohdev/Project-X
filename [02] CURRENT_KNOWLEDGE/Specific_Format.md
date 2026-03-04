@@ -1,6 +1,6 @@
 ## 🔒 PROJECT X — CAPSTONE STRUCTURE ENFORCEMENT (ACTIVE BY DEFAULT)
 
-The file "Capstone_Formatting_Rules" contains the complete layout and numbering rules for all chapters (2–3) 
+The file "Capstone_Formatting_Rules" contains the complete layout and numbering rules for all chapters (2–3)
 The GPT/AI/Assistant must reference this file when generating or formatting any of the said section.
 Follow all numbering, heading, and paragraph structures example exactly as described here.
 

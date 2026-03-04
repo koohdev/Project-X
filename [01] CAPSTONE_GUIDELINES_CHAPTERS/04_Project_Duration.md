@@ -7,31 +7,35 @@ Grading systems and possible honoraria rates for capstone project are left to th
 The Capstone Project shall be completed within the prescribed period of time in accordance of the curriculum and with the following phases:
 
 ## Pre-Proposal Stage
-*   Course Enrolment
-*   Capstone Project Orientation
-*   Short Listing of Possible Capstone Projects
+
+* Course Enrolment
+* Capstone Project Orientation
+* Short Listing of Possible Capstone Projects
 
 ## Proposal Stage
-*   Title Proposal and Critiquing (with Patentability Check if possible)
-*   Writing of Chapters 1, 2, 3 and 4 (planning and design sections only of chapter 4)
-*   Proposal Manuscript Submission
-*   Oral Defense
-*   Proposal Manuscript Revisions
+
+* Title Proposal and Critiquing (with Patentability Check if possible)
+* Writing of Chapters 1, 2, 3 and 4 (planning and design sections only of chapter 4)
+* Proposal Manuscript Submission
+* Oral Defense
+* Proposal Manuscript Revisions
 
 ## Final Defense Stage
-*   Analysis
-*   Design
-*   Development
-*   Testing
-*   Capstone Project Manuscript Submission
-*   Final Defense Proper
-*   Capstone Project Manuscript Revisions
-*   Public Presentation (see Chapter 7.0)
-*   Submission of Final Requirements
+
+* Analysis
+* Design
+* Development
+* Testing
+* Capstone Project Manuscript Submission
+* Final Defense Proper
+* Capstone Project Manuscript Revisions
+* Public Presentation (see Chapter 7.0)
+* Submission of Final Requirements
 
 ## Patent Process (optional)
-*   Patent Drafting
-*   Patent Application (if possible)
-*   Technology Transfer
+
+* Patent Drafting
+* Patent Application (if possible)
+* Technology Transfer
 
 [^4]: Section 5 Annex A CMO 25 s. 2015, p.53

@@ -1,4 +1,4 @@
-# 📘 PROJECT X — Capstone Documentation Editor
+# 📘 PROJECT CARL — Capstone Documentation Editor
 
 > **Your AI-powered assistant for creating DCT CCS-compliant Capstone documentation**
 
@@ -12,11 +12,11 @@ Transform your rough notes into polished, academically formatted chapters that f
 
 1. Go to [Google AI Studio](https://aistudio.google.com/)
 2. Create a new **Gemini GEM**
-3. Set the **Name**: `PROJECT X`
+3. Set the **Name**: `PROJECT CARL`
 4. Set the **Description**: "Your AI-powered assistant for creating DCT CCS-compliant Capstone documentation"
 5. Upload these knowledge files:
-   - `KNOWLEDGE_BASE.md` (required)
-   - `INSTRUCTIONS.md` (required)
+   - `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md` (required)
+   - `[00] CONFIG_AND_PROMPTS/INSTRUCTIONS.md` (required)
    - `[02] CURRENT_KNOWLEDGE/Capstone_Formatting_Rules.md` (optional, for extra detail)
 
 ### Step 2: Start Using It
@@ -31,7 +31,7 @@ The GEM will generate properly formatted content with an audit summary.
 
 ---
 
-## 📖 How to Use PROJECT X
+## 📖 How to Use PROJECT CARL
 
 ### Basic Command Format
 
@@ -40,6 +40,7 @@ The GEM will generate properly formatted content with an audit summary.
 ```
 
 **Examples:**
+
 - "Write the Abstract for our Inventory System"
 - "Generate Chapter 3 Technical Background for a Hotel Reservation project"
 - "Create specific objectives for a Payroll System"
@@ -125,7 +126,7 @@ The GEM will generate properly formatted content with an audit summary.
 
 ## 🚫 Banned Project Types
 
-PROJECT X will **reject** these project types:
+PROJECT CARL will **reject** these project types:
 
 | ❌ Rejected | Reason |
 |-------------|--------|
@@ -156,6 +157,7 @@ If your project is a Transaction Processing System (TPS), it must meet these min
 | **Hospital/Patient** | 20 beds, 50 patients |
 
 **Other Types:**
+
 | Type | Requirements |
 |------|--------------|
 | **CAI** | 4+ media types, 50 test items/topic |
@@ -167,7 +169,7 @@ If your project is a Transaction Processing System (TPS), it must meet these min
 
 ## 📝 Output Format
 
-Every response from PROJECT X follows this format:
+Every response from PROJECT CARL follows this format:
 
 ```markdown
 [Generated Content]
@@ -186,7 +188,7 @@ Format verified: 2 pages, proper transitions.
 
 ## 🔧 Automatic Corrections
 
-PROJECT X automatically:
+PROJECT CARL automatically:
 
 | Issue | Correction |
 |-------|------------|
@@ -201,9 +203,10 @@ PROJECT X automatically:
 
 ## 📊 Understanding Grading (So You Know What Matters)
 
-PROJECT X knows how panelists grade your work:
+PROJECT CARL knows how panelists grade your work:
 
 ### Manuscript Grading (50 pts)
+
 | Section | Points | Key Criteria |
 |---------|--------|--------------|
 | Initial Pages | 4 | TOC consistent, abstract complete |
@@ -216,6 +219,7 @@ PROJECT X knows how panelists grade your work:
 | Mechanics | 5 | Grammar, formatting, organization |
 
 ### Software Grading (30 pts)
+
 | Criteria | Points |
 |----------|--------|
 | Matches proposal objectives | 10 |
@@ -224,6 +228,7 @@ PROJECT X knows how panelists grade your work:
 | Debugging competence | 7 |
 
 ### Oral Exam (20 pts)
+
 | Criteria | Points |
 |----------|--------|
 | Comprehensive answers | 10 |
@@ -232,16 +237,18 @@ PROJECT X knows how panelists grade your work:
 
 ---
 
-## 📦 PROJECT X GEM Suite
+## 📦 PROJECT CARL GEM Suite
 
-PROJECT X is now a **suite of specialized GEMs** for your complete Capstone journey:
+PROJECT CARL is now a **suite of specialized GEMs** for your complete Capstone journey:
 
 ### 📘 Documentation GEM (Main)
+
 **Purpose:** Generate DCT CCS-compliant written documentation  
 **Use for:** Chapters 1-5, templates, formatting  
-**Files:** `INSTRUCTIONS.md`, `KNOWLEDGE_BASE.md`
+**Files:** `[00] CONFIG_AND_PROMPTS/INSTRUCTIONS.md`, `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md`
 
 **Recommended Workflow:**
+
 ```
 1. Documentation GEM → Generate Chapter 1
 2. Review and finalize
@@ -253,10 +260,12 @@ PROJECT X is now a **suite of specialized GEMs** for your complete Capstone jour
 ## 📂 File Structure
 
 ```
-Projext X GEM/
+PROJECT CARL/
 ├── README.md                             # 📘 This manual
-├── INSTRUCTIONS.md                       # AI behavior instructions
-├── KNOWLEDGE_BASE.md                     # Complete DCT CCS knowledge
+├── [00] CONFIG_AND_PROMPTS/              # Core AI rules and guidelines
+│   ├── INSTRUCTIONS.md                   # AI behavior instructions
+│   ├── KNOWLEDGE_BASE.md                 # Complete DCT CCS knowledge
+│   └── ACADEMIC_WRITING_CHECKER.md       # Writing audit reference
 │
 ├── [02] CURRENT_KNOWLEDGE/
 │   ├── Capstone_Formatting_Rules.md      # Detailed formatting patterns
@@ -280,7 +289,17 @@ Projext X GEM/
 │   ├── Documentation_Guidelines.md       # Extract from manual
 │   └── School_Capstone_Guidelines.md     # Extract from manual
 │
-└── [04] OUR_PROJECT/                          # User's working folder
+├── [04] OUR_PROJECT/                          # User's working folder
+│   ├── WIP/                                   # Work in progress drafts
+│   └── READY_FOR_REVIEW/                      # Drafts ready for check
+├── [05] REVISED_CHAPTERS_OR_SECTIONS/         # Revised chapters
+├── [06] CHECKING REPORTS/                     # Audit and findings outputs
+│   ├── [06-1] CHECKING DIFF/
+│   ├── [06-2] CHECKING FINDINGS/
+│   └── [06-3] CHECKING CLEANED/
+├── [07] ARTIFACTS/                            # Generated artifacts
+├── [08] DIAGRAMS/                             # Project diagrams
+└── [99] ARCHIVE/                              # Superseded versions
 ```
 
 ---
@@ -288,22 +307,28 @@ Projext X GEM/
 ## ❓ FAQ
 
 ### Q: Can I use this for Capstone 1 AND Capstone 2?
+
 **A:** Yes! The GEM covers both proposal stage (Chapters 1-4 planning) and final defense (complete documentation).
 
 ### Q: What if the GEM asks me for more details?
+
 **A:** Provide them! The GEM won't fabricate information. If it asks "What database are you using?", tell it specifically.
 
 ### Q: Can it write my entire Capstone?
+
 **A:** It can generate each section, but you need to provide:
+
 - Your project topic and scope
 - Technical decisions (languages, frameworks)
 - Research findings
 - Test results
 
 ### Q: What if I disagree with the GEM's output?
+
 **A:** You can ask it to revise: "Rewrite this section with more focus on security features" or "Expand the scope section."
 
 ### Q: Does it support Filipino/Tagalog?
+
 **A:** The GEM is designed for English academic writing per DCT CCS standards, but you can ask it to explain concepts in Filipino if needed.
 
 ---

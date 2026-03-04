@@ -88,7 +88,7 @@
 | 37 | 35 | "focuses more about" — incorrect preposition | "focuses more on" |
 | 38 | 39 | Section numbered "2.3.3" but should be "2.2.3" (follows 2.2.1, 2.2.2) | Fix to "2.2.3" |
 | 39 | 46 | Double period at end of paragraph: "...massive online server.." | Remove extra period |
-| 40 | 48 | Figure caption "*Figure 3: Arcademics Game Menu *" — should reference Prodigy, not Arcademics; extra space before asterisk | Fix caption to "Figure 3: Prodigy Game" and remove extra space |
+| 40 | 48 | Figure caption "*Figure 3: Arcademics Game Menu*" — should reference Prodigy, not Arcademics; extra space before asterisk | Fix caption to "Figure 3: Prodigy Game" and remove extra space |
 | 41 | §2.2 | **Related Projects lack consistent structure** — each project mixes overview, similarities, and differences into one paragraph with no clear separation | Each related project must follow: **Title → Overview → Similarities → Differences** structure |
 
 ---
@@ -168,7 +168,7 @@ DragonBox Algebra is an existing system that also applies Flow Theory in educati
 
 **Developer:** Mage Learning Interactive LLC  
 **Date Published:** 7 September 2019 (Updated on: 14 May 2025)  
-**Reference:** https://www.magemath.com/
+**Reference:** <https://www.magemath.com/>
 
 **Overview.** Mage Math is a 3D fantasy adventure game that combines educational video content and mathematical practice within a role-playing environment. It is designed to supplement math instruction for students in Grades 1–6. The system was released initially as a paid application on platforms such as Steam and the Epic Games Store. Mage Math features a "math realm" where players complete math-related tasks to earn magical skills and advance through the story, as well as a 3D exploration phase where players traverse a fantasy world.
 
@@ -182,7 +182,7 @@ DragonBox Algebra is an existing system that also applies Flow Theory in educati
 
 **Developer:** Arcademics Inc.  
 **Date Published:** 2016-05-17  
-**Reference:** https://www.arcademics.com/games/grand-prix/
+**Reference:** <https://www.arcademics.com/games/grand-prix/>
 
 **Overview.** Grand Prix Multiplication is a mobile and web-based multiplayer learning platform created to help students in Grades 3–5 become more fluent in multiplication facts. The system uses a competitive racing mechanism in which the avatar's velocity is based on how quickly and accurately the player answers mathematical questions. Its design goals center on speed and repetition.
 
@@ -196,7 +196,7 @@ DragonBox Algebra is an existing system that also applies Flow Theory in educati
 
 **Developer:** Prodigy Education  
 **Date Published:** October 9, 2015 (Updated: December 10, 2025)  
-**Reference:** https://math.prodigygame.com/
+**Reference:** <https://math.prodigygame.com/>
 
 **Overview.** Prodigy Game is a web-based mathematics role-playing game designed for primary and middle school learners. The system integrates curriculum-aligned math problems into a fantasy combat environment. Players solve arithmetic problems to execute spells and defeat enemies while progressing through levels and collecting in-game rewards.
 
@@ -227,13 +227,13 @@ DragonBox Algebra is an existing system that also applies Flow Theory in educati
 
 ### References
 
-[6] C. Wardoyo et al., "Influence of Game-Based Learning in Mathematics Education on the Students' Cognitive and Affective Domain: A Systematic Review," Education Research International, 2023. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10720791/
+[6] C. Wardoyo et al., "Influence of Game-Based Learning in Mathematics Education on the Students' Cognitive and Affective Domain: A Systematic Review," Education Research International, 2023. [Online]. Available: <https://pmc.ncbi.nlm.nih.gov/articles/PMC10720791/>
 
-[7] A. Karamehic et al., "The Role of Technological Interventions in Alleviating Math Anxiety Among Primary School Students: A Systematic Literature Review," Contemporary Educational Technology, 2024. [Online]. Available: https://www.cedtech.net/article/the-role-of-technology-in-reducing-mathematics-anxiety-in-primary-school-students-14717
+[7] A. Karamehic et al., "The Role of Technological Interventions in Alleviating Math Anxiety Among Primary School Students: A Systematic Literature Review," Contemporary Educational Technology, 2024. [Online]. Available: <https://www.cedtech.net/article/the-role-of-technology-in-reducing-mathematics-anxiety-in-primary-school-students-14717>
 
-[8] A. Perttula et al., "Flow Experience in Game-Based Learning: Enhancing Student Engagement and Knowledge Retention Through Adaptive Design," European Conference on e-Learning, 2023. [Online]. Available: https://papers.academic-conferences.org/index.php/ecgbl/article/view/3873
+[8] A. Perttula et al., "Flow Experience in Game-Based Learning: Enhancing Student Engagement and Knowledge Retention Through Adaptive Design," European Conference on e-Learning, 2023. [Online]. Available: <https://papers.academic-conferences.org/index.php/ecgbl/article/view/3873>
 
-[9] T. Hulse et al., "The Impacts of Three Educational Technologies on Algebraic Understanding in the Context of COVID-19," PLOS ONE, 2023. [Online]. Available: https://pmc.ncbi.nlm.nih.gov/articles/PMC10125888/
+[9] T. Hulse et al., "The Impacts of Three Educational Technologies on Algebraic Understanding in the Context of COVID-19," PLOS ONE, 2023. [Online]. Available: <https://pmc.ncbi.nlm.nih.gov/articles/PMC10125888/>
 
 ---
 

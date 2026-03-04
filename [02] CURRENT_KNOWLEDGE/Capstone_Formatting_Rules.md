@@ -54,11 +54,13 @@ Each sub-item must explicitly name the technology (e.g., ReactJS, Node.js, Mongo
 #### **3.1 Development**
 
 ##### **3.1.1 Hardware**
+
 * Each hardware type begins with **A., B., C.** followed by its name.
 * Each description is 2–4 sentences explaining what it is and how it was used.
 * Tone: formal, factual.
 
 ##### **3.1.2 Software**
+
 * Divide software items by category: **Frontend**, **Backend**, **Development and Deployment Tools**, etc.
 * Each category starts with **A., B., C., D.**
 * Subcomponents use **decimal lettering (A.1, B.1, …)**.
@@ -66,6 +68,7 @@ Each sub-item must explicitly name the technology (e.g., ReactJS, Node.js, Mongo
 * Use generic descriptors unless user explicitly provides brand names.
 
 ##### **3.1.3 Peopleware**
+
 * Use **A., B., C.** format for each group or role.
 * Each paragraph (2–3 sentences) explains responsibility and contribution.
 * Avoid personal pronouns.
@@ -73,6 +76,7 @@ Each sub-item must explicitly name the technology (e.g., ReactJS, Node.js, Mongo
 ---
 
 #### **3.2 Implementation**
+
 Describe the deployment and execution environment using the same hierarchical structure as 3.1.  
 All sections under Implementation mirror Development (Hardware → Software → Peopleware).  
 End Chapter 3 with a short **transition paragraph** linking to Chapter 4 (Methodology).
@@ -80,6 +84,7 @@ End Chapter 3 with a short **transition paragraph** linking to Chapter 4 (Method
 ---
 
 ### **Formatting and Tone Rules**
+
 * Hierarchy: **3.0 → 3.1 → 3.1.1 → A., B., C., A.1…**
 * Each item is a full paragraph (2–5 sentences).
 * Bold section headings; plain text lettered items.
@@ -89,6 +94,7 @@ End Chapter 3 with a short **transition paragraph** linking to Chapter 4 (Method
 ---
 
 ### **Self-Check for Chapter 3**
+
 1. Verify numbering accuracy.  
 2. Ensure no bullet symbols appear.  
 3. Confirm all descriptions are complete paragraphs.  
@@ -100,13 +106,16 @@ End Chapter 3 with a short **transition paragraph** linking to Chapter 4 (Method
 ## **Tone Sanitation Protocol (Always-On)**
 
 ### Immediate Do-Not-Use List
+
 Avoid these unless paired with measurable evidence:  
 efficient, efficiency, effective, effectiveness, innovative, powerful, reliable, streamlined, user-friendly, robust, scalable, secure (as an absolute), seamless, cutting-edge, optimize/optimise, enhance/enhanced, improve/improved, ensure/ensures, accurate/accuracy, fast/faster/quick/quickly, intuitive, easy.
 
 ### Safe Replacements
+
 supports, facilitates, enables, is designed to, provides, records, validates, verifies, enforces access control, logs, updates, schedules, computes, generates, transmits.
 
 ### Rewrite Patterns
+
 1. Adjective → function  
  “efficient inventory handling” → “inventory monitoring and update tracking.”  
 2. “Improves / Enhances” → mechanism + outcome  
@@ -118,16 +127,17 @@ supports, facilitates, enables, is designed to, provides, records, validates, ve
 5. Remove intensifiers (very, highly, extremely).
 
 ### Length and Structure Limits (Chapter 1 Narratives)
+
 * Sections 1.1–1.4 ≤ 3 paragraphs, ≤ 4 sentences each.
 * If the user requests expansion, limits may be exceeded.
 
 ### Fail-Closed Output Rule
+
 If banned terms or over-length conditions remain, the assistant must automatically rewrite until compliance is achieved.
 
 ---
 
 ## **Reference Alignment — Capstone 1 Sample Tone and Grammar Standards**
-
 
 * Neutral, academic, third-person, impersonal.  
 * Present tense for system description; past tense for development narrative.  
@@ -148,6 +158,7 @@ Each major development model (RAD, Agile, Waterfall, etc.) should appear under *
 ---
 
 ### **4.1 Development Model Overview**
+
 * Define the chosen model (cite origin/reference).  
 * Explain objectively why the model fits the project.  
 * List total phases and summarize each briefly.  
@@ -162,6 +173,7 @@ Each major development model (RAD, Agile, Waterfall, etc.) should appear under *
 ---
 
 ### **4.1.x Phase Structure Rule**
+
 * Numbering: **4.1.1, 4.1.2, …**  
 * Begin each subsection with the phase name.  
 * One–two paragraphs (≈ 3–4 sentences each).  
@@ -176,9 +188,11 @@ Each major development model (RAD, Agile, Waterfall, etc.) should appear under *
 ---
 
 ##### **Phase Activity Detailing Rule (Mandatory)**
+
 Each phase subsection must explicitly describe **what the proponents did**.
 
 **Required elements per phase**
+
 1. Activities performed (past tense).  
 2. Stakeholders involved (users, adviser, etc.).  
 3. Inputs and outputs (artifacts, prototypes, logs).  
@@ -188,8 +202,8 @@ Each phase subsection must explicitly describe **what the proponents did**.
 7. Link to the next phase or deliverable.
 
 **Style**
-- Past tense for activities; present tense only for model definition.  
-- Impersonal tone; no first or second person.
+* Past tense for activities; present tense only for model definition.  
+* Impersonal tone; no first or second person.
 
 **Micro-Template**
 > *[Phase Name]* focused on *[goal]*.  
@@ -199,6 +213,7 @@ Each phase subsection must explicitly describe **what the proponents did**.
 ---
 
 ### **4.2 Formatting and Tone Rules for Chapter 4**
+
 * Maintain formal academic tone consistent with Chapters 1–3.  
 
 * Present tense for model overview; past tense for phase activities.  
@@ -211,6 +226,7 @@ Each phase subsection must explicitly describe **what the proponents did**.
 ---
 
 ### **Self-Check for Chapter 4**
+
 1. Verify numbering sequence (4.0 → 4.1 → 4.1.1 → …).  
 2. Confirm each phase includes activities, timeline, and deliverables.  
 3. Ensure tone is impersonal; no first-person pronouns.  

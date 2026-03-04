@@ -24,9 +24,11 @@ The story will begin in the Plains of Origin, where the protagonist will awaken 
 
 The protagonist will travel across four distinct biomes, each guarded by a corrupted elemental force. They will recover fragments from the Forest Golem, the Pharaoh's Guard, the Fenrir wolf, and the Demon Lord. The journey will lead to the Void Dimension, where the player will confront The Numeromancer, the source of the chaos and final antagonist of the game, utilizing both combat and math skills to stabilize the realm.
 
-Throughout the journey, the player will recruit a party of eight allies. These companions include Kael (Knight), Elara (Sorceress), Garrick (Tank), Sylas (Rogue), Isolde (Healer), Thorne (Ranger), Lyra (Magic Swordsman), and Fenrin (Monk). The narrative and mechanics will also be supported by key side characters: Elder Tobias (initial story quests), Merchant Oryn (general goods), Receptionist Mila (procedural quest hub), Bard Jareth (healing interactions), Captain Valerius (navigation guidance), Professor Haze (advanced skill unlocks), Innkeeper Gorm (party restoration), Blacksmith Rurik (equipment upgrades), and Portal Keeper Alden (multiplayer room hosting). Additional NPCs, including Widow Claire, Farmer Ben, Nobleman Caelus, Fisherman Old Tom, Alchemist Vanya, Librarian Estel, Guard Captain Aris, Street Urchin Pip, Priestess Anara, and Hunter Kaelen, will provide side quests, lore, and services. The towns will be further populated by generic, non-mechanical NPCs such as Townsmen, Townswomen, Playing Children, Market Shoppers, Tavern Patrons, Castle Guards, Farmhands, Academy Students, and others to provide atmosphere.
+To complete this journey, the player will recruit a diverse party of allies. Kael will join as a knight companion. Elara will be recruited as a sorceress companion. Garrick will serve as a heavily armored tank companion. Sylas will join as a rogue companion. Isolde will be recruited as a healer companion. Thorne will serve as a ranger companion. Lyra will join as a magic swordsman companion. Fenrin will be recruited as a monk companion.
 
-The game's visual atmosphere will be complemented by a collection of thematic background music. These audio tracks will dynamically shift between peaceful town melodies, intense battle anthems, and atmospheric dungeon themes to maintain player engagement and support a state of optimal flow.
+The narrative and mechanics will be supported by key side characters. Elder Tobias will provide the initial story quests. Merchant Oryn will sell general goods. Receptionist Mila will act as a procedural quest hub. Bard Jareth will offer healing interactions. Captain Valerius will provide locations on where to go next. Professor Haze will unlock advanced skills for the player. Innkeeper Gorm will run establishments that restore the party's health and mana. Blacksmith Rurik will provide equipment upgrades. Widow Claire will offer a specific side quest. Farmer Ben, Nobleman Caelus, and Fisherman Old Tom will provide background flavor dialogue. Alchemist Vanya will sell potions. Librarian Estel will explain the game's lore and backstory. Guard Captain Aris will patrol the towns. Street Urchin Pip will give hints about hidden items. Priestess Anara will remove negative status effects. Hunter Kaelen will scout and provide map information. Portal Keeper Alden will allow the player to either host or join a multiplayer room. The towns will be further populated by generic, non-mechanical NPCs to provide atmosphere, including Townsmen, Townswomen, Playing Children, Market Shoppers, Tavern Patrons, Castle Guards, Farmhands, Stable Boys, Washerwomen, Street Sweepers, Beggars, Strolling Couples, Academy Students, Visiting Merchants, Nobles, Tourists, Drunkards, Gossiping Ladies, Messengers, Guards, Fishers, Old Ladies, Street Performers, and Crowd Members.
+
+To complement this visual atmosphere and help reduce the anxiety associated with traditional math drills, the game will utilize a comprehensive suite of thematic background music. These audio tracks will dynamically shift between peaceful town melodies, intense battle anthems, and atmospheric dungeon themes to maintain player engagement and keep the user in a state of optimal flow.
 
 The game world will feature distinct environmental biomes with specific enemies and loot. The Plains and Forests will serve as lush starter zones. In this biome, the Slime will drop Green Gel. The Rat will drop a Rat Tail. The Bat will drop a Bat Wing. The Spider will drop a Sticky Web. The Hornet will drop an Insect Wing. The Wolf will drop a Wolf Pelt. The Bear will drop a Bear Claw. The Treant will drop a Living Branch. The Goblin and Goblin Archer will drop Goblin Cloth. The Goblin Shaman will drop Shaman Beads. The Orc will drop an Orc Tusk. The Bandit and Bandit Leader will drop a Stolen Coin Purse. The Crow will drop a Shiny Feather. The Snake will drop Snake Skin. The Fairy will drop Fairy Dust. The Mandrake will drop a Mandrake Root. The Wild Boar will drop Boar Meat. The Forest Golem will drop Ancient Bark.
 
@@ -262,6 +264,7 @@ This includes the generic townspeople and villagers used to fill up the maps to 
 This includes the enemies that the user may encounter during their playthrough.
 
 **L.3.1** Plains & Forest Biome:
+
 - Slime
 - Rat
 - Bat
@@ -283,6 +286,7 @@ This includes the enemies that the user may encounter during their playthrough.
 - Forest Golem
 
 **L.3.2** Desert Biome:
+
 - Sand Slime
 - Scorpion
 - Giant Scorpion
@@ -303,6 +307,7 @@ This includes the enemies that the user may encounter during their playthrough.
 - Pharaoh's Guard
 
 **L.3.3** Tundra & Frost Biome
+
 - Ice Slime
 - Snow Wolf
 - Polar Bear
@@ -325,6 +330,7 @@ This includes the enemies that the user may encounter during their playthrough.
 - Fenrir
 
 **L.3.4** Volcano & Fire Biome
+
 - Magma Slime
 - Fire Spirit
 - Imp
@@ -347,6 +353,7 @@ This includes the enemies that the user may encounter during their playthrough.
 - Demon Lord
 
 **L.3.5** General & Dungeon
+
 - Training Dummy
 - Ghost
 - Zombie
@@ -373,6 +380,7 @@ This includes the enemies that the user may encounter during their playthrough.
 This includes the items that the user may receive from either buying from shops, completing quests or being dropped as loot from enemies during their playthrough.
 
 **L.4.1** Consumable Items (Recovery & Utility)
+
 - Potion
 - Hi-Potion
 - Full Potion
@@ -389,6 +397,7 @@ This includes the items that the user may receive from either buying from shops,
 - Repel Spray
 
 **L.4.2** Stat Boosters (Permanent Upgrades)
+
 - HP Up
 - MP Up
 - Strength Seed
@@ -399,6 +408,7 @@ This includes the items that the user may receive from either buying from shops,
 - Skill Book
 
 **L.4.3** Monster Loot & Drops — Plains/Forest
+
 - Green Gel
 - Rat Tail
 - Bat Wing
@@ -419,6 +429,7 @@ This includes the items that the user may receive from either buying from shops,
 - Ancient Bark
 
 **L.4.4** Monster Loot & Drops — Desert
+
 - Yellow Gel
 - Scorpion Stinger
 - Cactus Flower
@@ -437,6 +448,7 @@ This includes the items that the user may receive from either buying from shops,
 - Golden Fragment
 
 **L.4.5** Monster Loot & Drops — Tundra
+
 - Blue Gel
 - White Fur
 - Thick Hide
@@ -455,6 +467,7 @@ This includes the items that the user may receive from either buying from shops,
 - Wolf Fang
 
 **L.4.6** Monster Loot & Drops — Volcano
+
 - Red Gel
 - Ember
 - Imp Wing
@@ -474,6 +487,7 @@ This includes the items that the user may receive from either buying from shops,
 - Infernal Core
 
 **L.4.7** Monster Loot & Drops — General
+
 - Ectoplasm
 - Rotten Flesh
 - Vampire Fang
@@ -490,6 +504,7 @@ This includes the items that the user may receive from either buying from shops,
 - Void Fragment
 
 **L.5** Class Roster:
+
 - Swordsman
 - Sorcerer
 - Priest
@@ -502,6 +517,7 @@ This includes the items that the user may receive from either buying from shops,
 **L.6** Weapons
 
 **L.6.1** Swordsman (Swords)
+
 - Long Sword
 - Woodcutter's Blade
 - Wolf Fang Sword
@@ -525,6 +541,7 @@ This includes the items that the user may receive from either buying from shops,
 - Phoenix Feather Sword
 
 **L.6.2** Sorcerer (Staves)
+
 - Oak Staff
 - Briar Rod
 - Druid's Staff
@@ -548,6 +565,7 @@ This includes the items that the user may receive from either buying from shops,
 - Hellfire Rod
 
 **L.6.3** Priest (Maces)
+
 - Wooden Mace
 - Oak Club
 - Spirit Mace
@@ -571,6 +589,7 @@ This includes the items that the user may receive from either buying from shops,
 - Phoenix Down Mace
 
 **L.6.4** Knight (Spears)
+
 - Short Spear
 - Hunter's Spear
 - Boar Tusk Lance
@@ -594,6 +613,7 @@ This includes the items that the user may receive from either buying from shops,
 - Hellfire Harpoon
 
 **L.6.5** Martial Artist (Claws)
+
 - Leather Gloves
 - Bear Claws
 - Wolf Paws
@@ -617,6 +637,7 @@ This includes the items that the user may receive from either buying from shops,
 - Demon Hands
 
 **L.6.6** Magic Swordsman (Enchanted Blades)
+
 - Rapier
 - Wind Blade
 - Leaf Cutter
@@ -640,6 +661,7 @@ This includes the items that the user may receive from either buying from shops,
 - Volcanic Spike
 
 **L.6.7** Hunter (Bows)
+
 - Short Bow
 - Oak Bow
 - Hunter's Bow
@@ -663,6 +685,7 @@ This includes the items that the user may receive from either buying from shops,
 - Phoenix Fire Bow
 
 **L.6.8** Bandit (Daggers)
+
 - Knife
 - Rusty Shiv
 - Hunter's Knife
@@ -688,6 +711,7 @@ This includes the items that the user may receive from either buying from shops,
 **L.7** Skills
 
 **L.7.1** Swordsman
+
 - Strong Attack
 - Slash
 - Double Slash
@@ -705,6 +729,7 @@ This includes the items that the user may receive from either buying from shops,
 - Omnislash
 
 **L.7.2** Sorcerer
+
 - Fire
 - Fire II
 - Fire III
@@ -722,6 +747,7 @@ This includes the items that the user may receive from either buying from shops,
 - Meteor Swarm
 
 **L.7.3** Priest
+
 - Heal
 - Heal II
 - Heal III
@@ -739,6 +765,7 @@ This includes the items that the user may receive from either buying from shops,
 - Divine Intervention
 
 **L.7.4** Knight
+
 - Provoke
 - Shield Bash
 - Cover
@@ -756,6 +783,7 @@ This includes the items that the user may receive from either buying from shops,
 - Castle of Stone
 
 **L.7.5** Martial Artist
+
 - Punch
 - Kick
 - Triple Kick
@@ -773,6 +801,7 @@ This includes the items that the user may receive from either buying from shops,
 - Seven Star Strike
 
 **L.7.6** Magic Swordsman
+
 - Fire Blade
 - Ice Blade
 - Thunder Blade
@@ -790,6 +819,7 @@ This includes the items that the user may receive from either buying from shops,
 - Rune Breaker
 
 **L.7.7** Hunter
+
 - Aim
 - Power Shot
 - Rapid Fire
@@ -807,6 +837,7 @@ This includes the items that the user may receive from either buying from shops,
 - Hail of Arrows
 
 **L.7.8** Bandit
+
 - Steal
 - Mug
 - Sneak Attack
@@ -826,6 +857,7 @@ This includes the items that the user may receive from either buying from shops,
 **L.8** Status Effects
 
 **L.8.1** Negative States (Debuffs)
+
 - Knockout
 - Poison
 - Blind
@@ -843,6 +875,7 @@ This includes the items that the user may receive from either buying from shops,
 - Fear
 
 **L.8.2** Positive States (Buffs)
+
 - Regenerate
 - Haste
 - Protect
@@ -863,6 +896,7 @@ This includes the items that the user may receive from either buying from shops,
 
 **L.9.1** Shields
 Equippable only by Knights, Swordsmen, Priests
+
 - Small Shield
 - Buckler
 - Round Shield
@@ -885,6 +919,7 @@ Equippable only by Knights, Swordsmen, Priests
 - Aegis
 
 **L.9.2** Headgear
+
 - Leather Cap
 - Iron Helmet
 - Steel Helmet
@@ -907,6 +942,7 @@ Equippable only by Knights, Swordsmen, Priests
 - Royal Crown
 
 **L.9.3** Body Armor
+
 - Cloth Tunic
 - Leather Armor
 - Iron Armor
@@ -930,6 +966,7 @@ Equippable only by Knights, Swordsmen, Priests
 - Sage's Robe
 
 **L.9.4** Accessories
+
 - Ring of Protection
 - Ring of Power
 - Ring of Magic
@@ -954,6 +991,7 @@ Equippable only by Knights, Swordsmen, Priests
 **L.10** Background Music (BGM)
 
 **L.10.1** Battle & Boss Themes
+
 - Battle1
 - Battle2
 - Battle3
@@ -968,6 +1006,7 @@ Equippable only by Knights, Swordsmen, Priests
 - Boss5
 
 **L.10.2** Towns & Safe Zones
+
 - Town1
 - Town2
 - Town3
@@ -979,6 +1018,7 @@ Equippable only by Knights, Swordsmen, Priests
 - Castle2
 
 **L.10.3** Exploration (Overworld & Dungeons)
+
 - Field1
 - Field2
 - Field3
@@ -996,6 +1036,7 @@ Equippable only by Knights, Swordsmen, Priests
 - Ship3
 
 **L.10.4** Story & Cutscenes
+
 - Scene1
 - Scene2
 - Scene3
@@ -1031,12 +1072,12 @@ The multiplayer system is stateless (no central dedicated server). If the host a
 
 ## REFERENCES
 
-[1] B. Bruckman, "The 'Chocolate-Covered Broccoli' Problem," International Journal of Game-Based Learning, vol. 3, no. 2, pp. 1-15, 2013. [Online]. Available: https://www.google.com/search?q=https://www.researchgate.net/publication/220968132_The_Chocolate-Covered_Broccoli_Problem
+[1] B. Bruckman, "The 'Chocolate-Covered Broccoli' Problem," International Journal of Game-Based Learning, vol. 3, no. 2, pp. 1-15, 2013. [Online]. Available: <https://www.google.com/search?q=https://www.researchgate.net/publication/220968132_The_Chocolate-Covered_Broccoli_Problem>
 
-[2] M. Csikszentmihalyi, Flow: The Psychology of Optimal Experience. New York, NY: Harper & Row, 1990. [Online]. Available: https://www.HarperCollins.com/products/flow-mihaly-csikszentmihalyi
+[2] M. Csikszentmihalyi, Flow: The Psychology of Optimal Experience. New York, NY: Harper & Row, 1990. [Online]. Available: <https://www.HarperCollins.com/products/flow-mihaly-csikszentmihalyi>
 
-[3] F. C. Richardson and R. M. Suinn, "The Mathematics Anxiety Rating Scale: Psychometric data," Journal of Counseling Psychology, vol. 19, no. 6, pp. 551–554, 1972. [Online]. Available: https://www.google.com/search?q=https://psycnet.apa.org/record/1973-09757-001
+[3] F. C. Richardson and R. M. Suinn, "The Mathematics Anxiety Rating Scale: Psychometric data," Journal of Counseling Psychology, vol. 19, no. 6, pp. 551–554, 1972. [Online]. Available: <https://www.google.com/search?q=https://psycnet.apa.org/record/1973-09757-001>
 
-[4] M. H. Ashcraft, "Math anxiety: Personal, educational, and cognitive consequences," Current Directions in Psychological Science, vol. 11, no. 5, pp. 181–185, 2002. [Online]. Available: https://journals.sagepub.com/doi/10.1111/1467-8721.00196
+[4] M. H. Ashcraft, "Math anxiety: Personal, educational, and cognitive consequences," Current Directions in Psychological Science, vol. 11, no. 5, pp. 181–185, 2002. [Online]. Available: <https://journals.sagepub.com/doi/10.1111/1467-8721.00196>
 
-[5] J. P. Gee, What Video Games Have to Teach Us About Learning and Literacy. New York, NY: Palgrave Macmillan, 2003. [Online]. Available: https://www.google.com/search?q=https://link.springer.com/book/10.1007/978-1-137-52660-3
+[5] J. P. Gee, What Video Games Have to Teach Us About Learning and Literacy. New York, NY: Palgrave Macmillan, 2003. [Online]. Available: <https://www.google.com/search?q=https://link.springer.com/book/10.1007/978-1-137-52660-3>
