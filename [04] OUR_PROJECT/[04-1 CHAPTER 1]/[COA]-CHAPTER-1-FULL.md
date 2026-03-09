@@ -152,11 +152,11 @@ The user interacts with this module by using a computer mouse or trackpad to cli
 
 #### A.1 Time Progress Battle (TPB)
 
-This module will feature a visible "Action Gauge" for each combatant that fills based on their Speed or Agility stat. The game will utilize a wait-based system to automatically freeze all of these action gauges the exact moment the math input window appears on the screen. This complete pause of the battle timers will guarantee that enemies cannot take their turns or attack while the player calculates and types their answer.
+Chronicles of Arithmos uses a visible "Action Gauge" for each character and enemy that fills up based on their Speed or Agility stat. The game automatically freezes these action gauges the exact moment the math input window appears on the screen, which is a wait-based system. This complete pause of the battle timers means that an enemy like a Slime or a Goblin cannot take their turns or attack while the player calculates and types their answer.
 
 #### A.2 Turn Structure
 
-Players will know it is their turn when their character's visual Action Gauge completely fills up. During this phase, the user will interact with the module by using a computer mouse or trackpad to click through visual combat menus. They will choose from options such as "Attack," "Skills," or "Items" to manage their party's health and mana. Overall, combat will follow a specific order of steps: first, the player will select their action; second, the system will check their math answer; and third, the game will execute the chosen action.
+The player knows it is Kael's turn when his visual Action Gauge completely fills up, and they can use a computer mouse or trackpad to click through the combat menus. They choose from options like "Attack," "Skills," or "Items" to manage the party's health and mana. Combat follows a specific flow where the player selects an action first, and then the system checks their math answer before the game executes the chosen move.
 
 #### A.3 Resource Management
 
@@ -168,52 +168,64 @@ Players will manage three primary pools during combat. Health Points (HP) will d
 
 #### C. Level-Based Difficulty System
 
- This module will automatically scale the complexity of the generated math equations based on the character's current level. The user will interact with this module by visually reading the generated equations on the screen and mentally calculating answers for problems that automatically increase in term counts and operator types as their character levels up. Furthermore, this module will govern the mathematical generation for safe-practice Training Halls located in every town. The user will interact with this feature by engaging a Training Dummy, which possesses infinite Health Points (HP) and serves solely as a target for calculation practice. The user can select a fixed-level dummy to generate equations locked to a specific difficulty tier, or a dynamic dummy that generates equations matching the party's current average level. Because the dummy cannot be defeated, the user will interact with the visual combat menu by clicking the "Escape" button to manually exit the training session. The mathematical difficulty will strictly follow a level-based progression:
+ The game automatically scales the complexity of the math equations based on the character's current level, so the problems get harder with more terms and different operators as Kael and his party level up. This system also handles the math generation for the safe-practice Training Halls found in every town. The player can practice calculating answers by fighting a Training Dummy, which is a living target with infinite health. They can fight a fixed-level dummy to practice a specific math tier, or even a dynamic dummy that matches the party's average level. Since the dummy cannot die, the player just clicks "Escape" to manually stop the training session. The mathematical difficulty follows this level-based progression:
 
-#### C.1 Player Levels 1-29 (Basics): The system will generate equations using Addition and Subtraction with two numbers. For example: 15 + 7
+#### C.1 Player Levels 1-29 (Basics)
 
-#### C.2 Player Levels 30-69 (Intermediate): The system will introduce Multiplication and Division operations. For example: 12 * 4
+In these early stages, the game generates equations using only Addition and Subtraction with two numbers. A basic encounter with a Slime in the Plains of Origin might ask the player to solve 15 + 7 to hit it.
 
-#### C.3 Player Levels 70-100 (Advanced): The system will generate three-part equations utilizing the full PEMDAS rule set (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction). For example: (10 + 5) * 2
+#### C.2 Player Levels 30-69 (Intermediate)
+
+As the party gets stronger, the game introduces Multiplication and Division operations. The player now has to solve equations like 12 * 4 to successfully attack an enemy.
+
+#### C.3 Player Levels 70-100 (Advanced)
+
+For the late game, the system creates three-part equations that use the full PEMDAS rule set (Parentheses, Exponents, Multiplication, Division, Addition, Subtraction). A boss fight against the Numeromancer might require the player to solve (10 + 5) * 2 to survive his attacks.
 
 #### D. "Content-Aware" Timer System
 
- This module will utilize a dynamic timer that calculates the allowed answer window based on the complexity of the generated equation, the total digit length, and the types of math operators used. It will award extra time bonuses for more complex operations, such as multiplication and division, or for equations containing larger values. If the timer reaches zero, the math input window will remain open on the screen and will still require an input to proceed. However, the system will automatically register any subsequently submitted answer as "slow," regardless of whether it is correct or incorrect. The user will interact with this module by visually monitoring a countdown bar during combat and typing their answers on a keyboard or touchscreen before the calculated time expires.
+ The game uses a dynamic timer that calculates the exact answer window based on how complex the equation is, the total digit length, and the specific math operators used. It gives extra time bonuses for harder operations or for equations with larger numbers, so a multiplication problem gives more time than basic addition. If the countdown bar actually hits zero during combat, the math input window stays open on the screen because the player still has to submit an answer to proceed. The system just records that late answer as "slow" and reduces the damage output, rewarding players who type fast on their keyboard or touchscreen.
 
 #### E. Enemy Auto-Scaling System
 
-This module will function as a background process that automatically adjusts enemy statistics, specifically Health Points (HP), Attack power (ATK), Experience Points (EXP), and Gold rewards, in real-time based on the active party's average level. The user will interact with this module by engaging in combat sequences that are initiated by either walking their character into visible enemy sprites or by triggering random encounters while roaming the map. During these battles, the user will fight against opponents that automatically adjust their health and attack values to match the party.
+This game constantly runs a background process that adjusts enemy stats like Health Points, Attack power, and Gold rewards in real-time based on the party's average level. The player starts these battles either by walking their character directly into visible enemy sprites, or by triggering a random encounter while exploring areas like the Plains of Origin. Once a fight starts, the player faces enemies that automatically match their health and attack values to provide a fair challenge for the current party.
 
 #### F. Performance-Based Reward Mechanism
 
- This module will feature a combat calculation step where the specific outcome of an action is directly determined by the input speed and correctness of the provided answer. The user will interact with this module by reacting with their keystrokes or screen taps to input their answers, receiving direct visual and sound feedback based on their final speed and correctness. This calculation will apply to all combat commands, including attacks and healing spells, resulting in the following outcomes based on the player's performance:
+Chronicles of Arithmos includes a combat calculation step where the game directly determines the outcome of an action based on how fast and accurately the player answers the math problem. The player types their answer on the keyboard or taps the screen, and the system instantly provides a sound and visual effect to show their correctness. This calculation applies to every combat command, from basic attacks against a Slime to healing spells for the party. The overall outcome follows this performance matrix:
 
-- Correct and rapid answers will apply a 2.0x critical multiplier to the action's overall effect.
-- Correct but slow answers will execute the action at its normal, base value.
-- Incorrect but rapid answers will apply a 0.5x penalty to the action's overall effect.
-- Incorrect and slow answers will result in complete action nullification, causing the selected move to fail entirely.
+- Fast and correct answers apply a 2.0x critical multiplier to the action.
+- Slow but correct answers execute the action at its normal base value.
+- Fast but incorrect answers apply a half-damage penalty (0.5x) to the action.
+- Slow and incorrect answers make the action fail completely.
 
-#### G. To develop an Automatic Quest Generation system
+#### G. Automatic Quest Generation
 
- This module will feature a quest engine that automatically scans the details of all areas the player has currently unlocked. It will utilize the specific enemies and items found within these accessible locations to generate relevant hunting and gathering objectives. These generated tasks will not impose a time limit, allowing the player to complete them at any point during their playthrough. If a quest is accepted, the system will record it in the Quests tab, where the player can check their quests progression. If a quest is rejected, the system will discard it and generate a new objective during the next interaction. The user will interact with this module by clicking on the map to move their character toward Receptionist Mila, clicking on her to open the interface, and clicking to accept or reject the automatically generated side quests.
+The game features an internal quest engine that automatically scans the enemies and items found in the exact areas the player has already unlocked, like the Tundra or Volcano biomes. It uses this data to generate relevant hunting and gathering tasks, which do not have a time limit, so the player can finish them whenever they want. If the player accepts a quest from Receptionist Mila in the town hall, the game records it in the Quests tab for tracking. If the player rejects the quest, Mila simply discards it and generates a completely new objective the next time the player talks to her.
 
 #### H. Peer-to-Peer (P2P) Multiplayer Framework
 
- The scope of the proposed project incorporates Networked Cooperative Gameplay using direct connections with text-based Room Codes. It allows drop-in combat where a joining player's party merges with the host's party dynamically. The user interacts with this module by interacting with an NPC and clicking the ”Host Room” button to generate a "Room Code" for hosting a game, or typing a friend's code after clicking the "Join Room" button from the same NPC to join their game.
+The game features a cooperative multiplayer mode that connects players directly using text-based Room Codes. This allows for drop-in combat where a joining player's characters simply merge with the host's party on the fly. The player talks to Portal Keeper Alden in any major town and clicks the "Host Room" button to generate a specific code, or types in a friend's code after clicking the "Join Room" button to enter their world.
 
 #### I. Save System
 
- This module will record game progress by storing data as local files directly on the user's device. The system will feature 20 manual save slots and a dedicated Autosave function. If a player selects a save slot that already contains data, the system will completely overwrite the old file with the current progress. The Autosave function will also continuously overwrite its specific slot each time the player reaches a new checkpoint. The user will interact with this module by navigating to the "Save" screen via the main menu and clicking to select a specific slot to manually record their progress, or by clicking to move their character through map exits to trigger the automatic checkpoints.
+The game records player progress by storing local save files directly on the computer or mobile device. The system comes with 20 manual save slots alongside a dedicated Autosave function. When a player selects a save slot that already has data, the game just completely overwrites the old file with their current progress. The Autosave function also overwrites its own specific slot every time the player crosses a map exit to reach a new checkpoint. To save manually, the player opens the "Save" screen from the main menu and clicks a slot, while the automatic checkpoints trigger naturally as they explore the world.
 
 #### J. Level-Based Progression
 
- This module will establish the phases of player progression by providing specific rewards following successful combat and exploration. The user will interact with this module by participating in combat or completing quests to earn the following progression rewards:
+The game stages the player's progression by giving specific rewards after successful combat and exploration. The player earns these rewards by winning fights or finishing side quests, which keeps the gameplay loop moving forward. The rewards include:
 
-#### J.1 Experience Points (EXP): Accumulating EXP increases the character's level. The minimum obtainable EXP from a single low-level source is 10 points (Level 1 Slime), while the maximum possible gain from an endgame boss is capped at 99,999 points
+#### J.1 Experience Points (EXP)
 
-#### J.2 Gold (Currency): Acquired via enemy defeats and quest completion. The minimum gold drop from a basic enemy is 5 G, while the maximum reward from a high-tier boss or elite quest is 50,000 G. This currency is used to buy new equipment and items from merchants
+Accumulating EXP increases Kael's level over time. The minimum obtainable EXP from a single low-level source is 10 points from a Level 1 Slime, while the maximum possible gain from an endgame boss is capped at 99,999 points.
 
-#### J.3 Story Milestones: Updates the "Story Progress", allowing the game to unlock higher-level maps
+#### J.2 Gold (Currency)
+
+The player gets gold by defeating enemies and completing quests. The minimum gold drop from a basic enemy is 5 G, while a high-tier boss or elite quest can reward up to 50,000 G, which the player uses to buy new equipment from Blacksmith Rurik or Merchant Oryn.
+
+#### J.3 Story Milestones
+
+Moving the story forward updates the "Story Progress" value, which is what the game uses to officially unlock higher-level maps like the Desert or Tundra.
 
 #### K. Mobile Detection System and Virtual Numeric Keypad
 
@@ -1083,22 +1095,28 @@ Equippable only by Knights, Swordsmen, Priests
 
 #### A. Mathematical Scope and Generation Limits
 
- The system does not currently support advanced algebra, calculus, or non-integer results (fractions/decimals). To maintain combat flow, the math generator is strictly restricted so that all division problems calculate to exact whole numbers, avoiding fractions or decimals entirely. Furthermore, the system imposes a hard limit on the multiplier and the divisor (the second number in any multiplication or division problem), capping them at a range of 1 to 20. This specific numerical limitation applies universally to every combat encounter, including multi-part equations at higher levels.
+The math generator only produces whole number arithmetic, so there are no fractions, decimals, algebra, or calculus problems in the game. Division equations always come out to exact whole numbers, and the second number in any multiplication or division problem stays between 1 and 20. This cap applies to every combat encounter, including the three-part PEMDAS equations at Level 70 and above.
 
-B.Tactile Input Disparity
- While the inclusion of a Virtual Numeric Keypad enables mobile playability, the lack of tactile feedback on touchscreens may result in reduced input velocity compared to physical keyboards. Consequently, users on mobile devices may experience a slight disadvantage in high-level "Speed Math" calculations where millisecond reaction times are critical.
+#### B. Tactile Input Disparity
+
+The Virtual Numeric Keypad lets the game run on touchscreens, but tapping a flat screen does not feel the same as pressing physical keys, and that difference in feedback can slow the player down. This matters most during higher-level encounters where the Math Timer gives only a few seconds to type an answer.
 
 #### C. Input Method
 
- The input system utilizes the standard number row or numpad of a physical keyboard. On mobile and touch-screen devices, the system provides a Virtual Numeric Keypad as the primary input method. This limitation means that input speed may vary depending on the device used.
+On a PC, the player types answers using the keyboard's number row or numpad, and on mobile the Virtual Numeric Keypad replaces that. Because the two input methods feel different, answer speed can change depending on which device the player uses.
 
 #### D. Asset Fidelity
 
- The project utilizes standard 2D pixel art assets and does not focus on high-fidelity 3D rendering or physics simulations.
+The game uses 2D pixel art built in RPG Maker MZ and does not include 3D models, physics simulations, or high-fidelity rendering.
 
 #### E. Peer-to-Peer Latency Sensitivity
 
- The multiplayer feature relies on the stability of the host’s internet connection. As the system utilizes a direct P2P handshake, high latency or packet loss on the host side may result in desynchronization of the Math Timer for connected clients.
+The P2P multiplayer runs through PeerJS on the host's internet connection, so if the host has high latency or drops packets, the Math Timer on the guest's screen can fall out of sync with the host's.
 
-F.Volatile Session Architecture
- The multiplayer system is stateless (no central dedicated server). If the host application is terminated, the game session dissolves immediately for all connected clients; state recovery for guest clients is not supported in this version.
+#### F. Volatile Session Architecture
+
+The multiplayer system has no central server and does not store session data. If the host closes the game or loses connection, the session ends for all connected players immediately, and the guest cannot reconnect to the same Room Code.
+
+#### G. Local-Only Save Data
+
+The save system writes all progress to local files on the player's device because the system does not have a user authentication module or a centralized database. There is no account creation, login, or cloud sync, so a player that starts on one PC cannot continue on a different device or on a phone without manually copying the save file over.

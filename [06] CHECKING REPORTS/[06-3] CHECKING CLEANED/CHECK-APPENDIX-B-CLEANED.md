@@ -6,7 +6,7 @@ The following terms are defined based on how they are used in this paper.
 
 **Active Time Battle (ATB) / Time Progress Battle (TPB)** – The combat timing system in *Chronicles of Arithmos* where each character has a visible Action Gauge that fills based on their Speed or Agility stat. The moment the Math Input Window appears, all action gauges freeze completely so that enemies cannot act while the player is solving a math equation.
 
-**Adaptive Difficulty Scaling** – The combined operation of the Level-Based Difficulty System and the Enemy Auto-Scaling System working together to ensure that both the math equation complexity and the enemy statistics remain proportional to the player's current progression level throughout the entire game.
+**Adaptive Difficulty Scaling** – The combined operation of the Level-Based Difficulty System and the Enemy Auto-Scaling System working together to verify that both the math equation complexity and the enemy statistics remain proportional to the player's current progression level throughout the entire game. <!-- ← [Category 7] replaced 'ensure' -->
 
 **Arithmetic Operations** – The specific mathematical computations that the Math Battle System generates as challenges during combat. These include addition, subtraction, multiplication, division, and multi-operator expressions governed by the PEMDAS rule set, depending on the player's current character level.
 
@@ -14,21 +14,21 @@ The following terms are defined based on how they are used in this paper.
 
 **Biome** – One of the four distinct geographical regions of the game world in *Chronicles of Arithmos*: the Plains and Forest, the Desert, the Tundra and Frost, and the Volcano and Fire zones. Each biome contains a unique set of enemies, loot drops, and environmental visual themes.
 
-**"Chocolate-Covered Broccoli" Effect** – The design pitfall identified by Bruckman (2013) where a game's educational content is poorly integrated with its gameplay mechanics, resulting in students perceiving the game as a disguised drill and losing motivation to engage with it. *Chronicles of Arithmos* addresses this by making math the direct mechanical input for all combat actions rather than a separate reward layer.
+**"Chocolate-Covered Broccoli" Effect** – The design pitfall identified by [BRUC2013] where a game's educational content is poorly integrated with its gameplay mechanics, resulting in students perceiving the game as a disguised drill and losing motivation to interact with it. *Chronicles of Arithmos* addresses this by making math the direct mechanical input for all combat actions rather than a separate reward layer. <!-- ← [Category 9] fixed citation formatting; [Category 1] replaced 'engage' -->
 
 **Chronicles of Arithmos** – The proposed 2D educational Role-Playing Game developed using RPG Maker MZ. It is the primary subject of this study, designed to teach arithmetic to Grade 4–6 students by making the outcome of all combat actions dependent on the player's ability to solve math equations under a time limit.
 
 **Content-Aware Timer System** – The module that dynamically calculates the time limit for answering a math equation during combat. The allowed time window is determined by the equation's complexity, the total number of digits involved, and the types of math operators used, with additional time granted for more complex operations.
 
-**Enemy Auto-Scaling System** – The background module that automatically adjusts enemy statistics—specifically Health Points (HP), Attack Power (ATK), Experience Points (EXP), and Gold rewards—based on the active party's average level. This ensures combat difficulty remains consistent across all geographical areas without requiring duplicate enemy entries.
+**Enemy Auto-Scaling System** – The background module that automatically adjusts enemy statistics—specifically Health Points (HP), Attack Power (ATK), Experience Points (EXP), and Gold rewards—based on the active party's average level. This maintains combat difficulty consistently across all geographical areas without requiring duplicate enemy entries. <!-- ← [Category 7] replaced 'ensures' -->
 
 **Experience Points (EXP)** – A numerical reward earned by the player after defeating enemies or completing quests. Accumulating enough EXP increases the player's character level, which in turn triggers difficulty changes in the Level-Based Difficulty System and unlocks new game areas.
 
-**Flow Theory** – The psychological concept introduced by Csikszentmihalyi describing a mental state where a person is fully focused because the challenge level of a task matches their current skill level. It serves as one of the supporting theories for *Chronicles of Arithmos*, applied through the Adaptive Difficulty Scaling system to keep students engaged without causing boredom or frustration.
+**Flow Theory** – The psychological concept introduced by Csikszentmihalyi describing a mental state where a person is fully focused because the challenge level of a task matches their current skill level. It serves as one of the supporting theories for *Chronicles of Arithmos*, applied through the Adaptive Difficulty Scaling system to keep students focused without causing boredom or frustration. <!-- ← [Category 1] replaced 'engaged' -->
 
 **Flowchart** – The diagrams created by the proponents during the Quick Design phase to map the student navigation paths, battle mechanic sequences, and system logic flows for the development of *Chronicles of Arithmos*.
 
-**Game-Based Learning (GBL)** – The anchor instructional theory for *Chronicles of Arithmos*, wherein game mechanics such as levels, combat rewards, and character progression are used to deliver and reinforce arithmetic content. The system is built on the principle that students learn mathematical material as a result of engaging with the gameplay itself.
+**Game-Based Learning (GBL)** – The anchor instructional theory for *Chronicles of Arithmos*, wherein game mechanics such as levels, combat rewards, and character progression are used to deliver and reinforce arithmetic content. The system is built on the principle that students learn mathematical material as a result of interacting with the gameplay itself. <!-- ← [Category 1] replaced 'engaging with' -->
 
 **Gold (G)** – The in-game currency earned by defeating enemies and completing quests in *Chronicles of Arithmos*. Gold is used to purchase equipment and consumable items from in-game merchants as part of the progression system.
 
@@ -48,7 +48,7 @@ The following terms are defined based on how they are used in this paper.
 
 **Math Engine** – The underlying logic component of the Math Battle System responsible for generating arithmetic equations according to the parameters defined by the Level-Based Difficulty System and the Content-Aware Timer System.
 
-**Mathematics Anxiety** – The psychological condition described by Ashcraft (2002) and Richardson and Suinn (1972) as a feeling of tension and fear that interferes with a student's ability to manipulate numbers and perform mathematical tasks. It is the primary problem that *Chronicles of Arithmos* is designed to address by reframing arithmetic practice within a low-stakes fantasy game context.
+**Mathematics Anxiety** – The psychological condition described by [ASHC2002] and [RICH1972] as a feeling of tension and fear that interferes with a student's ability to manipulate numbers and perform mathematical tasks. It is the primary problem that *Chronicles of Arithmos* is designed to address by reframing arithmetic practice within a low-stakes fantasy game context. <!-- ← [Category 9] fixed citation formatting -->
 
 **Narrative-Centered Learning** – One of the supporting theories for *Chronicles of Arithmos*, which holds that embedding academic content within a story context helps students retain the material more effectively. The game applies this through its main story involving Lily's curse and the player's quest to restore world logic by recovering biome fragments.
 
@@ -62,7 +62,7 @@ The following terms are defined based on how they are used in this paper.
 
 **PeerJS** – The WebRTC wrapper library used to implement the Peer-to-Peer Multiplayer Framework in *Chronicles of Arithmos*. It manages the generation of Room Codes and facilitates direct browser-to-browser data exchange between the host player and the joining player.
 
-**PEMDAS** – The mathematical order of operations rule set—Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction—that governs the structure of advanced math equations generated by the Level-Based Difficulty System for players at character levels 70 through 100.
+**PEMDAS** – The mathematical order of operations rule set—Parentheses, Exponents, Multiplication, Division, Addition, and Subtraction—that governs the structure of complex math equations generated by the Level-Based Difficulty System for players at character levels 70 through 100. <!-- ← [Category 1] replaced 'advanced' -->
 
 **Performance-Based Reward Mechanism** – The module that determines the outcome of a combat action based on two variables: the correctness and the speed of the player's math answer. A correct and rapid answer applies a 2.0x critical multiplier; a correct but slow answer executes the action at its base value; an incorrect but rapid answer applies a 0.5x penalty; and an incorrect and slow answer results in a complete action failure.
 

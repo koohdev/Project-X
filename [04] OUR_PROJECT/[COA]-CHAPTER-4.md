@@ -49,11 +49,11 @@ This section evaluates the hardware and software tools selected for the proposed
 
 #### A. Hardware Compatibility
 
-The proponents will develop the game using RPG Maker MZ, which is compatible with standard personal computers having at least 8GB of RAM. Since the game is deployed via HTML5, it will run on devices with a modern web browser that supports HTML5, including the tablets and computers.
+RPG Maker MZ is the core development engine, and it runs on standard personal computers with at least 8 GB of RAM, which the proponents confirmed through testing with an Intel Core i3 configuration. The web-deployed version also runs on any device with a modern HTML5 browser, so school tablets and computers can access the Math Battle System without needing to install anything.
 
 #### B. Software Compatibility
 
-The proposed system uses JavaScript to extend the game engine's features, maintaining a consistent connection between the math logic and the RPG mechanics. The PeerJS library is utilized for multiplayer features because it is compatible with web-standard protocols, allowing students to establish peer-to-peer connections without requiring a dedicated central server.
+The Math Battle Engine is built in JavaScript (ES6), which is RPG Maker MZ's native scripting language, so the math logic connects directly to the RPG combat system without any extra conversion layer. PeerJS handles the multiplayer side because it uses WebRTC, which lets students connect through Room Codes directly without needing a central server in between.
 
 #### 4.2.2.2 Relevance of the Technology
 

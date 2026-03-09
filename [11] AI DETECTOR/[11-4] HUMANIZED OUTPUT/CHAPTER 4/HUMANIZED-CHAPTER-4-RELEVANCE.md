@@ -1,0 +1,3 @@
+#### 4.2.2.2 Relevance of the Technology
+
+Prodigy Math and Math Blaster both use gamified exercises to teach arithmetic, yet in both platforms the math questions and the combat animations operate as separate layers. A correct answer triggers a pre-set action at full strength; the speed of the response does not affect the outcome. This separation means the math portion functions more as a gate than as a core mechanic. Chronicles of Arithmos addresses this gap through the Performance-Based Reward system, which feeds answer speed and correctness directly into the damage calculation. A fast, correct answer produces a 2.0x Critical Hit, while a slow, incorrect one results in a missed attack. The math does not precede the gameplay; it determines the result. <!-- HUMANIZED -->

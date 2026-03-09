@@ -55,7 +55,8 @@ Build an internal checklist of every mandatory element for that chapter:
 **Chapter 2 Requirements:**
 - [ ] Related Theories section present
 - [ ] At least one Anchor Theory explicitly identified
-- [ ] Supporting theories connect anchor theory
+- [ ] Supporting theories connect to anchor theory
+- [ ] Each theory follows the 4-part structure: DEFINE → RELEVANCE → CONNECT → SUPPORTING EXAMPLE
 - [ ] All theories cited with correct `[CODE_YEAR]` format
 - [ ] Related Projects/Systems section present
 - [ ] 3–6 related systems reviewed
