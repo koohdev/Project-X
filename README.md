@@ -17,7 +17,7 @@ Transform your rough notes into polished, academically formatted chapters that f
 5. Upload these knowledge files:
    - `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md` (required)
    - `[00] CONFIG_AND_PROMPTS/INSTRUCTIONS.md` (required)
-   - `[02] CURRENT_KNOWLEDGE/Capstone_Formatting_Rules.md` (optional, for extra detail)
+   - `[01] CURRENT_KNOWLEDGE/Capstone_Formatting_Rules.md` (optional, for extra detail)
 
 ### Step 2: Start Using It
 

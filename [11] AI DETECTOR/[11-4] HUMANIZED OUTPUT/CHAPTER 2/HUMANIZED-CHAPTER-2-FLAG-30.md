@@ -1,7 +1,0 @@
-### 2.1.1 Game-Based Learning
-
-Game-Based Learning, or GBL, is a teaching method where academic content is taught through game mechanics like points, levels, and rewards instead of traditional classroom instruction [6]. The student does not sit through a lecture or fill out a drill sheet to learn the material, because the game itself is the lesson. Prensky (2001) studied this and found that elementary students who learned through games scored higher on tests and were more motivated to keep going [6].
-
-The proponents chose GBL as the anchor theory for *Chronicles of Arithmos* because the whole game depends on it. The player cannot attack an enemy or cast a spell without first solving a math equation, and a wrong answer weakens the action. Every fight in the game, from a Slime in the Plains of Origin to the Numeromancer in the Void Dimension, is really just an arithmetic exercise wrapped in combat.
-
-Three more theories build on GBL and each one covers a specific part of the system that GBL alone does not address. Mathematics Anxiety is relevant because Grades 4–6 students often develop negative feelings toward math, and the game format is supposed to reduce that pressure. Flow Theory deals with difficulty, since a player that keeps answering the same level of math problems will either get bored and stop playing or get overwhelmed and quit. Narrative-Centered Learning suggests that students may remember the math content better when it is tied to a story that they actually follow and care about.
