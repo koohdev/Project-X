@@ -1,365 +1,160 @@
-# 📘 PROJECT CARL — Capstone Documentation Editor
+# 📘 PROJECT CARL — Capstone Documentation & Compliance Assistant
 
-> **Your AI-powered assistant for creating DCT CCS-compliant Capstone documentation**
+> **AI-powered assistant and compliance engine for Dominican College of Tarlac (DCT) College of Computer Studies (CCS) BSIT Capstone projects.**
 
-Transform your rough notes into polished, academically formatted chapters that follow every rule in the Dominican College of Tarlac's Capstone Manual.
+Follows every rule in the official DCT CCS Capstone Manual, CMO 25 s. 2015, and the unified Project CARL knowledge base.
 
 ---
 
 ## 🚀 Quick Start
 
-### Step 1: Set Up the GEM in Google AI Studio
+### Using Antigravity / Agent Skills (Recommended)
+This workspace is pre-configured with agent skills in `.agents/skills/`:
+* **`dct-ccs-capstone-guide`**: Automatic formatting, chapter writing, rubric audits, SMART objectives, and compliance checks.
+* **`humanizer`**: Cleans synthetic phrasing, eliminates AI writing patterns, and refines academic tone.
 
-1. Go to [Google AI Studio](https://aistudio.google.com/)
-2. Create a new **Gemini GEM**
-3. Set the **Name**: `PROJECT CARL`
-4. Set the **Description**: "Your AI-powered assistant for creating DCT CCS-compliant Capstone documentation"
-5. Upload these knowledge files:
-   - `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md` (required)
-   - `[00] CONFIG_AND_PROMPTS/INSTRUCTIONS.md` (required)
-   - `[01] CURRENT_KNOWLEDGE/Capstone_Formatting_Rules.md` (optional, for extra detail)
-
-### Step 2: Start Using It
-
-Just tell the GEM what you need:
-
-```
-"Write Section 1.1 Project Context for our Library Management System"
+Simply ask in chat:
+```text
+"Draft Section 1.1 Project Context for our Library Management System"
+"Audit Chapter 3 according to DCT CCS formatting rules"
+"Generate SMART Specific Objectives for an Online Ordering System"
 ```
 
-The GEM will generate properly formatted content with an audit summary.
+### Using in Google AI Studio (GEM Setup)
+If uploading to an external Gemini GEM:
+1. Create a GEM named `PROJECT CARL`.
+2. Upload references from `.agents/skills/dct-ccs-capstone-guide/references/` (or `[01] CURRENT_KNOWLEDGE/`).
+3. Set system instructions to enforce DCT CCS documentation standards.
 
 ---
 
-## 📖 How to Use PROJECT CARL
+## 📖 What You Can Generate & Audit
 
-### Basic Command Format
-
-```
-[Action] [Section/Chapter] for [Your Project Topic]
-```
-
-**Examples:**
-
-- "Write the Abstract for our Inventory System"
-- "Generate Chapter 3 Technical Background for a Hotel Reservation project"
-- "Create specific objectives for a Payroll System"
-
----
-
-## 🎯 What You Can Ask For
-
-### 📄 Document Sections
-
+### 📄 Manuscript Sections
 | Section | Example Prompt |
-|---------|----------------|
-| **Abstract** | "Write an abstract for our student enrollment system" |
-| **1.1 Project Context** | "Generate project context about online ordering for small businesses" |
-| **1.2.1 General Objective** | "Create the general objective for a library system" |
-| **1.2.2 Specific Objectives** | "Turn these bullet points into specific objectives: [your notes]" |
-| **1.3 Scope & Limitations** | "Write scope and limitations for hospital patient management" |
-| **Chapter 2** | "Generate related literature for inventory management systems" |
-| **Chapter 3** | "Write technical background covering React, Node.js, MongoDB" |
-| **Chapter 4** | "Create methodology section using RAD model" |
-| **Chapter 5** | "Write conclusions based on these findings: [your notes]" |
+| :--- | :--- |
+| **Abstract** | *"Write a 150–200 word abstract without citations for our enrollment system"* |
+| **1.1 Project Context** | *"Generate 2-page project context covering global, national, and local scopes"* |
+| **1.2.1 General Objective** | *"Draft the single-paragraph major objective for our hospital system"* |
+| **1.2.2 Specific Objectives** | *"Convert these modules into SMART specific objectives (What + How + Result)"* |
+| **1.3 / 1.4 Scope & Limitations** | *"Draft Scope (1.4.1) and Limitations (1.4.2) with justifications for our project"* |
+| **Chapter 2.0 Literature** | *"Structure Chapter 2 with anchor theory, supporting theories, and comparative matrix"* |
+| **Chapter 3.0 Technical Background**| *"Write Chapter 3.1 & 3.2 across Hardware, Software (A.1/B.1), Peopleware, Network"* |
+| **Chapter 4.0 Methodology** | *"Draft Chapter 4 covering SDLC, 4 feasibility studies, testing, and conversion"* |
+| **Chapter 5.0 Conclusions** | *"Map findings 1-to-1 to Chapter 1 specific objectives with future recommendations"* |
 
-### 📊 Diagrams & Charts
-
-| Type | Example Prompt |
-|------|----------------|
-| **Gantt Chart** | "Create a Gantt chart for 6-month development cycle" |
-| **Use Case Diagram** | "Generate use case diagram for admin and student users" |
-| **Flowchart** | "Create a login process flowchart" |
-| **ERD Description** | "Describe the ERD for student, course, and enrollment tables" |
-
-### 📋 Templates
-
-| Template | Example Prompt |
-|----------|----------------|
-| **Title Page** | "Show me the title page template" |
-| **Adviser's Sheet** | "Generate adviser's recommendation sheet" |
-| **Panel's Approval** | "Create panel approval sheet for our group" |
-| **Screen Design** | "Format this screen design for Appendix H" |
-
-### ❓ Information Queries
-
-| Query | Example Prompt |
-|-------|----------------|
-| **Requirements** | "What are the minimum requirements for a Sales & Inventory system?" |
-| **Grading** | "How is the Capstone manuscript graded?" |
-| **Team Roles** | "What are the roles in a Capstone group?" |
-| **Project Validity** | "Is a Video Rental System an acceptable project?" |
+### 📊 Diagrams & Specifications
+| Diagram / Spec | Purpose & Format |
+| :--- | :--- |
+| **Fishbone & FDD** | Operational feasibility root-cause & functional hierarchy breakdown |
+| **Gantt Chart** | Schedule feasibility marking timeline intervals |
+| **CBA & Cost Recovery** | Economic feasibility tangible/intangible ROI and payback period |
+| **DFD / Flowcharts / UML** | Process & object modeling (Context, DFD Level 1, Use Case, Sequence; *no DFD for CAI*) |
+| **ERD & Data Dictionary** | Data design entity relationships, fields, types, constraints, and keys |
+| **Screen Design (Appendix H)**| UI specifications: Screen No., Name, Narrative Overview, Layout |
 
 ---
 
-## ✅ Input Tips for Best Results
+## 📂 Workspace Structure
 
-### DO ✓
-
-```
-✓ "Write Section 1.1 for our School Library Management System that helps 
-   students search and borrow books. The library has 3,000 books and 
-   serves 500 students."
-
-✓ "Convert these objectives to proper format:
-   - user login
-   - book search
-   - borrowing records
-   - overdue notifications"
-
-✓ "Generate Chapter 3 Technical Background. We're using:
-   - Frontend: ReactJS, Tailwind CSS
-   - Backend: Node.js, Express
-   - Database: MongoDB
-   - Hosting: Vercel"
-```
-
-### DON'T ✗
-
-```
-✗ "Write my capstone" (too vague)
-✗ "Make it sound impressive" (against academic tone rules)
-✗ "Add some innovative features" (uses banned word)
-```
-
----
-
-## 🚫 Banned Project Types
-
-PROJECT CARL will **reject** these project types:
-
-| ❌ Rejected | Reason |
-|-------------|--------|
-| DAMATH | Not acceptable |
-| Video Rental System | Not acceptable |
-| Card Games | Not acceptable |
-| Non-educational Games | Not acceptable |
-| Simple Record Keeping | Too basic |
-| Basic Monitoring System | Too basic |
-| Barangay/Municipal Websites | Not acceptable |
-
-**If you submit a banned project type**, the GEM will respond with a rejection message and suggest alternatives.
-
----
-
-## 📏 Minimum Requirements Reference
-
-If your project is a Transaction Processing System (TPS), it must meet these minimums:
-
-| Project Type | Key Minimums |
-|--------------|--------------|
-| **Payroll** | 50 employees, SSS/Tax tables |
-| **Sales & Inventory** | 1,000 items, 5-10 product lines |
-| **Library** | 2,000 books, 500 members |
-| **Accounting** | AR/AP with aging technique |
-| **Enrollment** | 200 students, 2 sections/year level |
-| **Hotel Reservation** | 20 rooms, 100 customers |
-| **Hospital/Patient** | 20 beds, 50 patients |
-
-**Other Types:**
-
-| Type | Requirements |
-|------|--------------|
-| **CAI** | 4+ media types, 50 test items/topic |
-| **Web App** | Database-driven, deployed, security |
-| **Multimedia** | 4+ media types, dynamic content |
-| **Expert Systems** | Inference engine, knowledge base |
-
----
-
-## 📝 Output Format
-
-Every response from PROJECT CARL follows this format:
-
-```markdown
-[Generated Content]
-- Properly numbered sections (1.0, 1.1, A., B., etc.)
-- Academic tone
-- Complete paragraphs (2-5 sentences)
-- No banned words
-
----
-**Audit Summary:** Section 1.1 generated with global→local scope structure. 
-Banned words removed: "efficient" → "supports", "innovative" → removed. 
-Format verified: 2 pages, proper transitions.
-```
-
----
-
-## 🔧 Automatic Corrections
-
-PROJECT CARL automatically:
-
-| Issue | Correction |
-|-------|------------|
-| Bullet points in body | Converts to A., B., C. format |
-| "efficient" | Replaces with "supports" or removes |
-| "innovative" | Removes or rephrases |
-| "This paper..." | Rewrites to not start with "This..." |
-| Single-line objectives | Expands to 2-3 sentence paragraphs |
-| Missing justifications | Prompts you for details |
-
----
-
-## 📊 Understanding Grading (So You Know What Matters)
-
-PROJECT CARL knows how panelists grade your work:
-
-### Manuscript Grading (50 pts)
-
-| Section | Points | Key Criteria |
-|---------|--------|--------------|
-| Initial Pages | 4 | TOC consistent, abstract complete |
-| Chapter 1 | 10 | Clear overview, SMART objectives |
-| Chapter 2 | 8 | Recent literature, proper citations |
-| Chapter 3 | 8 | Comprehensive tech discussion |
-| Chapter 4 | 10 | SDLC methodology, complete specs |
-| Final Pages | 3 | Conclusions match objectives |
-| Appendices | 2 | All deliverables complete |
-| Mechanics | 5 | Grammar, formatting, organization |
-
-### Software Grading (30 pts)
-
-| Criteria | Points |
-|----------|--------|
-| Matches proposal objectives | 10 |
-| All features delivered | 10 |
-| Design/aesthetics | 3 |
-| Debugging competence | 7 |
-
-### Oral Exam (20 pts)
-
-| Criteria | Points |
-|----------|--------|
-| Comprehensive answers | 10 |
-| Team contribution | 7 |
-| English delivery | 3 |
-
----
-
-## 📦 PROJECT CARL GEM Suite
-
-PROJECT CARL is now a **suite of specialized GEMs** for your complete Capstone journey:
-
-### 📘 Documentation GEM (Main)
-
-**Purpose:** Generate DCT CCS-compliant written documentation  
-**Use for:** Chapters 1-5, templates, formatting  
-**Files:** `[00] CONFIG_AND_PROMPTS/INSTRUCTIONS.md`, `[00] CONFIG_AND_PROMPTS/KNOWLEDGE_BASE.md`
-
-**Recommended Workflow:**
-
-```
-1. Documentation GEM → Generate Chapter 1
-2. Review and finalize
-3. Defend!
-```
-
----
-
-## 📂 File Structure
-
-```
+```text
 PROJECT CARL/
-├── README.md                             # 📘 This manual
-├── [00] CONFIG_AND_PROMPTS/              # Core AI rules and guidelines
-│   ├── INSTRUCTIONS.md                   # AI behavior instructions
-│   ├── KNOWLEDGE_BASE.md                 # Complete DCT CCS knowledge
-│   └── ACADEMIC_WRITING_CHECKER.md       # Writing audit reference
+├── README.md                             # 📘 Project manual and quick reference
+├── skills-lock.json                      # Agent skills configuration lockfile
 │
-├── [02] CURRENT_KNOWLEDGE/
-│   ├── Capstone_Formatting_Rules.md      # Detailed formatting patterns
-│   └── Specific_Format.md                # Quick structure reference
+├── .agents/skills/                       # 🧠 Active Agent Skills
+│   ├── dct-ccs-capstone-guide/           # Core DCT CCS Capstone standard skill
+│   │   ├── SKILL.md                      # Master workflows and compliance checklists
+│   │   └── references/                   # Deep reference modules
+│   │       ├── 01-program-and-governance.md  # Vision/Mission, IT01-IT13, team roles
+│   │       ├── 02-grading-and-verdicts.md    # 60/30/10 formula, rubrics, verdicts
+│   │       ├── 03-chapter-specifications.md  # Detailed specs for Ch 1.0–5.0
+│   │       ├── 04-formatting-and-templates.md# 1.5" margin, TNR 12/11pt, [AUTH2024] syntax
+│   │       ├── 05-research-and-integrity.md  # Category metrics, unacceptable projects, IP
+│   │       └── 06-writing-style-and-tone.md  # Tone dictionary, paragraph rules, no bullets
+│   ├── humanizer/                        # Natural academic tone and de-AI writing skill
+│   └── skill-creator/                    # Skill benchmarking and creation tool
 │
-├── [01] CAPSTONE_GUIDELINES_CHAPTERS/         # Source chapters (reference)
-│   ├── 00_Front_Matter.md
-│   ├── 01_Introduction.md
-│   ├── 02_Scope.md
-│   ├── 03_Suggested_Areas.md
-│   ├── 04_Project_Duration.md
-│   ├── 05_Composition_of_Project_Groups.md
-│   ├── 06_Adviser_Panel_Composition.md
-│   ├── 07_Presentation.md
-│   ├── 08_Grading_System.md
-│   ├── 09_Verdicts.md
-│   ├── 10_Documentation_Guidelines.md
-│   └── 11_Areas_of_Research.md
+├── [01] CURRENT_KNOWLEDGE/               # Reference copies of formatting rules
+│   ├── Capstone_Formatting_Rules.md      # Structure enforcement reference
+│   └── Specific_Format.md                # Quick layout reference
 │
-├── [03] SCHOOL_CAPSTONE_GUIDELINES/
-│   ├── Documentation_Guidelines.md       # Extract from manual
-│   └── School_Capstone_Guidelines.md     # Extract from manual
+├── [02] OUR_PROJECT/                     # Working capstone manuscript chapters
+│   ├── final-chapter-1.md                # Chapter 1 (Introduction)
+│   ├── final-chapter-2.md                # Chapter 2 (Literature & Related Systems)
+│   ├── final-chapter-3.md                # Chapter 3 (Technical Background)
+│   └── final-chapter-4.md                # Chapter 4 (Methodology & Results)
 │
-├── [04] OUR_PROJECT/                          # User's working folder
-│   ├── WIP/                                   # Work in progress drafts
-│   └── READY_FOR_REVIEW/                      # Drafts ready for check
-├── [05] REVISED_CHAPTERS_OR_SECTIONS/         # Revised chapters
-├── [06] CHECKING REPORTS/                     # Audit and findings outputs
-│   ├── [06-1] CHECKING DIFF/
-│   ├── [06-2] CHECKING FINDINGS/
-│   └── [06-3] CHECKING CLEANED/
-├── [07] ARTIFACTS/                            # Generated artifacts
-├── [08] DIAGRAMS/                             # Project diagrams
-└── [99] ARCHIVE/                              # Superseded versions
+├── [03] DIAGRAMS/                        # System and feasibility diagrams (.drawio)
+│   ├── FDD_FUNCTIONAL_DECOMPOSITION.drawio
+│   └── FISHBONE_DIAGRAM.drawio
+│
+├── [04] PROJECT_DATABASE/                # Game/system entity datasets & data dictionaries
+│   ├── 01_Characters_and_NPCs.md
+│   ├── 02_Enemies.md
+│   ├── 03_Items.md
+│   ├── 04_Equipment.md
+│   ├── 05_Skills_and_States.md
+│   ├── 06_Audio_and_BGM.md
+│   └── 07_ALL.md
+│
+└── [05] TASK DISTRIBUTION/               # Team member role assignments (Appendix A)
+    └── task_distribution.md
 ```
 
 ---
 
-## ❓ FAQ
+## 📏 Mandatory Project Baselines & Rules
 
-### Q: Can I use this for Capstone 1 AND Capstone 2?
+### 1. Transaction Processing Systems (TPS)
+* **Payroll**: $\ge 50$ employees, timekeeping, tax tables (SSS, BIR, PhilHealth, Pag-IBIG), payslips.
+* **Sales & Inventory**: $\ge 1,000$ inventory items, 5–10 product lines (5–10 items/line), reorder points.
+* **Library**: $\ge 2,000$ book titles (CHED), $\ge 500$ students/members, circulation, overdue penalty.
+* **Accounting**: AR/AP monitoring, aging technique, journal posting, 30 accounts test baseline.
+* **Enrollment**: $\ge 200$ students, $\ge 2$ sections per year level, prerequisites tracking.
+* **Hotel Reservation**: $\ge 20$ rooms, $\ge 100$ customer capacity, automated billing.
+* **Hospital/Patient**: $\ge 20$ beds, $\ge 50$ patients, admitting, diagnosis, auto-billing.
 
-**A:** Yes! The GEM covers both proposal stage (Chapters 1-4 planning) and final defense (complete documentation).
+### 2. Specialized Project Rules
+* **CAI**: $\ge 4$ media types, 2–3 presentation methods, 50 test items/topic, random test generator. **DFDs are prohibited**; use Storyboarding, Flowcharts, and HIPO.
+* **Web Applications**: Host client required, **must be deployed on live server**, dynamic DB pages, e-consultation module.
+* **Multimedia Systems**: $\ge 4$ media types, dynamic content management, media database, multi-tier user levels.
 
-### Q: What if the GEM asks me for more details?
-
-**A:** Provide them! The GEM won't fabricate information. If it asks "What database are you using?", tell it specifically.
-
-### Q: Can it write my entire Capstone?
-
-**A:** It can generate each section, but you need to provide:
-
-- Your project topic and scope
-- Technical decisions (languages, frameworks)
-- Research findings
-- Test results
-
-### Q: What if I disagree with the GEM's output?
-
-**A:** You can ask it to revise: "Rewrite this section with more focus on security features" or "Expand the scope section."
-
-### Q: Does it support Filipino/Tagalog?
-
-**A:** The GEM is designed for English academic writing per DCT CCS standards, but you can ask it to explain concepts in Filipino if needed.
+### 3. ❌ Strictly Rejected Projects
+* DAMATH or simple board games
+* Video Rental Systems
+* Generic non-educational card games
+* Basic CRUD Record Keeping without operational depth
+* Generic Monitoring Systems without automated control/telemetry
+* Static LGU / Barangay Websites
 
 ---
 
-## 🆘 Troubleshooting
+## 📐 Formatting Standards Summary
 
-| Problem | Solution |
-|---------|----------|
-| Output too short | Add more details to your input |
-| Wrong section format | Specify the exact section number (e.g., "4.3.1") |
-| GEM refuses project | Your project type may be banned; ask for alternatives |
-| Missing technical details | Provide your tech stack explicitly |
-| Output has banned words | This shouldn't happen; report if it does |
-
----
-
-## 📞 Support
-
-This GEM was built using the official **DCT CCS Capstone Manual**. If you find discrepancies between the GEM's output and current guidelines, update the `KNOWLEDGE_BASE.md` accordingly.
+| Element | Standard |
+| :--- | :--- |
+| **Paper** | Letter ($8.5 \times 11\text{ in}$), Substance 20, Portrait |
+| **Margins** | Top: 1.0", Left: **1.5"** (binding), Bottom: 1.0", Right: 1.0" |
+| **Line Spacing** | Strictly **1.5 lines** throughout |
+| **Paragraph Indent** | **1.0 inch** first-line indent |
+| **Font** | Strictly **Times New Roman** (Heading 1: 12pt Bold, Heading 2: 12pt Bold, Heading 3/Body: 11pt Regular) |
+| **Pagination** | Bottom-Right. Roman numerals for preliminary pages; decimal numbers from Ch 1 page 1. No page # on first page of chapters. |
+| **Citations** | Bracketed author-year code `[AUTH2024]`. **Zero traditional footnotes.** |
+| **List Rule in Body** | **NO BULLET SYMBOLS** (`•`, `-`, `*`, `▪`). Use **A., B., C.** or **1., 2., 3.** with complete 2–5 sentence paragraphs. |
 
 ---
 
-## 📜 Version History
+## 📊 Grading Rubrics Summary
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 2.0 | January 2026 | Complete overhaul with 8-part knowledge base, grading rubrics, team roles, verdicts |
-| 1.0 | Initial | Basic documentation generation |
+### Overall Grade
+$$\text{Final Grade} = (\text{Panel Average} \times 0.60) + (\text{Adviser} \times 0.30) + (\text{Peer} \times 0.10)$$
 
----
+### Component Distribution
+* **Capstone 1 (Proposal)**: Manuscript 40% (out of 50 pts) + Oral Examination 20% (out of 20 pts).
+* **Capstone 2 (Final)**: Capstone Software 30% (out of 30 pts) + Oral Examination 20% (out of 20 pts) + Manuscript 10% (out of 50 pts).
+* **Adviser Grade (30 pts)**: Deliverables (20 pts) + Attendance (5 pts) + Journal & Attitude (5 pts).
 
-**Happy Capstone Writing! 🎓**
-
-*Remember: The GEM helps you write better, but the ideas and research must be yours.*
+### Verdict Thresholds
+* **Capstone 1**: Approved (35–40 pts), Approved with Revisions (24–34 pts), Disapproved (<24 pts).
+* **Capstone 2**: Accepted with Revisions (31–50 pts), Re-Oral Defense (21–30 pts), Not Accepted (<21 pts).
