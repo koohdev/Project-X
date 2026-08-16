@@ -2,101 +2,102 @@
 
 ## 2.1 Overall Capstone Final Grade Formula
 
-The final grade of each proponent is computed as:
+The Final Grade of each proponent is computed as:
 
-$$\text{Final Grade} = (\text{Panel Average} \times 0.60) + (\text{Adviser Grade} \times 0.30) + (\text{Peer Grade} \times 0.10)$$
+$$\text{Final Grade} = (\text{Panel Members Average} \times 0.60) + (\text{Capstone Adviser} \times 0.30) + (\text{Co-Researcher / Peer Grading} \times 0.10)$$
 
-* **Panel Members & Chairman Average**: 60%
-* **Capstone Adviser**: 30%
-* **Co-Researchers (Peer Grading)**: 10%
+* **Average grade of Panel Members including Chairman**: 60%
+* **Adviser of the Capstone Project**: 30%
+* **Co-Researcher (Peer Grading)**: 10%
+* **TOTAL**: 100%
 
 ---
 
 ## 2.2 Panel Grading Breakdown per Stage
 
 ### A. Capstone 1 (Proposal Stage)
-* **Capstone Manuscript (Group Grade)**: 40% (scored out of 50 points, converted)
-* **Oral Examination (Individual Grade)**: 20% (scored out of 20 points)
+* **Capstone Manuscript (Group Grade)**: 40% (evaluated using the 50-point Manuscript Rubric)
+* **Oral Examination (Individual Grade)**: 20% (evaluated using the 20-point Oral Rubric)
 
 ### B. Capstone 2 (Final Defense Stage)
-* **Capstone Software (Group Grade)**: 30% (scored out of 30 points)
-* **Oral Examination (Individual Grade)**: 20% (scored out of 20 points)
-* **Capstone Manuscript (Group Grade)**: 10% (scored out of 50 points, converted)
+* **Capstone Software (Group Grade)**: 30% (evaluated using the 30-point Software Rubric)
+* **Oral Examination (Individual Grade)**: 20% (evaluated using the 20-point Oral Rubric)
+* **Capstone Manuscript (Group Grade)**: 10% (evaluated using the 50-point Manuscript Rubric)
 
 ---
 
-## 2.3 Detailed Rubrics
+## 2.3 Detailed Grading Rubrics
 
 ### 1. Capstone Manuscript Rubric (Total: 50 Points)
 
 | Section / Component | Key Evaluation Criteria | Points |
 | :--- | :--- | :---: |
-| **Initial Pages** | Consistent Table of Contents, brief & formal Acknowledgement, concise & complete Abstract (150–200 words). | 4 |
-| **Chapter 1: Introduction** | Intact Introduction, clear overview, SMART Statement of Problem / Objectives, clearly defined Scope & Limitations. | 10 |
-| **Chapter 2: Review of Literature & Systems** | Recent and relevant literature, solid Anchor Theory, evident auxiliary theories, correct citations `[AUTH2024]`, relevant related studies (local & global). | 8 |
-| **Chapter 3: Technical Background** | Comprehensive technical discussion on hardware, software, peopleware, and networks (current vs. proposed). | 8 |
-| **Chapter 4: Methodology, Results & Discussion** | Strict SDLC adherence, project management techniques, complete Requirements Specification, aligned Design tools, concrete Development plan, thorough multi-level Testing plan, aligned Implementation plan. | 10 |
-| **Final Pages** | Findings & Conclusions aligned with SMART objectives, feasible & practical Recommendations, operationally defined and alphabetized Glossary terms, standard MLA / DCT Bibliography formatting. | 3 |
-| **Appendices** | Complete, organized, and intact deliverables (Appendices A to J). | 2 |
-| **Manuscript Mechanics** | Apparent fluidity and logical organization, consistent typography and margins, free of grammatical errors. | 5 |
+| **Initial Pages** | Table of contents is consistent; Acknowledgement is brief and formal; Abstract is brief but complete (150–200 words). | 4 |
+| **Chapter 1** | Introduction is intact and provides clear overview of the entire project; Statement of the Problem / Objectives is SMART; Scope and Limitations are clearly defined. | 10 |
+| **Chapter 2** | Related literatures are recent and relevant; Anchor theory provides solid background; Auxiliary theories are evident; Sources are appropriately cited and noted; Related studies are relevant and include global and local scope. | 8 |
+| **Chapter 3** | Comprehensive discussions on technologies (hardware/software/peopleware/network) involved in the research/capstone project and related projects in the past. | 8 |
+| **Chapter 4** | Methodology strictly follows the SDLC (esp. for Software Development); Methodology includes appropriate project management techniques; Requirements Specification is complete and answers objectives; Design Tools used are relevant and appropriate based on requirements; Development Plan is concrete and consistent with design; Testing techniques assess all aspects of the project; Implementation Plan is aligned with objectives. | 10 |
+| **Final Pages** | Findings and Conclusions are attuned with objectives; Recommendations are feasible and practical; Glossary terms are arranged alphabetically and defined operationally; Bibliography is in standard MLA / DCT format; Appendices are relevant and support principal content. | 3 |
+| **Appendices** | Deliverables compiled are intact and complete (Appendices A to J). | 2 |
+| **Manuscript Mechanics** | Organization and fluidity of ideas are apparent; Formatting and layout are consistent; All parts of manuscript are grammatically correct. | 5 |
 | **TOTAL** | | **50** |
 
 ---
 
 ### 2. Capstone Software Rubric (Total: 30 Points)
 
-| Criteria | Description | Points |
+| Criteria | Detailed Description | Points |
 | :--- | :--- | :---: |
-| **Objective Consistency** | Output is strictly consistent with the objectives established during the proposal stage. | 10 |
-| **Module & Feature Delivery** | All major modules and functional specifications defined in the proposal are fully delivered (pro-rated by delivered percentage). | 10 |
-| **Design and Aesthetics** | UI/UX visual clarity, intuitive navigation, color balance, typography, and responsive interface layout. | 3 |
-| **Group Debugging** | Team demonstrates prompt technical competence and ability to resolve planted or live bugs during defense testing. | 7 |
+| **Objective Consistency** | The output should be strictly consistent with the objectives as defined during the proposal stage. | 10 |
+| **Module & Feature Delivery** | All major modules and features of the system's output as defined after the proposal stage are delivered. Credit shall be based on the percentage of delivered items. | 10 |
+| **System Design and Aesthetics** | Visual appeal, ergonomic layout, UI/UX consistency, clear navigation, and design tokens. | 3 |
+| **Group Debugging** | The team shall display competence in resolving planted bugs during live software evaluation. | 7 |
 | **TOTAL** | | **30** |
 
 ---
 
 ### 3. Oral Examination Rubric (Total: 20 Points - Individual Grade)
 
-| Criteria | Description | Points |
+| Criteria | Detailed Description | Points |
 | :--- | :--- | :---: |
-| **Comprehensiveness of Answers** | Depth of technical mastery, clarity in answering panel inquiries, domain expertise. | 10 |
-| **Support & Contribution to Team** | Evident contribution to the development, cohesion with team members during questioning. | 7 |
-| **Delivery & Command of English** | Professional presentation delivery, articulation, confidence, and language proficiency. | 3 |
+| **Comprehensiveness of Answer / Ideas** | Depth of understanding, accuracy of technical explanations, mastery of system architecture and research concepts. | 10 |
+| **Contribution / Support to the Team** | Demonstrated individual contribution to system development, teamwork, and ability to support co-proponents during questioning. | 7 |
+| **Delivery / Command of the English Language** | Professional delivery, clarity of expression, poise, confidence, and grammatical correctness. | 3 |
 | **TOTAL** | | **20** |
 
 ---
 
 ### 4. Capstone Adviser Rubric (Total: 30 Points)
 
-| Component | Description | Points |
+| Component | Detailed Description | Points |
 | :--- | :--- | :---: |
-| **Deliverables Submission** | Timeliness, completeness, and quality of periodic project milestone submissions. | 20 |
-| **Attendance & Consultation** | Punctual and consistent attendance at mandatory monthly consultations. | 5 |
-| **Journal Entries & Demeanor** | Accurate engineering log/journal maintenance, professional attitude, and collaboration. | 5 |
+| **Deliverables** | Timely submission, completeness, and quality of project artifacts and draft chapters. | 20 |
+| **Attendance** | Regularity and punctuality during mandatory monthly consultations. | 5 |
+| **Journal Entries / Attitude / Behavior** | Engineering journal/log maintenance, professional conduct, receptiveness to feedback, and work ethic. | 5 |
 | **TOTAL** | | **30** |
 
 ---
 
 ## 2.4 Defense Verdicts and Score Thresholds
 
-All defense verdicts are determined by **unanimous consensus** of the three-member panel and are final.
+All defense verdicts are determined by a **unanimous decision** among the three members of the panel. Once issued, verdicts are **final and irrevocable**.
 
 ### Capstone 1 (Proposal Defense Verdicts)
 
-| Verdict | Manuscript Score Range | Panel Decision Meaning & Requirements |
+| Verdict | Manuscript Score Range | Verdict Requirements & Academic Meaning |
 | :--- | :---: | :--- |
-| **APPROVED** | **35 – 40 pts** | Proposal accepted. Minor revisions required; does not require re-inspection by all panelists prior to starting Capstone 2. |
-| **APPROVED WITH REVISIONS** | **24 – 34 pts** | Major revisions required. Revisions must be verified and signed off by all panelists before full implementation begins. |
-| **DISAPPROVED** | **Below 24 pts** | Failed to propose a researchable, viable, or academically compliant capstone study. Must re-submit a new or heavily refactored proposal. |
+| **APPROVED** | **35 – 40 pts** | Minor revisions are necessary but they do not have to be presented in front of and checked by all panelists. |
+| **APPROVED WITH REVISIONS** | **24 – 34 pts** | Major revisions shall be incorporated in the final copy of the revised Project Proposal summary. These must be checked and approved by all panelists. |
+| **DISAPPROVED** | **Below 24 pts** | The proponents failed to propose a researchable or scholarly Capstone Project. Must re-submit a new proposal. |
 
 ---
 
 ### Capstone 2 (Final Defense Verdicts)
 
-*Based on combined Capstone Software (30) and Oral Examination (20) lowest group/individual scores:*
+*Based on the lowest score in the group when combining Capstone Software (30 pts) and Oral Examination (20 pts) scores (Max 50 pts):*
 
-| Verdict | Combined Score Range | Panel Decision Meaning & Requirements |
+| Verdict | Combined Score Range | Verdict Requirements & Academic Meaning |
 | :--- | :---: | :--- |
-| **ACCEPTED WITH REVISIONS** | **31 – 50 pts** | Project accepted. Revisions must be incorporated into the final hardbound manuscript and verified by adviser and lead panelist. |
-| **RE-ORAL DEFENSE** | **21 – 30 pts** | Another oral defense session with all panelists present is mandatory to clarify objectives, scope, or fix defective software modules. |
-| **NOT ACCEPTED** | **Below 21 pts** | Project failed to achieve the approved objectives or system is non-functional. Proponents must re-enroll/re-take capstone. |
+| **ACCEPTED WITH REVISIONS** | **31 to 50 pts** | Revisions are necessary but they do not have to be presented in front and checked by all panelists. |
+| **RE-ORAL DEFENSE** | **21 to 30 pts** | Another Oral Defense session, in which all panelists must be present, is necessary to further clarify objectives and scope. Students must re-apply for another Oral Defense upon the panel’s unanimous decision. |
+| **NOT ACCEPTED** | **Below 21 pts** | The proponent failed to achieve the objectives of the research established in the proposal. The panelists’ numeric grades are no longer needed. |

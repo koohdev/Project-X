@@ -1,96 +1,135 @@
 # 5. Research Areas, Intellectual Property, and Academic Integrity (DCT CCS)
 
-## 5.1 Suggested Project Areas & Mandatory Quantitative Baselines
-
-All capstone projects must solve a genuine problem for an actual client or address a demonstrable research gap.
+## 5.1 Areas of Research & Quantitative Project Baselines
 
 ### A. Transaction Processing Systems (TPS)
-*Must feature normalized databases, backup & recovery, archiving, audit logs, validation/error trapping, and network setup.*
+Computer-based versions of manual organization systems dedicated to handling transactions.
 
-| System Type | Minimum Scope & Quantitative Criteria | Valid Test Data Baseline |
+#### General Requirements:
+a. Complete file structure (normalized tables, master and transaction files).  
+b. Backup and recovery features (for DBMS lacking native features).  
+c. Archiving.  
+d. Complete data entry components.  
+e. Proper maintenance features.  
+f. Complete report generation.  
+g. Data entry validation and error trapping.  
+h. Validation, security, data accuracy, and integrity features.  
+i. Network setup.  
+
+#### System Types and Scope Thresholds:
+
+| System Type | Mandatory Scope & Quantitative Criteria | Test Data Baseline |
 | :--- | :--- | :--- |
-| **Payroll System** | $\ge 50$ employees; timekeeping; tax & government deduction tables (SSS, BIR, PhilHealth, Pag-IBIG); payslip generation; payroll summaries. | 50 employee profiles |
-| **Sales & Inventory System** | $\ge 1,000$ inventory items; $5\text{ to }10$ product lines ($5\text{–}10$ items/line); purchase orders, critical reorder points, backorders. | 5–10 product lines; 5–10 items/line |
-| **Library System** | $\ge 2,000$ book titles (CHED standard); $\ge 500$ students/members; cataloguing, circulation, overdue penalty computation, CHED reports. | 50 book titles; 50 borrowers |
-| **Accounting System** | Accounts receivable & payable; aging of accounts; general ledger journal posting; financial statement generation. | 30 account ledgers |
-| **Enrollment System** | $\ge 200$ students; $\ge 2$ sections per year level; registration, assessment, cashiering/billing, prerequisites checking, grading. | Full student cohort dataset |
-| **Hotel Reservation & Billing** | $\ge 20$ rooms; $\ge 100$ customer capacity; room status, online/walk-in booking, check-in/out, automated billing. | 50 customer profiles |
-| **Patient / Hospital Information** | $\ge 20$ beds; $\ge 50$ patients; admitting, medical history, diagnosis/treatment logs, physician profiles, billing. | 50 patient records |
+| **1. Payroll System** | $\ge 50$ employees; regular/contractual/part-time/consultant; timekeeping; allowable leaves/deductions; frequency of payroll; pay slip generation; payroll summary; table of variables (SSS, Tax, PhilHealth, Pag-IBIG); agency reports (BIR, SSS). | 50 employees |
+| **2. Sales and Inventory** | $\ge 1,000$ inventory items; $5\text{ to }10$ product lines ($5\text{–}10$ items per line); warehouse capacity; purchase orders to/from suppliers; critical level ceiling/flooring; backorder/reorder lists. | 5–10 product lines; 5–10 items/line |
+| **3. Library System** | $\ge 2,000$ book titles (CHED requirement); $\ge 500$ students/members; acquisition, cataloguing, circulation, borrowing/returning, reservations, penalty computation, CHED reports. | 50 titles; 50 borrowers |
+| **4. Accounting System** | Accounts receivable and payable monitoring; aging of accounts; transaction posting to general journal; financial reports. | 30 accounts |
+| **5. Enrollment System** | $\ge 200$ students; $\ge 2$ sections per year level; registration, advising, assessment, cashiering/billing, prerequisites/co-requisites, class scheduling, student grades, SIS/FIS integration. | Full cohort dataset |
+| **6. Hotel Reservation & Billing** | $\ge 20$ rooms; $\ge 100$ customers; room status, check-in/out, automated billing, reservation/cancellation, fee maintenance. | 50 customers |
+| **7. Patient Information & Billing** | $\ge 20$ beds; $\ge 50$ patients; admitting, medical history, diagnosis, prognosis, medication, physician records, automated billing. | 50 patients |
 
 ---
 
-### B. Specialized & Advanced Computing Categories
+### B. Specialized Computing Categories
 
-#### 1. Multimedia Systems
-* **Media Integration**: Must incorporate **at least 4 media types** (text, graphics, audio, video/animation).
-* **Core Requirements**: Dynamic content management, database for media/metadata, search/filter, save & print, multi-level user access (admin, viewer/researcher), and copyright compliance.
+#### 1. Management Information Systems (MIS)
+Provides standard reports for managers about transaction data:
+- Trend analysis reports
+- Summary reports
+- Exception reports
+- On-demand reports
+- Ad-hoc reports
 
-#### 2. Computer-Aided Instruction (CAI)
-* **Media Integration**: At least 4 media types.
-* **Instructional Pedagogy**: 2 to 3 methods of topic presentation across major categories (drills/practice, tutorials, simulation, games).
-* **Pedagogical Controls**: Target age bracket identification, lesson & quiz difficulty levels, randomized test item generation, performance analytics & feedback.
-* **Testing Baseline**: **50 test items per topic**.
-* **Design Modeling Rule**: ⚠️ **Data Flow Diagrams (DFDs) must NOT be used** for CAI modeling. Use Storyboarding, Flowcharting, and HIPO instead.
+#### 2. Decision Support Systems (DSS)
+Designed to assist decision-makers; requires **three mandatory components**:
+- **Database**
+- **Model Base** (algorithms, analytical criteria)
+- **Dialogue Module** (interactive interface)
 
-#### 3. Web Applications
-* **Host Client Requirement**: Real client/host company required with formal Certificate of Acceptance.
-* **Live Deployment**: Must be **uploaded/deployed on live servers** (minimum alpha testing on public URL).
-* **Required Modules**: Database-driven dynamic pages, e-consultation module (message board / email inquiry), search functionality, automated reports, meta tags, and data security.
-* **Common Types**:
-  * *Online Ordering with Inventory*: $\ge 1,000$ items, catalog, order tracking, payment integration.
-  * *Online Hotel Reservation*: Room inventory, interactive maps, online approval/cancellation.
-  * *Online Job Portal*: $\ge 100$ applicants, $\ge 10$ job offerings, applicant matching & tracking.
-  * *Online Pre-Enrollment / Registration*: Tertiary level only, curriculum tracking, student portal.
+#### 3. Geographical Information Systems (GIS)
+Assembles, stores, manipulates, and displays geographically referenced data:
+- Information retrieval
+- Topological modeling
+- Network analysis
+- Map overlays (multi-layer maps)
+- Algorithms (e.g., shortest path)
 
-#### 4. Management Information Systems (MIS)
-* Required reports: Trend analysis, summary reports, exception reports, on-demand reports, and ad-hoc query builders.
+#### 4. Scientific and Office Information Systems
+Administrative and operational support systems evaluating information quality, quantity, and user categories.
 
-#### 5. Decision Support Systems (DSS)
-* Mandatory three components: **Database**, **Model Base** (algorithms/criteria), and **Dialogue Module** (interactive interface).
+#### 5. Multimedia Systems
+Encapsulates multiple digital media (text, images, audio, video, graphics, animation, music):
+- **Mandatory integration of at least 4 media types** (text, graphics, audio, video).
+- Dynamic content management and maintenance features.
+- Database storage for multi-format assets.
+- Search, save, and print functions.
+- Multi-level user access (system administrator, viewer/researcher).
+- Copyright compliance for all utilized media assets.
 
-#### 6. Geographical Information Systems (GIS)
-* Spatial data storage, multi-layer map overlays, topological modeling, routing algorithms (e.g. shortest path), and GIS export formats.
+#### 6. Computer-Aided Instruction (CAI)
+Facilitates learning through multimedia, lessons, exams/drills, and feedback:
+- Incorporation of **at least 4 media types** and dynamic content management.
+- Major categories: drills & practice, tutorials, simulation, games.
+- **2 to 3 methods** of presenting topics.
+- Target age bracket identification and structured difficulty levels.
+- **50 test items per topic** with random question generation and result analysis.
+- Required design tools: Storyboarding, Flowcharting, HIPO.
+- ⚠️ **CRITICAL RULE**: **Data Flow Diagrams (DFDs) must NOT be used** in modeling CAI features and functions.
 
-#### 7. Artificial Intelligence (AI / ICAI)
-* Expert Systems (Inference engine + knowledge base), Neural Networks, Computer Vision, Robotics, Intelligent Agents.
+#### 7. Web Applications
+Focuses on innovative web applications with a mandatory host client:
+- Database-driven dynamic pages.
+- E-consultation module (bulletin board, message board, or browser email inquiry).
+- Search engine, report generation, meta tags & hyperlinks.
+- Uploaded and deployed on a live server (at least alpha testing on live URL).
+- Core types: Online Ordering with Inventory, Online Hotel Reservation, Online Job Application ($\ge 100$ applicants, $\ge 10$ job offerings, job matching), Online Pre-Enrollment (Tertiary level only).
+
+#### 8. Artificial Intelligence (AI)
+- Expert Systems (ES): Database, dialogue module, inference engine, knowledge acquisition.
+- Neural Networks, Robotics, Intelligent Agents, Intelligent CAI (ICAI).
+
+#### 9. Software Engineering, Systems Analysis & Design, Networking
+- Systems software, cost models, automated CASE tools, network topology implementations.
 
 ---
 
 ## 5.2 Unacceptable Capstone Projects
 
-The following project concepts are **strictly rejected** by the DCT CCS department:
+The following project categories are **strictly rejected**:
+* ❌ **DAMATH**
+* ❌ **Video Rental System**
+* ❌ **Games** (card games, non-educational games)
+* ❌ **Record Keeping Systems** (basic CRUD without operational depth)
+* ❌ **Monitoring Systems** (without hardware integration, telemetry, or analytics)
+* ❌ **Static Websites** (Barangay, Municipality, City, or Provincial promotional websites)
 
-* ❌ **DAMATH** or simple board games
-* ❌ **Video / Media Rental Systems**
-* ❌ **Generic Games** (non-educational games, standard card games)
-* ❌ **Basic Record-Keeping Systems** (systems that merely perform CRUD without analytical/operational depth)
-* ❌ **Generic Monitoring Systems** without automated control, analytics, or hardware telemetry
-* ❌ **Static Websites** (Barangay, Municipal, City, or Provincial promotional websites without transactional functionality)
+*Note: DCT may reject any project depending on scope, feasibility, practicality, and originality.*
 
 ---
 
 ## 5.3 Intellectual Property (IP) and Ownership Policy
 
-1. **Initial Ownership & Transfer**:
-   * Projects are initially recognized as the intellectual property of student researchers.
-   * Upon final approval and submission, ownership of source code, documentation, designs, and architecture transfers to the Dominican College of Tarlac - College of Computer Studies (CCS).
-2. **Institutional Rights**:
-   * DCT reserves non-exclusive, royalty-free rights to archive, demonstrate, exhibit, and utilize projects for accreditation and promotional purposes with student attribution.
-3. **Adviser & Faculty Co-Authorship**:
-   * Advisers and faculty who contribute substantial technical, architectural, or research direction beyond routine evaluation must be recognized as **co-authors** in publications, presentations, and patent applications.
-4. **Sponsored / External Projects**:
-   * Projects with third-party industry partners are governed by a formal **Memorandum of Agreement (MOA)**.
-5. **Third-Party Compliance & Data Privacy**:
-   * Mandatory compliance with the **Data Privacy Act of 2012 (RA 10173)**.
-   * Strict adherence to open-source software licenses for external libraries and APIs.
+1. **Ownership and Transfer of IP**: Projects are initially recognized as the intellectual property of student developers. Upon final approval and submission, ownership of source code, system architecture, documentation, multimedia assets, and deployment rights transfers to the College of Computer Studies (CCS) via the signed IP Transfer and Acknowledgment Form.
+2. **School's Rights and Usage**: The College reserves non-exclusive, royalty-free rights to archive, display, demonstrate for instructional/accreditation/research purposes, and use non-sensitive portions with proper student acknowledgment.
+3. **Adviser and Panel Contributions**: Advisers and faculty who provide substantial intellectual, technical, or creative direction beyond routine supervision automatically qualify for **mandatory co-authorship** in all official submissions, presentations, publications, and patents.
+4. **Sponsored / Externally Funded Projects**: Governed by a separate Memorandum of Agreement (MOA).
+5. **Use of Third-Party Materials**: Students are strictly responsible for licensing of third-party libraries, APIs, datasets, open-source compliance, and documentation citations.
+6. **Commercialization & Future Development**: Students may further develop or commercialize outputs after completion; the College claims no financial rights unless agreed upon in writing.
+7. **Confidentiality & Data Protection**: Full compliance with the **Data Privacy Act of 2012 (RA 10173)**.
+8. **Acknowledgment Requirement**: Any public presentation or publication must acknowledge Dominican College of Tarlac, the College of Computer Studies, and the academic program.
+9. **Policy Acceptance**: Submission of proposals or deliverables constitutes formal acceptance of this policy.
 
 ---
 
-## 5.4 Academic Integrity & Plagiarism Standards
+## 5.4 Academic Integrity & Plagiarism Guidelines
 
-1. **Zero-Tolerance Policy**: Plagiarism, code duplication without attribution, falsification of test data, and fabrication of research results are grounds for immediate failure and disciplinary action.
-2. **Mandatory Plagiarism Clearance**:
-   * **Pre-Defense Check**: Manuscript must be submitted to the DCT Research Office / Library for similarity checking before scheduling the oral defense.
-   * **Pre-Publication Check**: Final revised hardbound manuscript must be re-checked before final archiving.
-3. **Similarity Index**: Must meet the acceptable threshold defined by the Research Office. Any uncredited text or structure will be flagged regardless of overall percentage.
-4. **Sanctions**: Include mandatory manuscript rewriting, re-defense, automatic course failure, or graduation disqualification.
+1. **Policy Statement**: CCS upholds strict honesty, originality, and ethical scholarship. Plagiarism, falsification, and misrepresentation are treated as serious offenses.
+2. **Definition of Plagiarism**: Copying text/code/designs without citation, paraphrasing without acknowledgment, submitting work generated/purchased from others, and self-plagiarism. Applies to manuscripts, source code, designs, and research outputs.
+3. **Other Academic Anomalies**: Fabrication of data/results, misrepresentation of system functionality, unauthorized use of AI/automated tools, and tampered documents.
+4. **Plagiarism Detection Mechanisms**:
+   - **Mandatory Pre-Oral Defense Check**: All capstone papers must be officially cleared by the DCT Research Office or Library before oral defense.
+   - **Post-Final Defense Check**: Approved revised manuscripts must be re-checked before book binding and archiving.
+   - **Manual Review**: Faculty assessment of originality and citation integrity.
+5. **Acceptable Similarity Index**: Determined by the Research Office. Any submission exceeding thresholds or showing improper attribution is subject to review regardless of percentage.
+6. **Sanctions**: Mandatory revision, re-defense, automatic failure of capstone course, graduation delay/disqualification, and referral to the Ethics Committee.
+7. **Due Process**: Written notification, opportunity to respond, and formal deliberation by the academic body.

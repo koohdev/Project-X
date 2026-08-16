@@ -2,9 +2,9 @@
 
 ## 4.1 Prototyping Model
 
-According to Geeks for Geeks the Prototyping Model is a branch of the SDLC. It is basically making a bare bones version before the final game. This helps when the proponents do not have a super detailed plan at the start. Proponents can just build a simple version to get feedback and fix the code logic before wasting time on final product [6].
+According to Geeks for Geeks, the Prototyping Model is a branch of the SDLC. It is basically making a bare bones version before the final game. This helps when the proponents do not have a super detailed plan at the start. Proponents can just build a simple version to get feedback and fix the code logic before wasting time on the final product [11].
 
-![Figure No. 7 : Prototyping Model]()
+![Figure No. 7: Prototyping Model]()
 
 The proponents went with the Prototyping Model because the math inside Chronicles of Arithmos is just too messy to figure out on paper. Specific numbers like how fast a timer runs or how hard a monster hits have to be tested to make sure they are not too tough for players playing Chronicles of Arithmos. If the proponents used a stiff plan like the Waterfall Model, they could not change those values easily later. Instead, this model lets the proponents fix the balance based on what the students or young learners say while they are actually playing the game.
 
@@ -20,7 +20,7 @@ In the next phase, the proponents made flowcharts and drawings to show how the g
 
 ### 4.1.3 Building Prototype
 
-The proponents used RPG Maker MZ to make the first or initial version, RPG Maker MZ allows the  to make maps and monster stats. The proponents wrote a custom plugin script in JavaScript so the game can give math problems and check if the player is right. They also added a timer for the fights and used PeerJS so players can invite friends to play together. They finished the first few maps like the Forest to start with.
+The proponents used RPG Maker MZ to make the first or initial version. RPG Maker MZ allows the team to make maps and monster stats. The proponents wrote a custom plugin script in JavaScript so the game can give math problems and check if the player is right. They also added a timer for the fights and used PeerJS so players can invite friends to play together. They finished the first few maps like the Forest to start with.
 
 ### 4.1.4 Customer Evaluation of Prototype
 
@@ -52,19 +52,19 @@ In the last phase, the proponents will make a final version that works on comput
 
 ##### A. Hardware Compatibility
 
-The proponents made the game with RPG Maker MZ. It runs on computers with assuming the computers have 8 GB of RAM and the proponents checked that an Intel Core i3 can handle it. Since there is a web version too, it works on tablets or any computer with a modern browser. This lets players jump into the math battles without downloading any executable files.
+The proponents made the game with RPG Maker MZ. It runs on computers with 8 GB of RAM and an Intel Core i3 processor. Since there is a web version too, it works on tablets or any computer with a modern browser. This lets players jump into math battles without downloading executable files.
 
 ##### B. Software Compatibility
 
-Since RPG Maker MZ runs on JavaScript, the math engine was built using that same language. This letss the math logic and the combat mechanics work together without needing any extra fixes or translations or conversion of code to another programming language. For the multiplayer part, the proponents used PeerJS so players can just use room codes to connect. This way, the game allows player to play without needing a server to run everything.
+Since RPG Maker MZ runs on JavaScript, the math engine was built using that same language. This lets the math logic and combat mechanics work together without needing extra fixes or conversion of code to another programming language. For the multiplayer part, the proponents used PeerJS so players can use room codes to connect directly without needing a central server.
 
 #### 4.2.2.2 Relevance of the Technology
 
-Prodigy and Math Blaster are basically a turn-based RPGs where math is the button the player presses to attack. Players get the answer right, the animation plays, and that’s it. It’s a bit disconnected. Chronicles of Arithmos actually ties your brain speed to the sword swing, in a sense, the player solving math is equivalent to a sword swing. Instead of just "Right = Hit," it uses a Performance-Based Reward system. If a player is really good ath math and accurate too, players can pull off a 2.0x Critical Hit. If the player is slow and stumble, the player might totally miss.
+Prodigy and Math Blaster are turn-based RPGs where math is the button the player presses to attack. Players get the answer right, the animation plays, and that is it. Chronicles of Arithmos ties calculation speed directly to combat execution. Instead of just "Right = Hit," it uses a Performance-Based Reward system. If a player is accurate and fast, they execute a 2.0x Critical Hit. If the player is slow or incorrect, the attack loses effectiveness or misses completely.
 
-JavaScript (ES6) was chosen because it is the native scripting language of RPG Maker MZ, allowing the proponents to implement the Math Battle Engine and Content-Aware Timer without external dependencies. PeerJS, a WebRTC (Web Real-Time Communication) library, was selected for the multiplayer module as it enables direct Peer-to-Peer connections through room codes without requiring a dedicated server.
+JavaScript (ES6) was chosen because it is the native scripting language of RPG Maker MZ, allowing the proponents to implement the Math Battle Engine and Content-Aware Timer without external dependencies. PeerJS, a WebRTC library, was selected for the multiplayer module as it enables direct Peer-to-Peer connections through room codes without requiring a dedicated server.
 
-The proposed title deploys as a Windows desktop application via NW.js (Node Webkit) and as a web application hosted on Hostinger using HTML5 and Web Graphics Library (WebGL). Desktop is the primary platform because the Math Battle System requires timed numerical input through a physical keyboard, which touchscreens cannot replicate due to the absence of a physical key-press sensation (haptic feedback). The desktop executable can also operate offline using a computer. The web deployment serves as a secondary access point, supported by the Virtual Numeric Keypad module for touch-enabled devices.
+The proposed title deploys as a Windows desktop application via NW.js (Node Webkit) and as a web application hosted on Hostinger using HTML5 and WebGL. Desktop is the primary platform because the Math Battle System requires timed numerical input through a physical keyboard, which touchscreens cannot replicate due to the absence of physical tactile feedback. The desktop executable operates offline. Web deployment serves as a secondary access point, supported by the Virtual Numeric Keypad module for touch-enabled devices.
 
 ### 4.2.3 Schedule Feasibility
 
@@ -74,103 +74,103 @@ The proposed title deploys as a Windows desktop application via NW.js (Node Webk
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Capstone Orientation | | | | |
-| 2.Grouping of Capstone Members | | | | |
-| 3.Planning and Brainstorming | | | | |
-| 4.Capstone Adviser Selection | | | | |
+| 1. Capstone Orientation | | | | |
+| 2. Grouping of Capstone Members | | | | |
+| 3. Planning and Brainstorming | | | | |
+| 4. Capstone Adviser Selection | | | | |
 
 ##### Table #2 December 2025 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Requirements Gathering | | | | |
-| 2.Quick Design | | | | |
+| 1. Requirements Gathering | | | | |
+| 2. Quick Design | | | | |
 
 ##### Table #3 January 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Building Initial Prototype | | | | |
-| 2.Preparation for Title Defense | | | | |
-| 3.Title Defense | | | | |
-| 4.Capstone Adviser Consultation | | | | |
-| 5.Dean Consultation | | | | |
-| 6.Documentation (Chapter 1) | | | | |
+| 1. Building Initial Prototype | | | | |
+| 2. Preparation for Title Defense | | | | |
+| 3. Title Defense | | | | |
+| 4. Capstone Adviser Consultation | | | | |
+| 5. Dean Consultation | | | | |
+| 6. Documentation (Chapter 1) | | | | |
 
 ##### Table #4 February 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Documentation (Chapter 2) | | | | |
-| 2.Documentation (Chapter 3) | | | | |
-| 3.Capstone Adviser Consultations | | | | |
-| 4.Documentation (Chapter 4) | | | | |
+| 1. Documentation (Chapter 2) | | | | |
+| 2. Documentation (Chapter 3) | | | | |
+| 3. Capstone Adviser Consultations | | | | |
+| 4. Documentation (Chapter 4) | | | | |
 
 ##### Table #5 March 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Building Initial Prototype (Continued) | | | | |
-| 2.AI & Plagiarism Checking | | | | |
-| 3.AI & Plagiarism Checking | | | | |
-| 4.Preparation for Oral Defense | | | | |
-| 5.Oral Defense | | | | |
+| 1. Building Initial Prototype (Continued) | | | | |
+| 2. AI & Plagiarism Checking | | | | |
+| 3. AI & Plagiarism Checking | | | | |
+| 4. Preparation for Oral Defense | | | | |
+| 5. Oral Defense | | | | |
 
 ##### Table #6 April 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Customer Evaluation of Prototype | | | | |
-| 2.Refining Prototype | | | | |
-| 3.Quick Design | | | | |
+| 1. Customer Evaluation of Prototype | | | | |
+| 2. Refining Prototype | | | | |
+| 3. Quick Design | | | | |
 
 ##### Table #7 May 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Building Prototype | | | | |
-| 2.Customer Evaluation of Prototype | | | | |
-| 3.Capstone Adviser Consultation | | | | |
+| 1. Building Prototype | | | | |
+| 2. Customer Evaluation of Prototype | | | | |
+| 3. Capstone Adviser Consultation | | | | |
 
 ##### Table #8 June 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Refining Prototype | | | | |
-| 2.Capstone Adviser Consultation | | | | |
+| 1. Refining Prototype | | | | |
+| 2. Capstone Adviser Consultation | | | | |
 
 ##### Table #9 July 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.Unit Testing | | | | |
-| 2.Integration Testing | | | | |
-| 3.Capstone Adviser Consultation | | | | |
+| 1. Unit Testing | | | | |
+| 2. Integration Testing | | | | |
+| 3. Capstone Adviser Consultation | | | | |
 
 ##### Table #10 August 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 1.System Testing | | | | |
-| 2.Acceptance Testing | | | | |
-| 3.Engineer Product | | | | |
-| 4.Implementation Plan | | | | |
-| 5.Capstone Adviser Consultation | | | | |
+| 1. System Testing | | | | |
+| 2. Acceptance Testing | | | | |
+| 3. Engineer Product | | | | |
+| 4. Implementation Plan | | | | |
+| 5. Capstone Adviser Consultation | | | | |
 
 ##### Table #11 September 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 6.Engineer Product (Continued) | | | | |
-| 7.Final Documentation (Chapter 5) | | | | |
-| 8.Capstone Adviser Consultation | | | | |
-| 9.Updating, Reviewing, and Revision of the whole document | | | | |
+| 1. Engineer Product (Continued) | | | | |
+| 2. Final Documentation (Chapter 5) | | | | |
+| 3. Capstone Adviser Consultation | | | | |
+| 4. Updating, Reviewing, and Revision of the whole document | | | | |
 
 ##### Table #12 October 2026 Gantt Chart
 
 | Activities | Week 1 | Week 2 | Week 3 | Week 4 |
 |---|---|---|---|---|
-| 10.Capstone 2 Defense | | | | |
+| 1. Capstone 2 Defense | | | | |
 
 ### 4.2.4 Economic Feasibility
 
@@ -182,13 +182,13 @@ The cost and benefit analysis provides a breakdown of the materials required for
 
 | Category | Item | Cost | Benefits |
 |---|---|---|---|
-| Software | RPG Maker MZ (2 License) | ₱4,600.00 | Allows the proponents to develop and test the game concurrently, and provides a built-in event system, and map editor that can reduce the time needed to build the Active Time Battle (ATB) interface and Math Engine from scratch. |
-| Hosting | Hostinger Domain & Web Hosting (5 years) | ₱12,108.00 | Allows students to access the game from home through a web browser without requiring a separate installation or a computer |
-| TOTAL | Investment Required | ₱16.708.00 | |
+| Software | RPG Maker MZ (2 Licenses) | ₱4,600.00 | Allows proponents to develop and test the game concurrently, providing a built-in event system and map editor that reduces the time needed to build the Active Time Battle (ATB) interface and Math Engine from scratch. |
+| Hosting | Hostinger Domain & Web Hosting (5 years) | ₱12,108.00 | Allows students to access the game from home through a web browser without requiring a separate installation or PC. |
+| **TOTAL** | **Investment Required** | **₱16,708.00** | |
 
 #### 4.2.4.2 Cost Recovery Scheme
 
-The proponents personally fund the total development cost of ₱16,708.00 since the project is part of their academic requirements. Chronicles of Arithmos stays completely free for students and teachers so they can practice their arithmetic without paying for access. To recover the development costs and pay for the Hostinger servers after the five-year plan expires, the proponents plan to set up a voluntary donation page like Patreon or "Buy Me a Coffee" where parents can send financial support if they like the game.
+The proponents personally fund the total development cost of ₱16,708.00 since the project is part of their academic requirements. Chronicles of Arithmos stays completely free for students and teachers. To recover development costs and maintain Hostinger servers after the five-year plan expires, the proponents plan to set up voluntary donation channels (e.g., Patreon, Ko-fi) for community support.
 
 ### 4.2.5 Requirements Modeling
 
@@ -196,51 +196,59 @@ The proponents personally fund the total development cost of ₱16,708.00 since 
 
 ##### A. Use Case Diagrams
 
-![Figure No. 10:  Young Learner Use Case Diagrams]()
+![Figure No. 10: Young Learner Use Case Diagrams]()
 
 ##### B. Sequence Diagrams
 
-![Figure No. 9:  Auto Quest Sequence Diagram]()
-![Figure No. 10:  Enemy Auto-Scaling Sequence Diagram]()
-![Figure No. 11:   Level-Based Progression Sequence Diagram]()
-![Figure No. 12:  Math Battle System Sequence Diagram]()
-![Figure No. 13:  P2P Multiplayer Sequence Diagram]()
-![Figure No. 14:  Save Sequence Diagram]()
+![Figure No. 9: Auto Quest Sequence Diagram]()
+![Figure No. 10: Enemy Auto-Scaling Sequence Diagram]()
+![Figure No. 11: Level-Based Progression Sequence Diagram]()
+![Figure No. 12: Math Battle System Sequence Diagram]()
+![Figure No. 13: P2P Multiplayer Sequence Diagram]()
+![Figure No. 14: Save Sequence Diagram]()
 
 ##### C. Activity Diagrams
 
-![Figure No. 15: Game Loop Chronicles of Arithmos  Activity Diagram]()
+![Figure No. 15: Game Loop Chronicles of Arithmos Activity Diagram]()
 
 ### 4.2.6 Risk Assessment/Analysis
 
-Developing Chronicles of Arithmos comes with risks that the proponents have identified and prepared for. The proponents have limited experience with JavaScript and PeerJS, which may cause technical delays in building the Math Battle System and multiplayer features and differences between the desktop, web, and mobile versions may cause inconsistencies. The large project scope may lead to schedule delays, while players or young learners may lose interest if math overshadows the gameplay.
+Developing Chronicles of Arithmos comes with risks that the proponents have identified and prepared for. The proponents have limited experience with JavaScript and PeerJS, which may cause technical delays in building the Math Battle System and multiplayer features. Differences between desktop, web, and mobile versions may cause inconsistencies. The large project scope may lead to schedule delays, while young learners may lose interest if math overshadows gameplay.
 
-External dependencies such as PeerJS and NW.js may receive breaking updates, and students' computers may lack adequate hardware or internet access. To reduce these risks, the proponents will study online resources and consult the proponents Capstone Adviser for guidance, Mr. Jan Nicole B. Apostol, lock software versions during development, prioritize core features first with remaining items as stretch goals, review early prototypes for gameplay balance, offer an offline single-player option via windows executable application as a fallback when students are not playing via the web application.
+External dependencies such as PeerJS and NW.js may receive breaking updates, and students' computers may lack adequate hardware or internet access. To reduce these risks, the proponents will study online resources and consult Capstone Adviser Mr. Jan Nicole B. Apostol, lock software versions during development, prioritize core features first with remaining items as stretch goals, review early prototypes for gameplay balance, and offer an offline single-player desktop executable fallback for students unable to play via the web application.
 
 ## 4.3 Design
 
 ### 4.3.1 Output and User-interface Design
 
-The proponents designed the interface for Chronicles of Arithmos using a 2D pixel art style for all game assets and entities. The color scheme uses deep blue (#005385) for menu outlines and for active buttons that are currently pressed. Black (#000000) serves as the background color for all buttons and menu windows. White (#FFFFFF) is used for all text, mathematical equations, and numerical values.
+The proponents designed the interface for Chronicles of Arithmos using a 2D pixel art style for all game assets and entities. The color scheme uses deep blue (`#005385`) for menu outlines and active pressed buttons. Black (`#000000`) serves as the background color for buttons and menu windows. White (`#FFFFFF`) is used for all text, mathematical equations, and numerical values.
 
-(Hex: #005385) (Hex: #000000) (Hex: #FFFFFF)
+![Figure No. 16: Dark Blue, Black and White]()
 
-![Figure No. 16 : Dark Blue, Black and White]()
-
-The proponents chose the M+ 1m regular font as it is a typeface made for clear reading with uses that range from digital signs and multilingual systems, to computer screens and tools for writing code.
+The proponents chose the M+ 1m regular font for clean readability across computer screens and mobile displays.
 
 ![Figure No. 17: M+ 1m regular Font]()
 
 ## REFERENCES
 
-[1] B. Bruckman, "The 'Chocolate-Covered Broccoli' Problem," International Journal of Game-Based Learning, vol. 3, no. 2, pp. 1-15, 2013. [Online]. Available: <https://www.google.com/search?q=https://www.researchgate.net/publication/220968132_The_Chocolate-Covered_Broccoli_Problem>
+[1] Department of Education, "MATATAG Curriculum Overview and Guide," 2024. [Online]. Available: <https://matatagcurriculum.ph/>
 
-[2] M. Csikszentmihalyi, Flow: The Psychology of Optimal Experience. New York, NY: Harper & Row, 1990. [Online]. Available: <https://www.HarperCollins.com/products/flow-mihaly-csikszentmihalyi>
+[2] National Council for Children's Television, "Study: Personal screens becoming the new classroom," Philippine Information Agency, 2025. [Online]. Available: <https://pia.gov.ph/news/luzon/study-personal-screens-becoming-the-new-classroom/>
 
-[3] F. C. Richardson and R. M. Suinn, "The Mathematics Anxiety Rating Scale: Psychometric data," Journal of Counseling Psychology, vol. 19, no. 6, pp. 551–554, 1972. [Online]. Available: <https://psycnet.apa.org/record/1973-09757-001>
+[3] M. Engelhardt, "Feedback in Digital Game Based Learning: Influencing Student Self Efficacy and Motivation," VTechWorks, 2023. [Online]. Available: <https://vtechworks.lib.vt.edu/>
 
-[4] M. H. Ashcraft, "Math anxiety: Personal, educational, and cognitive consequences," Current Directions in Psychological Science, vol. 11, no. 5, pp. 181–185, 2002. [Online]. Available: <https://journals.sagepub.com/doi/10.1111/1467-8721.00196>
+[4] P. Mozelius and L. M. Eberhardt, "The Chocolate Covered Broccoli Syndrome in Educational Games," Academic Conferences International, 2023. [Online]. Available: <https://doi.org/10.34190/ecgbl.17.1.1344>
 
-[5] J. P. Gee, What Video Games Have to Teach Us About Learning and Literacy. New York, NY: Palgrave Macmillan, 2003. [Online]. Available: <https://link.springer.com/book/10.1007/978-1-137-52660-3>
+[5] Y. F. Chen et al., "Assessing the Effects of Flow, Social Interaction, and Engagement on Students Gamified Learning," MDPI, 2023. [Online]. Available: <https://www.mdpi.com/2071-1050/15/2/983>
 
-[6] "Prototyping Model - Software Engineering," GeeksforGeeks, Jul. 11, 2025. [Online]. Available: <https://www.geeksforgeeks.org/software-engineering/software-engineering-prototyping-model/>
+[6] K. Skagerlund et al., "Mathematics anxiety and emotion regulation," Taylor and Francis, 2024. [Online]. Available: <https://www.tandfonline.com/doi/pdf/10.1080/00313831.2025.2559280>
+
+[7] A. Gokce and N. Guner, "Innovative Approaches to Mitigate Math Anxiety," MDPI, 2024. [Online]. Available: <https://www.mdpi.com/2813-9844/7/2/46>
+
+[8] A. S. Maryana et al., "Using Gamified Learning Strategies to Enhance Problem Solving Performance in Mathematics," International Journal of Research and Innovation in Social Science, 2024. [Online]. Available: <https://rsisinternational.org/journals/ijriss/uploads/vol9-iss11-pg3461-3480-202512_pdf.pdf>
+
+[9] NW.js Community, "NW.js Downloads and Architecture Support," NW.js Official Homepage, 2024. [Online]. Available: <https://nwjs.io/>
+
+[10] Mozilla Developer Network, "WebGL2RenderingContext Browser Compatibility," MDN Web Docs, 2024. [Online]. Available: <https://developer.mozilla.org/en-US/docs/Web/API/WebGL2RenderingContext#browser_compatibility>
+
+[11] "Prototyping Model - Software Engineering," GeeksforGeeks, Jul. 11, 2025. [Online]. Available: <https://www.geeksforgeeks.org/software-engineering/software-engineering-prototyping-model/>

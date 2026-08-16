@@ -30,8 +30,8 @@ When drafting or expanding any manuscript section:
 1. **Identify Chapter Context**: Check the required subsections and diagrams in [Chapter Specifications](references/03-chapter-specifications.md).
 2. **Apply Mandatory Constraints**:
    * **Chapter 1.1 (Project Context)**: Ensure a minimum of **two (2) full pages** covering global, national, and local context plus researcher justification.
-   * **Chapter 1.3 (Objectives)**: State General Objective in 1 paragraph; format Specific Objectives as **SMART** numbered statements beginning with *"To develop..."* / *"To design..."* following What + How + Result.
-   * **Chapter 1.4 (Scope & Limitations)**: Ensure every limitation includes an explicit operational justification.
+   * **Chapter 1.2 / 1.3 (Objectives)**: State General Objective in 1 paragraph; format Specific Objectives as **SMART** numbered statements beginning with active verbs (*"To develop..."*, *"To design..."*, *"To implement..."*) following What + How + Result.
+   * **Chapter 1.3 / 1.4 (Scope & Limitations)**: Ensure every limitation includes an explicit operational justification.
    * **Chapter 2.0 (Literature)**: Begin with an **Anchor Theory**, followed by supporting theories. Include a comparative matrix evaluating 3–6 existing systems with UI screenshots.
    * **Chapter 3.0 (Technical Background)**: Structure by 3.1 Development & 3.2 Implementation across **Hardware, Software, Peopleware, Network**.
    * **Chapter 4.0 (Methodology & Results)**: Follow SDLC methodology strictly; include all 4 feasibility studies (Fishbone, Gantt, CBA), requirements modeling (DFD or UML; *no DFD for CAI*), multi-tier testing (Unit, Integration, System, Acceptance), and conversion plan (Direct, Phased, or Parallel).
@@ -49,8 +49,8 @@ When reviewing an existing capstone document or chapter draft:
    * Check preliminary pages (Title Page, Adviser Recommendation, Dean Acceptance, Panel Approval, Abstract without quotes/citations in 150–200 words, TOC, List of Tables/Figures).
    * Check appendices completeness (Appendices A to J).
 2. **Formatting & Mechanics Audit**:
-   * **Paper & Margins**: Top: 1", Left: 1.5", Bottom: 1", Right: 1". Spacing: 1.5 lines.
-   * **Typography**: Heading 1 (12pt Bold), Heading 2 (12pt Bold), Heading 3/Body (11pt Regular). Font: Times New Roman.
+   * **Paper & Margins**: Top: 1", Left: 1.5", Bottom: 1", Right: 1". Spacing: 1.5 lines. Indent: 1.0".
+   * **Typography**: Heading 1 (12pt Bold), Heading 2 (12pt Bold), Heading 3/Content (11pt Regular). Font: Times New Roman.
    * **Table & Figure Captions**: Table captions above table (`Table <ch>-<tbl> <Title>`), Figure captions below figure (`Figure <ch>-<fig> <Title>`).
    * **Citation Syntax**: Verify no traditional footnotes exist. Verify all citations follow `[AUTH2024]` format.
    * **List Check**: Ensure zero bullet characters (`•`, `-`, `*`, `▪`) in body text.
@@ -86,8 +86,8 @@ When vetting a new project proposal:
 
 [ ] 1.0 INTRODUCTION (Page 1)
     [ ] 1.1 Project Context (Min 2 pages: Global/National/Local, guide questions)
-    [ ] 1.2 / 1.3 Project Objectives (1-para General Objective + SMART Specific Objectives)
-    [ ] 1.4 Scope and Limitations (Prototype boundary + justified limitations in 1.4.1/1.4.2 with A., B., C.)
+    [ ] 1.2 Objectives (1-para General Objective + SMART Specific Objectives)
+    [ ] 1.3 Scope and Limitations (Prototype boundary + justified limitations in 1.3.1/1.3.2 with A., B., C.)
 
 [ ] 2.0 REVIEW OF RELATED LITERATURE / SYSTEMS
     [ ] 2.1 Related Theories (Anchor theory + auxiliary theories + [AUTH2024] citations)
