@@ -40,6 +40,8 @@ In the last phase, the proponents will make a final version that works on comput
 
 #### A. Fishbone Diagram
 
+
+
 ![Figure No. 8: Fishbone Diagram]()
 
 #### B. Functional Decomposition Diagram
@@ -182,13 +184,28 @@ The cost and benefit analysis provides a breakdown of the materials required for
 
 | Category | Item | Cost | Benefits |
 |---|---|---|---|
-| Software | RPG Maker MZ (2 Licenses) | ₱4,600.00 | Allows proponents to develop and test the game concurrently, providing a built-in event system and map editor that reduces the time needed to build the Active Time Battle (ATB) interface and Math Engine from scratch. |
-| Hosting | Hostinger Domain & Web Hosting (5 years) | ₱12,108.00 | Allows students to access the game from home through a web browser without requiring a separate installation or PC. |
-| **TOTAL** | **Investment Required** | **₱16,708.00** | |
+| Software | RPG Maker MZ (2 Licenses) | ₱4,600.00 | Allows the proponents to develop and test the game concurrently, and provides a built-in event system and map editor that can reduce the time needed to build the Active Time Battle (ATB) interface and Math Engine from scratch. |
+| Hosting | Hostinger Domain & Web Hosting (5 years) | ₱12,108.00 | Allows students to either download the Windows executable or play via a web browser from home without requiring any software installation. |
+| Temporary Hosting | Vercel | ₱0.00 | Provides a cost-free staging environment with automated preview deployments for testing the web-based game build before launching it to the primary hosting. |
+| **TOTAL** | **Estimated Development Cost** | **₱16,708.00** | |
 
 #### 4.2.4.2 Cost Recovery Scheme
 
-The proponents personally fund the total development cost of ₱16,708.00 since the project is part of their academic requirements. Chronicles of Arithmos stays completely free for students and teachers. To recover development costs and maintain Hostinger servers after the five-year plan expires, the proponents plan to set up voluntary donation channels (e.g., Patreon, Ko-fi) for community support.
+The proponents will distribute Chronicles of Arithmos for both web browsers and Windows desktops free to the public, allowing users, especially students, to practice arithmetic skills without paying for access. To cover the development, hosting, and domain cost, the proponents will explore optional monetization and community channels.
+
+These channels include voluntary community donations, optional rewarded advertisements that grant cosmetic character skins and custom virtual numeric keypad themes after opening loot chests, and downloadable content (DLC) packages. The DLC includes optional story expansions, new playable character classes, and cosmetic theme packs. All arithmetic lessons and core gameplay will remain free.
+
+##### Table #14 Cost Recovery and Break-Even Projection Table
+
+| Revenue Stream | Unit Price / Rate | Target Volume | Projected Gross Revenue | Target Recovery Phase |
+|---|---|---|---|---|
+| Optional Rewarded Ads (Keypads & Skins) | ₱115.00 / 1,000 Views | 35,000 Views | ₱4,025.00 | Months 1 to 24 |
+| Story Expansion & Class DLC Bundles | ₱99.00 / ₱79.00 | 60 / 40 Units | ₱9,100.00 | Months 6 to 36 |
+| Optional Cosmetic Packs & Keypad Skins | ₱49.00 | 50 Units | ₱2,450.00 | Months 3 to 24 |
+| Voluntary Community Donations | ₱100.00 (Avg.) | 20 Contributors | ₱2,000.00 | Months 1 to 36 |
+| **TOTAL** | | | **₱17,575.00** | **Break-Even Achieved at ₱16,708.00** |
+
+Meeting these targets generates ₱17,575.00 over 24 to 36 months, fully recovering the estimated development cost of ₱16,708.00 while providing a ₱867.00 reserve for future hosting renewals. If external revenue progresses slowly, the project carries zero debt because the five-year hosting plan is fully prepaid through 2031, and the Windows desktop build runs completely offline without ongoing server expenses.
 
 ### 4.2.5 Requirements Modeling
 

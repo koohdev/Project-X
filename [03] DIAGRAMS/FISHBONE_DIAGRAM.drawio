@@ -1,2 +1,196 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<mxfile version="24.7"><diagram name="Fishbone" id="fishbone_coa"><mxGraphModel dx="1434" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="800" math="0" shadow="0"><root><mxCell id="0" /><mxCell id="1" parent="0" /><mxCell id="E_main" value="Low Math Engagement and\nIncreased Mathematics Anxiety\nAmong Grade 4-6 Students" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="1000" y="300" width="320" height="100" as="geometry" /></mxCell><mxCell id="S_main" style="endArrow=block;html=1;strokeWidth=4;endFill=1;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="50" y="350" as="sourcePoint" /><mxPoint x="1000" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="C_100" value="Methods" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="100" y="80" width="160" height="40" as="geometry" /></mxCell><mxCell id="B_100" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="180" y="120" as="sourcePoint" /><mxPoint x="330" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CL_100_0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="59.13043478260869" y="170" border="" /><mxPoint x="59.13043478260869" y="170" as="sourcePoint" /><mxPoint x="219.1304347826087" y="170" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_100_0" value="&quot;Chocolate-Covered\nBroccoli&quot; effect" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="59.13043478260869" y="145" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_100_1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="98.26086956521738" y="230" border="" /><mxPoint x="98.26086956521738" y="230" as="sourcePoint" /><mxPoint x="258.2608695652174" y="230" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_100_1" value="Static difficulty curves" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="98.26086956521738" y="205" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_100_2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="137.39130434782612" y="290" border="" /><mxPoint x="137.39130434782612" y="290" as="sourcePoint" /><mxPoint x="297.3913043478261" y="290" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_100_2" value="Traditional drill-and-kill\nclassroom approach" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="137.39130434782612" y="265" width="160" height="20" as="geometry" /></mxCell><mxCell id="C_101" value="People" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="400" y="80" width="160" height="40" as="geometry" /></mxCell><mxCell id="B_101" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="480" y="120" as="sourcePoint" /><mxPoint x="630" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CL_101_0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="359.13043478260875" y="170" border="" /><mxPoint x="359.13043478260875" y="170" as="sourcePoint" /><mxPoint x="519.1304347826087" y="170" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_101_0" value="Students lack motivation\nfor repetitive drills" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="359.13043478260875" y="145" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_101_1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="398.2608695652174" y="230" border="" /><mxPoint x="398.2608695652174" y="230" as="sourcePoint" /><mxPoint x="558.2608695652174" y="230" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_101_1" value="Different students learn\nat different paces" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="398.2608695652174" y="205" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_101_2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="437.3913043478261" y="290" border="" /><mxPoint x="437.3913043478261" y="290" as="sourcePoint" /><mxPoint x="597.3913043478261" y="290" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_101_2" value="Math anxiety occupies\nworking memory" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="437.3913043478261" y="265" width="160" height="20" as="geometry" /></mxCell><mxCell id="C_102" value="Content / Materials" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="700" y="80" width="160" height="40" as="geometry" /></mxCell><mxCell id="B_102" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="780" y="120" as="sourcePoint" /><mxPoint x="930" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CL_102_0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="659.1304347826087" y="170" border="" /><mxPoint x="659.1304347826087" y="170" as="sourcePoint" /><mxPoint x="819.1304347826087" y="170" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_102_0" value="Drills are repetitive with\nno narrative context" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="659.1304347826087" y="145" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_102_1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="698.2608695652174" y="230" border="" /><mxPoint x="698.2608695652174" y="230" as="sourcePoint" /><mxPoint x="858.2608695652174" y="230" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_102_1" value="Limited replay value\nin existing games" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="698.2608695652174" y="205" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_102_2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="737.3913043478261" y="290" border="" /><mxPoint x="737.3913043478261" y="290" as="sourcePoint" /><mxPoint x="897.3913043478261" y="290" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_102_2" value="Existing games only cover\nsingle operations" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="737.3913043478261" y="265" width="160" height="20" as="geometry" /></mxCell><mxCell id="C_103" value="Environment" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="100" y="600" width="160" height="40" as="geometry" /></mxCell><mxCell id="B_103" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="180" y="600" as="sourcePoint" /><mxPoint x="330" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CL_103_0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="56.0" y="550" border="" /><mxPoint x="56.0" y="550" as="sourcePoint" /><mxPoint x="216.0" y="550" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_103_0" value="Classroom grading creates\nfear of failure" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="56.0" y="525" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_103_1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="92.0" y="490" border="" /><mxPoint x="92.0" y="490" as="sourcePoint" /><mxPoint x="252.0" y="490" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_103_1" value="No safe, low-stakes\npractice environment" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="92.0" y="465" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_103_2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="128.0" y="430" border="" /><mxPoint x="128.0" y="430" as="sourcePoint" /><mxPoint x="288.0" y="430" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_103_2" value="Timed academic assessments\nincrease stress" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="128.0" y="405" width="160" height="20" as="geometry" /></mxCell><mxCell id="C_104" value="Technology" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="400" y="600" width="160" height="40" as="geometry" /></mxCell><mxCell id="B_104" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="480" y="600" as="sourcePoint" /><mxPoint x="630" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CL_104_0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="356.0" y="550" border="" /><mxPoint x="356.0" y="550" as="sourcePoint" /><mxPoint x="516.0" y="550" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_104_0" value="Existing games require\nconstant internet" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="356.0" y="525" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_104_1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="392.0" y="490" border="" /><mxPoint x="392.0" y="490" as="sourcePoint" /><mxPoint x="552.0" y="490" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_104_1" value="Paid/freemium models\ncreate access barriers" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="392.0" y="465" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_104_2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="428.0" y="430" border="" /><mxPoint x="428.0" y="430" as="sourcePoint" /><mxPoint x="588.0" y="430" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_104_2" value="No offline-capable\neducational RPGs" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="428.0" y="405" width="160" height="20" as="geometry" /></mxCell><mxCell id="C_105" value="Management" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Helvetica;fontSize=14;fontStyle=1;align=center;" vertex="1" parent="1"><mxGeometry x="700" y="600" width="160" height="40" as="geometry" /></mxCell><mxCell id="B_105" style="endArrow=none;html=1;strokeWidth=2;strokeColor=#000000;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="780" y="600" as="sourcePoint" /><mxPoint x="930" y="350" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CL_105_0" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="656.0" y="550" border="" /><mxPoint x="656.0" y="550" as="sourcePoint" /><mxPoint x="816.0" y="550" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_105_0" value="No real-time feedback\non student performance" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="656.0" y="525" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_105_1" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="692.0" y="490" border="" /><mxPoint x="692.0" y="490" as="sourcePoint" /><mxPoint x="852.0" y="490" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_105_1" value="No peer collaboration\ntools" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="692.0" y="465" width="160" height="20" as="geometry" /></mxCell><mxCell id="CL_105_2" style="endArrow=none;html=1;strokeWidth=1;strokeColor=#666666;" edge="1" parent="1"><mxGeometry width="50" height="50" relative="1" as="geometry"><mxPoint x="728.0" y="430" border="" /><mxPoint x="728.0" y="430" as="sourcePoint" /><mxPoint x="888.0" y="430" as="targetPoint" /></mxGeometry></mxCell><mxCell id="CA_105_2" value="Educators have limited\ncontrol over progression" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;" vertex="1" parent="1"><mxGeometry x="728.0" y="405" width="160" height="20" as="geometry" /></mxCell></root></mxGraphModel></diagram></mxfile>
+<mxfile host="65bd71144e">
+    <diagram name="Fishbone Diagram - Operational Root Causes" id="fishbone_chronicles_of_arithmos">
+        <mxGraphModel dx="1139" dy="541" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="1550" pageHeight="800" background="#ffffff" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="spine_main" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;fillColor=#000000;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" edge="1" target="head_triangle">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="105" y="400" as="sourcePoint"/>
+                        <mxPoint x="1150" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="tail_triangle" value="" style="shape=triangle;whiteSpace=wrap;html=1;direction=east;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="-42" y="325" width="147" height="150" as="geometry"/>
+                </mxCell>
+                <mxCell id="head_triangle" value="" style="shape=triangle;whiteSpace=wrap;html=1;direction=east;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;shadow=0;" vertex="1" parent="1">
+                    <mxGeometry x="1150" y="295" width="290" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;span style=&quot;background-color: rgb(255, 255, 255);&quot;&gt;&lt;b style=&quot;border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; font-size: 13.5px; line-height: 1.35;&quot;&gt;Low Mathematics Engagement,&lt;br style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;High Math Anxiety, and&amp;nbsp;&lt;br style=&quot;border-color: rgb(0, 0, 0);&quot;&gt;Learning Retention&lt;/b&gt;&lt;br style=&quot;border-color: rgb(0, 0, 0); color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;br&gt;&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="1165" y="368" width="245" height="64" as="geometry"/>
+                </mxCell>
+                <mxCell id="cat_methods" value="&lt;b&gt;METHODS&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=13;fontStyle=1;align=center;shadow=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="124" width="180" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="rib_methods" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="160" as="sourcePoint"/>
+                        <mxPoint x="340" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="line_m1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="73" y="240" as="sourcePoint"/>
+                        <mxPoint x="233" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_m1" value="&lt;b&gt;Isolated Quizzes&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="73" y="213" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_m2" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="127" y="320" as="sourcePoint"/>
+                        <mxPoint x="287" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_m2" value="&lt;b&gt;Static Difficulty&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="127" y="293" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cat_people" value="&lt;b&gt;PEOPLE&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=13;fontStyle=1;align=center;shadow=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="124" width="180" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="rib_people" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="160" as="sourcePoint"/>
+                        <mxPoint x="700" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="line_p1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="420" y="220" as="sourcePoint"/>
+                        <mxPoint x="580" y="220" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_p1" value="&lt;b&gt;Panic Blocks&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="420" y="193" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_p2" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="460" y="280" as="sourcePoint"/>
+                        <mxPoint x="620" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_p2" value="&lt;b&gt;Memory Strain&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="253" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_p3" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="500" y="340" as="sourcePoint"/>
+                        <mxPoint x="660" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_p3" value="&lt;b&gt;Missing Rewards&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="500" y="313" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cat_materials" value="&lt;b&gt;MATERIALS&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=13;fontStyle=1;align=center;shadow=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="124" width="180" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="rib_materials" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="900" y="160" as="sourcePoint"/>
+                        <mxPoint x="1060" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="line_mat1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="793" y="240" as="sourcePoint"/>
+                        <mxPoint x="953" y="240" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_mat1" value="&lt;b&gt;Repetitive Drills&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="793" y="213" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_mat2" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="847" y="320" as="sourcePoint"/>
+                        <mxPoint x="1007" y="320" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_mat2" value="&lt;b&gt;Scripted Quests&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="847" y="293" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cat_environment" value="&lt;b&gt;ENVIRONMENT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=13;fontStyle=1;align=center;shadow=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="90" y="640" width="180" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="rib_environment" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="180" y="640" as="sourcePoint"/>
+                        <mxPoint x="340" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="line_e2" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="73" y="560" as="sourcePoint"/>
+                        <mxPoint x="233" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_e2" value="&lt;b&gt;Fear of Failure&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="73" y="565" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_e3" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="127" y="480" as="sourcePoint"/>
+                        <mxPoint x="287" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_e3" value="&lt;b&gt;No Co-op&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="127" y="485" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cat_technology" value="&lt;b&gt;TECHNOLOGY&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=13;fontStyle=1;align=center;shadow=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="640" width="180" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="rib_technology" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="540" y="640" as="sourcePoint"/>
+                        <mxPoint x="700" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="line_t2" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="433" y="560" as="sourcePoint"/>
+                        <mxPoint x="593" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_t2" value="&lt;b&gt;Online-Only&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="433" y="565" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_t3" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="487" y="480" as="sourcePoint"/>
+                        <mxPoint x="647" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_t3" value="&lt;b&gt;Feature Paywalls&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" vertex="1" parent="1">
+                    <mxGeometry x="487" y="485" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="cat_measurement" value="&lt;b&gt;MEASUREMENT&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;strokeWidth=2;fontFamily=Helvetica;fontSize=13;fontStyle=1;align=center;shadow=0;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="810" y="640" width="180" height="36" as="geometry"/>
+                </mxCell>
+                <mxCell id="rib_measurement" style="endArrow=none;html=1;strokeWidth=2.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="900" y="640" as="sourcePoint"/>
+                        <mxPoint x="1060" y="400" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="line_mea1" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="793" y="560" as="sourcePoint"/>
+                        <mxPoint x="953" y="560" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_mea1" value="&lt;b&gt;Fixed Timers&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="793" y="565" width="160" height="25" as="geometry"/>
+                </mxCell>
+                <mxCell id="line_mea2" style="endArrow=none;html=1;strokeWidth=1.5;strokeColor=#000000;" parent="1" edge="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="847" y="480" as="sourcePoint"/>
+                        <mxPoint x="1007" y="480" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="text_mea2" value="&lt;b&gt;Delayed Feedback&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=12;fontFamily=Helvetica;fontColor=#000000;" parent="1" vertex="1">
+                    <mxGeometry x="847" y="485" width="160" height="25" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
