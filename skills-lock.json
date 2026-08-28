@@ -7,6 +7,12 @@
       "skillPath": "SKILL.md",
       "computedHash": "73c03cc8028b39c9c2ecb94b81e9c9cf4276e4062ac127ed251006ab7facd67d"
     },
+    "simple-english": {
+      "source": "aminblg/simpleenglish",
+      "sourceType": "github",
+      "skillPath": "skills/simple-english/SKILL.md",
+      "computedHash": "b733e6da107250981c8053a27d0e575aabee0c8ab6f921207d8ae1618e540f09"
+    },
     "skill-creator": {
       "source": "anthropics/skills",
       "sourceType": "github",
