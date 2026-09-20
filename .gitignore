@@ -1,0 +1,13 @@
+# Directories excluded from git tracking
+scratch/
+results/
+\[04\] PPT_GENERATOR/
+\[0\] ARCHIVE/
+
+# Agent skills & workspace configs
+.agents/
+
+# System & OS files
+.DS_Store
+Thumbs.db
+*.tmp
